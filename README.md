@@ -38,3 +38,14 @@ Adicione 1 ou mais vídeos com a execução do projeto final.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
+## Running
+To make changes to this documentation, just execute the following commands:
+
+```bash
+git clone https://github.com/UnBArqDsw/2020.1_G2_ProjetoX.git
+cd 2020.1_G2_ProjetoX
+cd documentation
+docker build  -t imagename .
+docker run -it -p 8080:8080 imagename
+```
