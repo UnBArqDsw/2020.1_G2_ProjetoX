@@ -34,8 +34,8 @@ Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 To make changes on this documentation, just execute the following commands:
 
 ```bash
-git clone https://github.com/UnBArqDsw/2020.1_G2_ProjetoX.git
-cd 2020.1_G2_ProjetoX
+git clone https://github.com/UnBArqDsw/2020.1_G2_TCLDL.git
+cd 2020.1_G2_TCLDL
 cd documentation
 docker build  -t imagename .
 docker run -it -p 8080:8080 imagename
