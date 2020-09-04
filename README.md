@@ -1,21 +1,12 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto). !!** 
+# The Computational Limits os Deep Learning
 
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2020.1_G1_ProjetoPandora!!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 03<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0132550 |  Lorrany Azevedo |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
@@ -40,7 +31,7 @@ Adicione 1 ou mais vídeos com a execução do projeto final.
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 ## Running
-To make changes to this documentation, just execute the following commands:
+To make changes on this documentation, just execute the following commands:
 
 ```bash
 git clone https://github.com/UnBArqDsw/2020.1_G2_ProjetoX.git
