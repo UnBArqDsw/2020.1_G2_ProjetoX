@@ -7,7 +7,8 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 16/0132550 |  Lorrany Azevedo |
-| 15/0018673  |  Mikhaelle de Carvalho Bueno |
+| 15/0018673 |  Mikhaelle de Carvalho Bueno |
+| 16/0122996 |  Guilherme Antonio Deusdará Banci |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 
