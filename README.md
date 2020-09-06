@@ -1,13 +1,15 @@
 # The Computational Limits os Deep Learning
 
-**Número do Grupo**: 03<br>
+**Número do Grupo**: 02<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
 | 16/0132550 |  Lorrany Azevedo |
+| 15/0018673  |  Mikhaelle de Carvalho Bueno |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
+
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 

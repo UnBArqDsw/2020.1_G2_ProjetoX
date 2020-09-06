@@ -1,3 +1,10 @@
+# About
+
+# Contributing
+
+# Who we are
+
+<!---
 # Welcome to TCLDL
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
@@ -11,7 +18,8 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
+    mkdocs.yml    # The cdocker run -it -p 8080:8080 imagenameonfiguration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+-->
