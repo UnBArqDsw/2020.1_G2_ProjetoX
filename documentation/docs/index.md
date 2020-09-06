@@ -1,8 +1,17 @@
 # About
 
-# Contributing
+You want to understand the beahavior of Deep Learning models in terms of scalabily or other Deep Learning issues? or share your paper about it with the community? The TCLDL can help you. 
+
+TLCL is a web site for update papers related to deep leraning, share your data, and show it in some graphics.
 
 # Who we are
+
+
+## Document Versioning
+| Author | Date | Version | Modification |
+|---|---|---|---|
+| Lorrany Azevedo| ? | 1.0 | Document creation |
+| Mikhaelle Bueno| 06/09/20 | 1.1 | Document edit |
 
 <!---
 # Welcome to TCLDL
