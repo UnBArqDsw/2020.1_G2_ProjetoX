@@ -26,4 +26,5 @@ For this project we created a mind map based on the group brainstorm.
 
 | Data | Autor | Description | Version |
 |------|-------|-----------|--------|
-| 03/09/2020 | Gabriel Filipe & Guilherme Deusdará | Creating the page and adding first version | 0.1 |
+| 03/09/2020 | Gabriel Filipe & Guilherme Deusdará | Creates page and adds first version | 0.1 |
+| 07/09/2020 | Gabriel Filipe & Guilherme Deusdará | Updates mind map | 1.0 |
