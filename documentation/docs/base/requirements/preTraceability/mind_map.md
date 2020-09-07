@@ -8,6 +8,10 @@ For this project we created a mind map based on the group brainstorm.
 **Version:** 0.1</br>
 ![Gabriel Filipe & Guilherme Deusdará](./images/mind_map_v0.jpg)
 
+**Author** : Gabriel Filipe & Guilherme Deusdará</br>
+**Version:** 1.0</br>
+![Gabriel Filipe & Guilherme Deusdará](./images/mind_map_v1.jpg)
+
 <br>
 
 ---
