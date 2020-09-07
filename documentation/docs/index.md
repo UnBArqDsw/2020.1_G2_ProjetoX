@@ -10,7 +10,7 @@ TLCL is a web site for update papers related to deep leraning, share your data, 
 ## Document Versioning
 | Author | Date | Version | Modification |
 |---|---|---|---|
-| Lorrany Azevedo| ? | 1.0 | Document creation |
+| Lorrany Azevedo| 01/09/20 | 1.0 | Document creation |
 | Mikhaelle Bueno| 06/09/20 | 1.1 | Document edit |
 
 <!---

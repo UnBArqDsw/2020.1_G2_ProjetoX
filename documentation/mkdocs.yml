@@ -21,7 +21,9 @@ nav:
         - Documentation: 
             - Risk Plan: base/documentation/riskPlan.md
             - Cost Estimation: base/documentation/costEstimates.md
+
+    - About: about.md
         
 
 theme: 
-    name: readthedocs
+    name: material
