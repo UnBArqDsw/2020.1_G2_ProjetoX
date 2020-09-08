@@ -10,7 +10,7 @@ nav:
         - Requirements:
             - Elicitation:
                 - Brainstorm: base/requirements/elicitation/brainstorming.md
-                - MentalMap: base/requirements/elicitation/mentalMap.md
+                - storyBoard: base/requirements/elicitation/storyBoard.md
             - Modeling:
                 - Backlog: base/requirements/modeling/backlog.md
                 - Glossary: base/requirements/modeling/glossary.md
