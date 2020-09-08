@@ -21,6 +21,15 @@ A storyboard is a graphic organizer that consists of illustrations or images dis
 
 ![Gabriel Filipe TB](./images/neil_conversation.png)
 
+***
+
+### Conversation between Cree and Martha about data accessibility
+
+**Author** : Gabriel Filipe</br>
+**Version:** 1.0</br>
+
+![Gabriel Filipe TB](./images/cree_conversation.png)
+
 ---
 ## References
 ---
@@ -35,3 +44,4 @@ A storyboard is a graphic organizer that consists of illustrations or images dis
 |------|-------|-----------|--------|
 | 07/09/2020 | Gabriel Filipe | Creates the page and adds TB conversation | 1.0 |
 | 07/09/2020 | Gabriel Filipe | Adds Neil conversation | 1.1 |
+| 07/09/2020 | Gabriel Filipe | Adds Cree conversation | 1.2 |
