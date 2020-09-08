@@ -9,7 +9,17 @@ A storyboard is a graphic organizer that consists of illustrations or images dis
 
 **Author** : Gabriel Filipe</br>
 **Version:** 1.0</br>
+
 ![Gabriel Filipe TB](./images/tb_conversation.png)
+
+***
+
+### Conversation with Neil about the website creation
+
+**Author** : Gabriel Filipe</br>
+**Version:** 1.0</br>
+
+![Gabriel Filipe TB](./images/neil_conversation.png)
 
 ---
 ## References
@@ -21,6 +31,7 @@ A storyboard is a graphic organizer that consists of illustrations or images dis
 ## Versioning of this page
 ---
 
-| Data | Autor | Descrição | Versão |
+| Data | Author | Description | Version |
 |------|-------|-----------|--------|
-| 07/09/2020 | Gabriel Filipe | Creates the page and adds TB conversation | 1.0 |https://www.storyboardthat.com/pt
+| 07/09/2020 | Gabriel Filipe | Creates the page and adds TB conversation | 1.0 |
+| 07/09/2020 | Gabriel Filipe | Adds Neil conversation | 1.1 |
