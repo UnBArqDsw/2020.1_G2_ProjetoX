@@ -16,9 +16,10 @@ nav:
                 - Glossary: base/requirements/modeling/glossary.md
                 - Lexicons: base/requirements/modeling/lexicons.md
             - Pre-Traceability:
-                - 5w2h.md: base/requirements/preTraceability/5w2h.md
-                - MindMap: base/requirements/elicitation/mind_map.md
-                - RichPicture.md: base/requirements/preTraceability/RichPicture.md
+                - 5w2h: base/requirements/preTraceability/5w2h.md
+                - MindMap: base/requirements/preTraceability/mind_map.md
+                - Argumentation: base/requirements/preTraceability/argumentation.md
+                - RichPicture: base/requirements/preTraceability/RichPicture.md
         - Documentation: 
             - Risk Plan: base/documentation/riskPlan.md
             - Cost Estimation: base/documentation/costEstimates.md
