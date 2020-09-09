@@ -15,6 +15,7 @@ nav:
                 - Backlog: base/requirements/modeling/backlog.md
                 - Glossary: base/requirements/modeling/glossary.md
                 - Lexicons: base/requirements/modeling/lexicons.md
+                - NFR framework: base/requirements/modeling/NFR-framework.md
             - Pre-Traceability:
                 - 5w2h.md: base/requirements/preTraceability/5w2h.md
                 - MindMap: base/requirements/elicitation/mind_map.md
