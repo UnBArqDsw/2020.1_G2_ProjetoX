@@ -23,7 +23,7 @@ nav:
                     - Submission and Review: base/requirements/modeling/backlogEpics/submissionAndReview.md
             - Pre-Traceability:
                 - 5w2h: base/requirements/preTraceability/5w2h.md
-                - MindMap: base/requirements/preTraceability/mind_map.md
+                - Mind Map: base/requirements/preTraceability/mind_map.md
                 - Argumentation: base/requirements/preTraceability/argumentation.md
                 - RichPicture: base/requirements/preTraceability/RichPicture.md
         - Documentation: 
