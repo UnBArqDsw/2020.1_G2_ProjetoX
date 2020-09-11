@@ -37,3 +37,8 @@ nav:
 
 theme: 
     name: material
+    logo: /images/whiteLogo.png
+    favicon: /images/faviconWithoutBackground.png
+
+extra_css:
+    - assets/css/extra.css
