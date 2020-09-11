@@ -61,6 +61,66 @@ Co-authored-by: Fulano <funalo@outlook.com>
 
 ## Pull Request Policies
 
+### Creation of _Pull Request_
+
+Consider a hypothetical situation where we are looking to create a PR for a _branch_ called **Sprints** for _master_.
+
+#### Note:
+
+- The creation of the PR must be done right after the beginning of the work on an issue. For that, we work with the _status_ **WIP** flag.
+
+### To create a _pull request_ directed to a _master_ branch, the following steps must be followed:
+
+
+#### 1) Add the _status_ flag
+
+* Title the PR with the tag **WIP** (ie _work in progress_)
+
+#### 2) Add a description
+
+* Use _issue_ _template_ for _pull request_.
+* Remembering that the _pull request_ has the _branch_ base to **_master_** and _compare_ to the branch that you want to join.
+* **Remembering**: as soon as the changes regarding the _pull request_ are really finalized, the **WIP** tag must be removed.
+
+<img src = "./images/pr_template.png" alt = "PrTemplate" width = "500" />
+ 
+#### 3) Add the _reviewers_
+
+* Check the _reviewers_, that is, those responsible for the analysis of the _pull request_.
+
+<img src = "./images/pr_reviewers.png" alt = "PrReviewer" width = "300" />
+
+
+#### 4) Add the _assignees_
+
+* Tick the _pull request_ employees
+
+<img src = "./images/pr_assign.png" alt = "PrAssign" width = "300" />
+
+#### 5) Add the appropriate _labels_
+
+* Check the _labels_ related to the _pull request_. It will generally be the same as indicated in the referring issue.
+
+<img src = "./images/pr_labels.png" alt = "PrLabel" width = "300" />
+
+#### 6) Add the appropriate _milestone_
+
+* Check the _Milestone_, that is, the current _sprint_ or _release_.
+
+<img src = "./images/pr_milestone.png" alt = "PrMilestone" width = "300" />
+
+#### 7) Explain the _issue_ related to PR
+
+* Connect the _issue_ worked on this _pull request_ through _closing keywords_.
+
+
+| Issue to be _linked_ | Syntax | Example |
+|----------|------|--------------------|
+| Issue within this repository | KEYWORD # ISSUE-NUMBER | **Close #10** |
+
+#### 8) Conflicts
+
+* If a pull request causes some kind of conflict, it must be resolved first by the team that developed what is causing the conflict, valuing the integrity and organization of the commits history, and then the request for merge evaluation must be redone.
 
 
 ## Document Versioning
@@ -68,3 +128,4 @@ Co-authored-by: Fulano <funalo@outlook.com>
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/06/20 | Mikhaelle Bueno | Document creation and edit | 1.1 |
+| 09/10/20 | Gabriel Filipe | Adds PR policy | 1.2 |
