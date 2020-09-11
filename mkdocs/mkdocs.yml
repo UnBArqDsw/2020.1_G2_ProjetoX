@@ -1,0 +1,38 @@
+site_name: The computional limits of deep learning
+dev_addr: '0.0.0.0:8080'
+
+nav:
+    - Home: index.md
+    - Contributing: contributing.md
+    - Base: 
+        - Design Sprint: 
+            - Prototype: base/designSprint/prototype.md
+        - Requirements:
+            - Elicitation:
+                - Brainstorm: base/requirements/elicitation/brainstorming.md
+                - storyBoard: base/requirements/elicitation/storyBoard.md
+                - MindMap: base/requirements/elicitation/mindMap.md
+                - MoSCoW: base/requirements/elicitation/moscow.md
+            - Modeling:
+                - Backlog: base/requirements/modeling/backlog.md
+                - Glossary: base/requirements/modeling/glossary.md
+                - Lexicons: base/requirements/modeling/lexicons.md
+                - NFR framework: base/requirements/modeling/NFR-framework.md
+                - BacklogEpics:
+                    - User: base/requirements/modeling/backlogEpics/user.md
+                    - GrapshAndSearch: base/requirements/modeling/backlogEpics/graphsAndSearch.md
+                    - SubmissionAndReview: base/requirements/modeling/backlogEpics/submissionAndReview.md
+            - Pre-Traceability:
+                - 5w2h: base/requirements/preTraceability/5w2h.md
+                - MindMap: base/requirements/preTraceability/mind_map.md
+                - Argumentation: base/requirements/preTraceability/argumentation.md
+                - RichPicture: base/requirements/preTraceability/RichPicture.md
+        - Documentation: 
+            - Risk Plan: base/documentation/riskPlan.md
+            - Cost Estimation: base/documentation/costEstimates.md
+
+    - About: about.md
+        
+
+theme: 
+    name: material
