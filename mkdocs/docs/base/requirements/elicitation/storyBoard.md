@@ -37,11 +37,11 @@ A storyboard is a graphic organizer that consists of illustrations or images dis
 - **[WebSite]** <a href="dlc">https://en.wikipedia.org/wiki/Storyboard</a>
 ***
 
-## Versioning of this page
+## Document Versioning
 ---
 
-| Data | Author | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 07/09/2020 | Gabriel Filipe | Creates the page and adds TB conversation | 1.0 |
-| 07/09/2020 | Gabriel Filipe | Adds Neil conversation | 1.1 |
-| 07/09/2020 | Gabriel Filipe | Adds Cree conversation | 1.2 |
+| 07/07/2020 | Gabriel Filipe | Creates the page and adds TB conversation | 1.0 |
+| 08/07/2020 | Gabriel Filipe | Adds Neil conversation | 1.1 |
+| 09/07/2020 | Gabriel Filipe | Adds Cree conversation | 1.2 |

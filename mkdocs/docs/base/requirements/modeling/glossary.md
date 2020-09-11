@@ -116,10 +116,11 @@
 - **[Deep-learning-class]** <a href="dlc">https://docs.google.com/presentation/d/1kRGy-h6p5dvQqco2QBXUHeterOzu-HOAwWfZc8Odci8/edit#slide=id.g55051d9455_0_13</a>
 - **[WebSite]** <a href="dlc">http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-isa-pt_br-4/s1-bandwidth-processing.html</a>
 ***
-## Versioning of this page
+
+## Document Versioning
 ---
 
-| Data | Autor | Descrição | Versão |
+| Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
-| 05/09/2020 | Lorrany Azevedo | Creating the page and adding the terms | 0.1 |
+| 09/05/2020 | Lorrany Azevedo | Creating the page and adding the terms | 0.1 |
 

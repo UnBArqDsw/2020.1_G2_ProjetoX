@@ -68,10 +68,10 @@ Requirements|Type|*Must*|*Should*|*Could*|*Would*
 
 ---
 
-## Versioning of this page
+## Document Versioning
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/09/2020 | Guilherme Deusdará, Vitor Meireles, Ygor Galeno | Page creation | 0.1 |
 | 09/09/2020 | Guilherme Deusdará, Vitor Meireles, Ygor Galeno  | Topics creation | 0.2 |

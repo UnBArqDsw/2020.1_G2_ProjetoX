@@ -5,11 +5,15 @@ A mind map is a diagram used to visually organize information. A mind map is hie
 For this project we created a mind map based on the group brainstorm.
 
 **Author** : Gabriel Filipe & Guilherme Deusdará</br>
-**Version:** 0.1</br>
+**Version:** 0.1 </br>
+[Click here](https://ibb.co/MVsWJkN) to have a better visualization. </br>
+
 ![Gabriel Filipe & Guilherme Deusdará](./images/mind_map_v0.jpg)
 
 **Author** : Gabriel Filipe & Guilherme Deusdará</br>
 **Version:** 1.0</br>
+[Click here](https://ibb.co/qrD4zBh) to have a better visualization. </br>
+
 ![Gabriel Filipe & Guilherme Deusdará](./images/mind_map_v1.jpg)
 
 <br>
@@ -21,10 +25,10 @@ For this project we created a mind map based on the group brainstorm.
 - **[WebSite]** <a href="dt">https://en.wikipedia.org/wiki/Mind_map</a>
 
 ***
-## Versioning of this page
+## Document Versioning
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 03/09/2020 | Gabriel Filipe & Guilherme Deusdará | Creates page and adds first version | 0.1 |
-| 07/09/2020 | Gabriel Filipe & Guilherme Deusdará | Updates mind map | 1.0 |
+| 09/03/2020 | Gabriel Filipe & Guilherme Deusdará | Creates page and adds first version | 0.1 |
+| 09/07/2020 | Gabriel Filipe & Guilherme Deusdará | Updates mind map | 1.0 |

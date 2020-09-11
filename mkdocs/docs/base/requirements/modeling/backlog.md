@@ -9,10 +9,10 @@ A Product Backlog is a list of the new features, changes to existing features, b
 
 ---
 
-## Versioning of this page
+## Document Versioning
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 10/09/2020 | Guilherme Deusdará | Creates the page and adds Backlog Epics | 1.0 |
-| 10/09/2020 | Guilherme Deusdará | updating paths | 2.0 |
+| 09/10/2020 | Guilherme Deusdará | Creates the page and adds Backlog Epics | 1.0 |
+| 09/10/2020 | Guilherme Deusdará | updating paths | 2.0 |

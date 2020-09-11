@@ -19,9 +19,9 @@ Argumentation literally means the act or effect of arguing, which in turn means 
 - RAHWAN, I. Guest editorial: Argumentation in multi-agent systems. Autonomous Agents and Multi-Agent Systems, Kluwer Academic Publishers, v. 11, n. 2, p. 115–125,2005. ISSN 1387-2532. Disponível em: <a href="dt">http://dx.doi.org/10.1007/s10458-005-3079-0.</a>
 
 ***
-## Versioning of this page
+## Document Versioning
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/09/2020 | Guilherme Deusdará | Creates page and adds first version | 0.1 |

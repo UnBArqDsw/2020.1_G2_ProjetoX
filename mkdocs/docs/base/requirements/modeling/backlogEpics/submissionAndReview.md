@@ -30,10 +30,10 @@
 
 ---
 
-## Versioning of this page
+## Document Versioning
 ---
 
-|        Data|               Autor|       Description| Version|
+| Date | Author(s) |       Description| Version|
 |------------|--------------------|------------------|--------|
 | 09/10/2020 | Guilherme Deusdará | Creates the page |    0.1 |
 | 09/10/2020 | Vitor Meireles     | Add tables       |    0.2 |

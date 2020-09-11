@@ -65,9 +65,10 @@ Meller, Maristela Corrêa. Modelos Para Estimar Custos De Software: Estudo Compa
 
 
 
-## Versioning of this page
+## Document Versioning
+
 ---
-|    Date    | Version |             Description             |    Autor    |
+|    Date    | Author(s) |             Description             |    Version    |
 |------------|---------|-------------------------------------|-------------|
-|  09/05/2020|      0.1|                    Document creation|  Ygor Galeno|
-|  09/06/2020|      0.2|                    Finished document|  Ygor Galeno|
+|  09/05/2020| Ygor Galeno |                    Document creation| 0.1 |
+|  09/06/2020| Ygor Galeno |                    Finish document|  0.2 |

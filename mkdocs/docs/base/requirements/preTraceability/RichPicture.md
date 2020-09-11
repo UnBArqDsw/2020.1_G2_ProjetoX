@@ -21,10 +21,10 @@ The source of this rich image is a brainstorm with the development team.
 
 
 ***
-## Revision History
+## Document Versioning
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 02/09/2020 | Vitor Meireles | Creating the document and adding the handmade Rich Picture | 1.0 |
-| 03/09/2020 | Vitor Meireles |  Addition of digital version and some improvements | 1.1 |
+| 09/02/2020 | Vitor Meireles | Creating the document and adding the handmade Rich Picture | 1.0 |
+| 09/03/2020 | Vitor Meireles |  Addition of digital version and some improvements | 1.1 |
