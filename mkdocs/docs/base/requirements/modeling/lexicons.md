@@ -220,9 +220,9 @@
 ## Versionamento de edições desta página
 ---
 
-| Data | Autor | Descrição | Versão |
+| Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
-| 05/09/2020 | Lorrany Azevedo | Page creation | 0.1 |
-| 06/09/2020 | Mikhaelle Bueno | Page edit | 0.2 |
-| 07/09/2020 | Mikhaelle Bueno | Page edit | 0.3 |
-| 10/09/2020 | Mikhaelle Bueno | Page edit | 0.4 |
+| 09/05/2020 | Lorrany Azevedo | Page creation | 0.1 |
+| 09/06/2020 | Mikhaelle Bueno | Page edit | 0.2 |
+| 09/07/2020 | Mikhaelle Bueno | Page edit | 0.3 |
+| 09/10/2020 | Mikhaelle Bueno | Page edit | 0.4 |

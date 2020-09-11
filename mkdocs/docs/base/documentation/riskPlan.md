@@ -52,7 +52,7 @@ Follows the table for identified risks:
 
 ## Versioning of this page
 
-|    Date    | Version |             Description             |    Autor    |
-|------------|---------|-------------------------------------|-------------|
-|  09/06/2020|      0.1|                    Document creation|  Ygor Galeno|
-|  09/07/2020|      0.2|                      Finish document|  Ygor Galeno|
+| Date | Author(s) | Description | Version |
+|------|-------|-----------|--------|
+| 09/06/2020 | Ygor Galeno | Document creation | 0.1 |
+| 09/07/2020 | Ygor Galeno | Finish document | 0.2 |

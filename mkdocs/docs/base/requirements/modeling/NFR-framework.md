@@ -17,7 +17,7 @@ The NFR Framework helps developers deal with non-functional requirements (NFRs) 
 ## Versioning of this page
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 03/09/2020 | Guilherme Deusdará | Creates page and adds first version | 0.1 |
+| 09/03/2020 | Guilherme Deusdará | Creates page and adds first version | 0.1 |
 

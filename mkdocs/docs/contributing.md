@@ -64,6 +64,7 @@ Co-authored-by: Fulano <funalo@outlook.com>
 
 
 ## Document Versioning
-| Author | Date | Version | Modification |
-|---|---|---|---|
-| Mikhaelle Bueno| 06/09/20 | 1.1 | Document creation and edit |
+
+| Date | Author(s) | Description | Version |
+|------|-------|-----------|--------|
+| 09/06/20 | Mikhaelle Bueno | Document creation and edit | 1.1 |

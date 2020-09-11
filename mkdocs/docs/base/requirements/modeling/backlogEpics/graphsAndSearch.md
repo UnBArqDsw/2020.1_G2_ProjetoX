@@ -34,7 +34,7 @@
 ## Versioning of this page
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/10/2020 | Guilherme Deusdará | Creates the page and adds User Stories | 1.0 |
 | 09/10/2020 | Vitor Meireles     | Update epic field at table | 1.1 |

@@ -60,7 +60,7 @@ Considering the risks, will increase 10% of total project value, **the final val
 
 ## Versioning of this page
 ---
-|    Date    | Version |             Description             |    Autor    |
+|    Date    | Author(s) |             Description             |    Version    |
 |------------|---------|-------------------------------------|-------------|
-|  09/05/2020|      0.1|                    Document creation|  Ygor Galeno|
-|  09/06/2020|      0.2|                    Finished document|  Ygor Galeno|
+|  09/05/2020| Ygor Galeno |                    Document creation| 0.1 |
+|  09/06/2020| Ygor Galeno |                    Finished document|  0.2 |

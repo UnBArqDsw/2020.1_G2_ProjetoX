@@ -119,7 +119,7 @@
 ## Versioning of this page
 ---
 
-| Data | Autor | Descrição | Versão |
+| Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
-| 05/09/2020 | Lorrany Azevedo | Creating the page and adding the terms | 0.1 |
+| 09/05/2020 | Lorrany Azevedo | Creating the page and adding the terms | 0.1 |
 

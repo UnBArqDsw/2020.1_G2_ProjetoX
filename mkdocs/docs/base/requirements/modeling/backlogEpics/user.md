@@ -23,7 +23,7 @@
 ## Versioning of this page
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/10/2020 | Ygor Galeno | Adding User Stories | 2.0 |
 | 09/10/2020 | Guilherme Deusdará | Updating document patterns | 2.0 |

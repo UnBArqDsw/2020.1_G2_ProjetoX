@@ -22,6 +22,6 @@ Argumentation literally means the act or effect of arguing, which in turn means 
 ## Versioning of this page
 ---
 
-| Data | Autor | Description | Version |
+| Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/09/2020 | Guilherme Deusdará | Creates page and adds first version | 0.1 |
