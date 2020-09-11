@@ -1,5 +1,4 @@
 site_name: The computional limits of deep learning
-dev_addr: '0.0.0.0:8080'
 
 nav:
     - Home: index.md
@@ -35,3 +34,8 @@ nav:
 
 theme: 
     name: material
+    logo: assets/img/logo.png
+    favicon: favicon.ico
+
+extra_css:
+    - assets/css/extra.css
