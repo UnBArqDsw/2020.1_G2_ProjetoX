@@ -26,6 +26,8 @@ nav:
                 - MindMap: base/requirements/preTraceability/mind_map.md
                 - Argumentation: base/requirements/preTraceability/argumentation.md
                 - RichPicture: base/requirements/preTraceability/RichPicture.md
+            - Methodology:
+                - Methodology: base/requirements/methodology/Methodology.md
         - Documentation: 
             - Risk Plan: base/documentation/riskPlan.md
             - Cost Estimation: base/documentation/costEstimates.md
