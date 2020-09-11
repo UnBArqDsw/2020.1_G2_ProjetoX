@@ -2,12 +2,6 @@
 ## Versionamento de edições desta página
 ---
 
-| Data | Autor | Descrição | Versão |
-|------|-------|-----------|--------|
-| 09/09/2020 | Guilherme Deusdará, Vitor Meireles, Ygor Galeno | Page creation | 0.1 |
-| 09/09/2020 | Guilherme Deusdará, Vitor Meireles, Ygor Galeno  | Topics creation | 0.2 |
-
-
 # MoSCoW
 
 The MoSCoW method is a prioritization technique used in management, business analysis, project management, and software development to reach a common understanding with stakeholders on the importance they place on the delivery of each requirement; it is also known as MoSCoW prioritization or MoSCoW analysis.
@@ -71,3 +65,14 @@ Requirements|Type|*Must*|*Should*|*Could*|*Would*
 ---
 - **[Moodle]** Serrano, Milene. Vídeo Aula : MoSCoW.
 - **[[ScrumDesc](https://www.scrumdesk.com/start/manual-for-scrumdesk-start/start-moscow-prioritization-product-backlog/)]** MoSCoW prioritization of the product backlog
+
+---
+
+## Versioning of this page
+---
+
+| Data | Autor | Description | Version |
+|------|-------|-----------|--------|
+| 09/09/2020 | Guilherme Deusdará, Vitor Meireles, Ygor Galeno | Page creation | 0.1 |
+| 09/09/2020 | Guilherme Deusdará, Vitor Meireles, Ygor Galeno  | Topics creation | 0.2 |
+| 09/09/2020 | Guilherme Deusdará | Updating document patterns | 0.3 |
