@@ -12,7 +12,7 @@ TLCL is a web site for update papers related to deep leraning, share your data, 
 <div class="pictures">
 <a href="https://github.com/lorryaze">
   <div class="photo-border">
-    <img class="photo" src="assets/img/lorrany.jpg" alt="Lorrany" height="12em">
+    <img class="photo" src="assets/img/lorrany.jpg" alt="member">
   </div>
 </a>
 <a href="https://github.com/gabrielfilipe7unb">
@@ -22,7 +22,7 @@ TLCL is a web site for update papers related to deep leraning, share your data, 
 </a>
 <a href="https://github.com/Mikhaelle">
   <div class="photo-border">
-    <img class="photo" src="assets/img/mikha.jpg" alt="Mikha">
+    <img class="photo" src="assets/img/mikhaa.jpg" alt="Mikha">
   </div>
 </a>
 <a href="https://github.com/VitorMeirelesOliveira">
