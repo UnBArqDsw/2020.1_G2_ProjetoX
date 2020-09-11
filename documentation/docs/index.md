@@ -1,5 +1,8 @@
 # About
 
+![Gabriel Filipe](./base/designSprint/images/TCLDL.png)
+
+
 You want to understand the beahavior of Deep Learning models in terms of scalabily or other Deep Learning issues? or share your paper about it with the community? The TCLDL can help you. 
 
 TLCL is a web site for update papers related to deep leraning, share your data, and show it in some graphics.
