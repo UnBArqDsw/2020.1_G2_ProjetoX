@@ -4,12 +4,13 @@
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 16/0132550 |  Lorrany Azevedo |
-| 15/0018673 |  Mikhaelle de Carvalho Bueno |
-| 16/0122996 |  Guilherme Antonio Deusdará Banci |
-| 16/0121019  |  Gabriel Filipe Manso Araujo |
+| Matrícula |                             Aluno |
+|------------|----------------------------------|
+| 16/0132550 |                  Lorrany Azevedo |
+| 15/0018673 |      Mikhaelle de Carvalho Bueno |
+| 16/0122996 | Guilherme Antonio Deusdará Banci |
+| 16/0121019 |      Gabriel Filipe Manso Araujo |
+| 13/0138304 |               Ygor Torres Galeno |
 
 
 
