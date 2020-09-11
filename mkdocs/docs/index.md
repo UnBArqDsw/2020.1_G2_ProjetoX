@@ -1,6 +1,6 @@
 # About
 
-![Logo](./base/designSprint/images/TCLDL.png)
+![Logo](/images/logoWithName.png)
 
 
 You want to understand the beahavior of Deep Learning models in terms of scalabily or other Deep Learning issues? or share your paper about it with the community? The TCLDL can help you. 
