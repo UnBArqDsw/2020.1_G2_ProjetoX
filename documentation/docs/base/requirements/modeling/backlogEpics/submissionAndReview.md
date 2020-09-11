@@ -20,12 +20,12 @@
 
 ### User Stories
 
-|    id|   As a|                               Want to|                              So that| Comment|Points|Priority|
-|------|-------|--------------------------------------|-------------------------------------|--------|------|--------|
-| US0XX|  Admin|      Validate date for the submission|                Get the correct score|   -    |  ?   |  Must  |
-| US0XX|  Admin|            Contest article submission| Avoiding improper practices and data|   -    |  ?   |  Must  |
-| US0XX|  Admin|                  View all submissions|                        To Admin data|   -    |  ?   |  Must  |
-| US0XX|  Admin| Accept and publish article submission|  Contribute to plataform maintenance|   -    |  ?   |  Must  |
+|    id|   As a|                               Want to|                              So that| Comment|Points| Priority|
+|------|-------|--------------------------------------|-------------------------------------|--------|------|---------|
+| US0XX|  Admin|      Validate date for the submission|                Get the correct score|   -    |  ?   |  Could  |
+| US0XX|  Admin|            Contest article submission| Avoiding improper practices and data|   -    |  ?   |  Must   |
+| US0XX|  Admin|                  View all submissions|                        To Admin data|   -    |  ?   |  Must   |
+| US0XX|  Admin| Accept and publish article submission|  Contribute to plataform maintenance|   -    |  ?   |  Must   |
 
 
 ---
