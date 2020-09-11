@@ -1,4 +1,5 @@
-#Prototype
+# Prototype
+
 ![Logo](./images/TCLDL.png)
 
 The prototype was made using Figma. The prototype is important for the testing and requirements gathering phase. Provides an overview of how the project will be developed before the actual code development
