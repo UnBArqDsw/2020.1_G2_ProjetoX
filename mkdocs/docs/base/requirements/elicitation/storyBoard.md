@@ -37,7 +37,7 @@ A storyboard is a graphic organizer that consists of illustrations or images dis
 - **[WebSite]** <a href="dlc">https://en.wikipedia.org/wiki/Storyboard</a>
 ***
 
-## Versioning of this page
+## Document Versioning
 ---
 
 | Date | Author(s) | Description | Version |

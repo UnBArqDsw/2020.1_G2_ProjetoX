@@ -58,7 +58,7 @@ after that will cost US$0,20 at every 1 million request and US$ 0,0000166667 for
 The total value for estimated cost is R$ 81.117,00
 Considering the risks, will increase 10% of total project value, **the final value for estimated cost is R$89.228,7**.
 
-## Versioning of this page
+## Document Versioning
 ---
 |    Date    | Author(s) |             Description             |    Version    |
 |------------|---------|-------------------------------------|-------------|

@@ -50,7 +50,7 @@ Follows the table for identified risks:
 
 <br>
 
-## Versioning of this page
+## Document Versioning
 
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|

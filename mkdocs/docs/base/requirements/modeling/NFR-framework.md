@@ -14,7 +14,7 @@ The NFR Framework helps developers deal with non-functional requirements (NFRs) 
 - Chung L., Nixon B.A., Yu E., Mylopoulos J. (2000) The NFR Framework in Action. In: Non-Functional Requirements in Software Engineering. International Series in Software Engineering, vol 5. Springer, Boston, MA
 
 ***
-## Versioning of this page
+## Document Versioning
 ---
 
 | Date | Author(s) | Description | Version |

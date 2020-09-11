@@ -21,7 +21,7 @@ The source of this rich image is a brainstorm with the development team.
 
 
 ***
-## Revision History
+## Document Versioning
 ---
 
 | Date | Author(s) | Description | Version |

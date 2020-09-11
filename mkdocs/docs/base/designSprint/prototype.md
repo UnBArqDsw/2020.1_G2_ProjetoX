@@ -7,7 +7,7 @@ Figma is software for developing prototypes and creating designs that does not n
 
 The Protype is avaiable for navegation in  [TLCDL - Figma!](https://www.figma.com/proto/eDPefFCFvVwSj13AD7RqVs/TLCDL?node-id=106%3A2&scaling=min-zoom)
 
-## Versioning of prototype
+## Prototype versioning
 ---
 |    Date    | Author(s) |             Description             |    Version    |
 |------------|---------|-------------------------------------|-------------|

@@ -30,7 +30,7 @@
 
 ---
 
-## Versioning of this page
+## Document Versioning
 ---
 
 | Date | Author(s) |       Description| Version|

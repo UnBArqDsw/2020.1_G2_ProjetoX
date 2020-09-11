@@ -9,7 +9,7 @@ A Product Backlog is a list of the new features, changes to existing features, b
 
 ---
 
-## Versioning of this page
+## Document Versioning
 ---
 
 | Date | Author(s) | Description | Version |

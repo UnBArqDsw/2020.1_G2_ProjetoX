@@ -25,7 +25,7 @@ For this project we created a mind map based on the group brainstorm.
 - **[WebSite]** <a href="dt">https://en.wikipedia.org/wiki/Mind_map</a>
 
 ***
-## Versioning of this page
+## Document Versioning
 ---
 
 | Date | Author(s) | Description | Version |

@@ -217,7 +217,7 @@
 - **[Moodle]** Serrano, Milene. Vídeo Aula : Glossário e Léxicos.
 
 ***
-## Versionamento de edições desta página
+## Document Versioning
 ---
 
 | Date | Author(s) | Descrição | Versão |
