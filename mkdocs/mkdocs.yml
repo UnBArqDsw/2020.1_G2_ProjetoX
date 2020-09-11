@@ -17,6 +17,7 @@ nav:
                 - Glossary: base/requirements/modeling/glossary.md
                 - Lexicons: base/requirements/modeling/lexicons.md
                 - NFR framework: base/requirements/modeling/NFR-framework.md
+                - BPMN: base/requirements/modeling/bpmn_methodology
                 - Backlog Epics:
                     - User: base/requirements/modeling/backlogEpics/user.md
                     - Grapsh and Search: base/requirements/modeling/backlogEpics/graphsAndSearch.md
