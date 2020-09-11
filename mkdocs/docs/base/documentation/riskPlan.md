@@ -50,6 +50,13 @@ Follows the table for identified risks:
 
 <br>
 
+---
+## References
+---
+- **[Moodle]** Serrano, Milene. Vídeo Aula : Plano de Riscos.
+
+---
+
 ## Document Versioning
 
 | Date | Author(s) | Description | Version |
