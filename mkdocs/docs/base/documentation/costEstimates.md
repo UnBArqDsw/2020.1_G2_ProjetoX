@@ -58,6 +58,13 @@ after that will cost US$0,20 at every 1 million request and US$ 0,0000166667 for
 The total value for estimated cost is R$ 81.117,00
 Considering the risks, will increase 10% of total project value, **the final value for estimated cost is R$89.228,7**.
 
+---
+## References
+---
+Meller, Maristela Corrêa. Modelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte. 2002. Disponível em: https://repositorio.ufsc.br/xmlui/handle/123456789/82351
+
+
+
 ## Versioning of this page
 ---
 |    Date    | Version |             Description             |    Autor    |
