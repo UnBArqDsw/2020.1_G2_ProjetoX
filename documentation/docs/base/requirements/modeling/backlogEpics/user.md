@@ -1,3 +1,7 @@
+# Product Backlog: User
+
+## User Stories
+
 |    id| Epics|  As a|                         Want to|                                        So that|                         Comment|Points|Priority|
 |------|------|------|--------------------------------|-----------------------------------------------|--------------------------------|------|--------|
 | US0XX| Users|  User|                  Create account|               create my account in application| username, email, password, name|  ?   |  Must  |
@@ -13,3 +17,13 @@
 | US0XX| Users|  User| Delete my visualization history|        remove my article visualization history|                                |  ?   | Would  |
 | US0XX| Users|  User|          View my submit history|                  can see that I have submitted|                                |  ?   | Would  |
 | US0XX| Users| Admin|          View my review history|                   can see that I have reviewed|                                |  ?   | Would  |
+
+---
+
+## Versioning of this page
+---
+
+| Data | Autor | Description | Version |
+|------|-------|-----------|--------|
+| 10/09/2020 | Ygor Galeno | Adding User Stories | 2.0 |
+| 10/09/2020 | Guilherme Deusdará | Updating document patterns | 2.0 |
