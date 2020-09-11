@@ -25,6 +25,9 @@ At this project XP is present in our planning time, listening and focus at clien
 
 Kanban is a popular framework used to implement Agile software development. It requires real-time capacity communication and full transparency of work. Work items are represented visually in a Kanban board, allowing team members to see the status of each part of the job at any time.
 
+At this project we used ZenHub plug-in tho help us with the _to_ _do_ board with the tasks that we going to do during each sprint.
+
+![Kanban board as example by atlassian.com](./images/kanban.png)
 
 
 ---
@@ -48,3 +51,4 @@ Kanban is a popular framework used to implement Agile software development. It r
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/10/2020 | Guilherme Deusdará, Vitor Meireles | Creates the page and adds Scrum | 1.0 |
+| 10/10/2020 | Vitor Meireles | Add Xp and Kanban info | 1.1 |
