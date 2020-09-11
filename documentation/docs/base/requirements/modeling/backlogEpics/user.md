@@ -5,7 +5,7 @@
 |    id| Epics|  As a|                         Want to|                                        So that|                         Comment|Points|Priority|
 |------|------|------|--------------------------------|-----------------------------------------------|--------------------------------|------|--------|
 | US0XX| Users|  User|                  Create account|               create my account in application| username, email, password, name|  ?   |  Must  |
-| US0XX| Users|  User|                    Read account|                  read my accoyunt informations|    username,email,password,name|  ?   | Should |
+| US0XX| Users|  User|                    Read account|                   read my account informations|    username,email,password,name|  ?   | Should |
 | US0XX| Users|  User|                    Edit account|                   edit my account informations|           email, name, password|  ?   | Should |
 | US0XX| Users|  User|                  Delete account|                 remove my account informations|       username, email, password|  ?   | Should |
 | US0XX| Users|  User|                         Sign in|     have access to application functionalities|         username,email,password|  ?   |  Must  |
