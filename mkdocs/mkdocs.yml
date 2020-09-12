@@ -19,9 +19,8 @@ nav:
                 - NFR framework: base/requirements/modeling/NFR-framework.md
                 - BPMN: base/requirements/modeling/bpmn_methodology
                 - Backlog Epics:
-                    - User: base/requirements/modeling/backlogEpics/user.md
-                    - Grapsh and Search: base/requirements/modeling/backlogEpics/graphsAndSearch.md
-                    - Submission and Review: base/requirements/modeling/backlogEpics/submissionAndReview.md
+                    - Data Visualization: base/requirements/modeling/backlogEpics/dataVisualization.md
+                    - Data Creation: base/requirements/modeling/backlogEpics/dataCreation.md
             - Pre-Traceability:
                 - 5w2h: base/requirements/preTraceability/5w2h.md
                 - Mind Map: base/requirements/preTraceability/mind_map.md

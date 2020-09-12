@@ -3,9 +3,8 @@
 A Product Backlog is a list of the new features, changes to existing features, bug fixes, infrastructure changes or other activities that a team may deliver in order to achieve a specific outcome. The product backlog is the single authoritative source for things that a team works on.
 
 ## Backlog Epics
-* [User](./backlogEpics/user.md)
-* [Graphs and Search](./backlogEpics/graphsAndSearch.md)
-* [Submission and Review](./backlogEpics/submissionAndReview.md)
+* [Data Visualization](./backlogEpics/dataVisualization.md)
+* [Data Creation](./backlogEpics/dataCreation.md)
 
 ---
 
