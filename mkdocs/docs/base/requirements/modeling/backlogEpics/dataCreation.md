@@ -1,6 +1,10 @@
-# Product Backlog: User
+# Data Creation
 
-## User Stories
+## Features
+
+### User
+
+#### User Stories
 
 |    id|  As a|                         Want to|                                        So that|                         Comment|Points|Priority|
 |------|------|--------------------------------|-----------------------------------------------|--------------------------------|------|--------|
@@ -18,6 +22,32 @@
 | US012|  User|          View my submit history|                  can see that I have submitted|                                |  ?   | Would  |
 | US013| Admin|          View my review history|                   can see that I have reviewed|                                |  ?   | Would  |
 
+
+### Submission
+
+#### User Stories
+
+|    id|  As a|                          Want to|                                           So that| Comment|Points|Priority|
+|------|------|---------------------------------|--------------------------------------------------|--------|------|--------|
+| US014|  User|        Create article submission|                        I can contribute with data|   -    |  ?   |  Must  |
+| US015|  User|        Remove article submission| Decide wich article should remain on the platform|   -    |  ?   |  Must  |
+| US016|  User|          Edit article submission|                         Update my submission info|   -    |  ?   |  Must  |
+| US017|  User|               View my submission|                        Check my articles and data|   -    |  ?   |  Must  |
+| US018|  User|View the status of my submissions|              Follow the submission of the article|   -    |  ?   |  Must  |
+
+
+
+### Review
+
+#### User Stories
+
+|    id|   As a|                               Want to|                              So that| Comment|Points| Priority|
+|------|-------|--------------------------------------|-------------------------------------|--------|------|---------|
+| US019|  Admin|      Validate date for the submission|                Get the correct score|   -    |  ?   |  Could  |
+| US020|  Admin|            Contest article submission| Avoiding improper practices and data|   -    |  ?   |  Must   |
+| US021|  Admin|                  View all submissions|                        To Admin data|   -    |  ?   |  Must   |
+| US022|  Admin| Accept and publish article submission|  Contribute to plataform maintenance|   -    |  ?   |  Must   |
+
 ---
 
 ## Document Versioning
@@ -25,7 +55,10 @@
 
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
+| 09/10/2020 | Vitor Meireles     | Add tables       |    1.0 |
 | 09/10/2020 | Ygor Galeno | Adding User Stories | 2.0 |
 | 09/10/2020 | Guilherme Deusdará | Updating document patterns | 2.0 |
 | 09/10/2020 | Vitor Meireles | Get rid of epic column at table | 2.1 |
 | 09/11/2020 | Ygor Galeno | Fix user stories ids | 2.2 |
+| 09/11/2020 | Ygor Galeno        | Fix user stories id | 2.3 |
+| 09/11/2020 | Guilherme Deusdará & Ygor Galeno  | Merge files | 3.0 |

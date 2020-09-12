@@ -1,9 +1,9 @@
 # The Computational Limits os Deep Learning
 
-**Número do Grupo**: 02<br>
-**Código da Disciplina**: FGA0208-T01<br>
+**Group**: 02<br>
+**Course code**: FGA0208-T01<br>
 
-## Alunos
+## Team
 | Matrícula |                             Aluno |
 |------------|----------------------------------|
 | 16/0132550 |                  Lorrany Azevedo |
@@ -11,29 +11,35 @@
 | 16/0122996 | Guilherme Antonio Deusdará Banci |
 | 16/0121019 |      Gabriel Filipe Manso Araujo |
 | 13/0138304 |               Ygor Torres Galeno |
+| 13/0060941 |          Vitor Meireles Oliveira |
 
 
 
-## Sobre 
-Descreva o seu projeto em linhas gerais. 
+## About 
+
+Deep learning's recent history has been one of achievement: from triumphing over humans in the game of Go to world-leading performance in image recognition, voice recognition, translation, and other tasks. But this progress has come with a voracious appetite for computing power. Recently, researchers from MIT, UnB, IBM, and Yonsei University published a paper named "The Computational Limits of Learning" and warned society about this issue. This article reports on the computational demands of Deep Learning applications in five prominent application areas and shows that progress in all five is strongly reliant on increases in computing power. Extrapolating forward this reliance reveals that progress along current lines is rapidly becoming economically, technically, and environmentally unsustainable. Thus, continued progress in these applications will require dramatically more computationally-efficient methods, which will either have to come from changes to deep learning or from moving to other machine learning methods.
+
+Our project aims to develop a web application for this paper where will be possible for people/community to have access to the data and the paper's analysis, and also allowing them to continuously contribute with it.
+
+Paper link: https://arxiv.org/abs/2007.05558
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+Add 3 or more screenshots of the project in terms of interface and operation.
 
-## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+## Installation
+**Languages**: xxxxxx <br>
+**Technologies**: xxxxxx <br>
+Describe the prerequisites for running your project and the necessary commands.
+Insert a manual or script to further assist.
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+## Usage
+Explain how to use your project if there are any steps after the execution command.
 
-## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto final.
+## Video
+Add 1 or more videos with the execution of the final project.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Others
+Any other information about your project can be described below.
 
 ## Running
 To make changes on this documentation, just execute the following commands:

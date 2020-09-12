@@ -4,7 +4,7 @@ The NFR Framework helps developers deal with non-functional requirements (NFRs) 
 
 **Author** : Guilherme Deusdará</br>
 **Version:** 0.1</br>
-[<img src="./images/NFR-easy-access-to-data-v0.png" width="524" height="280">](./images/NFR-easy-access-to-data-v0.png)
+[<img src="https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/base/requirements/modeling/images/NFR-easy-access-to-data-v0.png" width="524" height="280">](./images/NFR-easy-access-to-data-v0.png)
 
 <br>
 

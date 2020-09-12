@@ -82,32 +82,32 @@ Consider a hypothetical situation where we are looking to create a PR for a _bra
 * Remembering that the _pull request_ has the _branch_ base to **_master_** and _compare_ to the branch that you want to join.
 * **Remembering**: as soon as the changes regarding the _pull request_ are really finalized, the **WIP** tag must be removed.
 
-<img src = "./images/pr_template.png" alt = "PrTemplate" width = "500" />
+<img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_template.png" alt = "PrTemplate" width = "500" />
  
 #### 3) Add the _reviewers_
 
 * Check the _reviewers_, that is, those responsible for the analysis of the _pull request_.
 
-<img src = "./images/pr_reviewers.png" alt = "PrReviewer" width = "300" />
+<img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_reviewers.png" alt = "PrReviewer" width = "300" />
 
 
 #### 4) Add the _assignees_
 
 * Tick the _pull request_ employees
 
-<img src = "./images/pr_assign.png" alt = "PrAssign" width = "300" />
+<img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_assign.png" alt = "PrAssign" width = "300" />
 
 #### 5) Add the appropriate _labels_
 
 * Check the _labels_ related to the _pull request_. It will generally be the same as indicated in the referring issue.
 
-<img src = "./images/pr_labels.png" alt = "PrLabel" width = "300" />
+<img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_labels.png" alt = "PrLabel" width = "300" />
 
 #### 6) Add the appropriate _milestone_
 
 * Check the _Milestone_, that is, the current _sprint_ or _release_.
 
-<img src = "./images/pr_milestone.png" alt = "PrMilestone" width = "300" />
+<img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_milestone.png" alt = "PrMilestone" width = "300" />
 
 #### 7) Explain the _issue_ related to PR
 

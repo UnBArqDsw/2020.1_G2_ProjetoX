@@ -4,11 +4,11 @@ Argumentation literally means the act or effect of arguing, which in turn means 
 
 **Author** : Guilherme Deusdará</br>
 **Version:** 0.1</br>
-[<img src="./images/team_of_collaborators.png" width="524" height="280">](./images/team_of_collaborators.png)
+[<img src="https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/base/requirements/preTraceability/images/team_of_collaborators.png" width="524" height="280">](./images/team_of_collaborators.png)
 
 **Author** : Guilherme Deusdará</br>
 **Version:** 0.1</br>
-[<img src="./images/back-end-argumentation.png" width="524" height="280">](./images/back-end-argumentation.png)
+[<img src="https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/base/requirements/preTraceability/images/back-end-argumentation.png" width="524" height="280">](./images/back-end-argumentation.png)
 
 <br>
 

@@ -17,15 +17,17 @@ nav:
                 - Glossary: base/requirements/modeling/glossary.md
                 - Lexicons: base/requirements/modeling/lexicons.md
                 - NFR framework: base/requirements/modeling/NFR-framework.md
+                - BPMN: base/requirements/modeling/bpmn_methodology
                 - Backlog Epics:
-                    - User: base/requirements/modeling/backlogEpics/user.md
-                    - Grapsh and Search: base/requirements/modeling/backlogEpics/graphsAndSearch.md
-                    - Submission and Review: base/requirements/modeling/backlogEpics/submissionAndReview.md
+                    - Data Visualization: base/requirements/modeling/backlogEpics/dataVisualization.md
+                    - Data Creation: base/requirements/modeling/backlogEpics/dataCreation.md
             - Pre-Traceability:
                 - 5w2h: base/requirements/preTraceability/5w2h.md
-                - MindMap: base/requirements/preTraceability/mind_map.md
+                - Mind Map: base/requirements/preTraceability/mind_map.md
                 - Argumentation: base/requirements/preTraceability/argumentation.md
                 - RichPicture: base/requirements/preTraceability/RichPicture.md
+            - Methodology:
+                - Methodology: base/requirements/methodology/Methodology.md
         - Documentation: 
             - Risk Plan: base/documentation/riskPlan.md
             - Cost Estimation: base/documentation/costEstimates.md
@@ -35,3 +37,8 @@ nav:
 
 theme: 
     name: material
+    logo: /images/whiteLogo.png
+    favicon: /images/faviconWithoutBackground.png
+
+extra_css:
+    - assets/css/extra.css
