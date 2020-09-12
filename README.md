@@ -11,6 +11,7 @@
 | 16/0122996 | Guilherme Antonio Deusdará Banci |
 | 16/0121019 |      Gabriel Filipe Manso Araujo |
 | 13/0138304 |               Ygor Torres Galeno |
+| 13/0060941 |          Vitor Meireles Oliveira |
 
 
 
