@@ -23,7 +23,7 @@ nav:
                     - Data Creation: base/requirements/modeling/backlogEpics/dataCreation.md
             - Pre-Traceability:
                 - 5w2h: base/requirements/preTraceability/5w2h.md
-                - Mind Map: base/requirements/preTraceability/mind_map.md
+                - Mind Map: base/requirements/preTraceability/mindMap.md
                 - Argumentation: base/requirements/preTraceability/argumentation.md
                 - RichPicture: base/requirements/preTraceability/RichPicture.md
             - Methodology:
@@ -37,8 +37,8 @@ nav:
 
 theme: 
     name: material
-    logo: /images/whiteLogo.png
-    favicon: /images/faviconWithoutBackground.png
+    logo: images/whiteLogo.png
+    favicon: images/faviconWithoutBackground.png
 
 extra_css:
     - assets/css/extra.css
