@@ -1,7 +1,5 @@
 # Prototype
 
-![Logo](./images/TCLDL.png)
-
 The prototype was made using Figma. The prototype is important for the testing and requirements gathering phase. Provides an overview of how the project will be developed before the actual code development
 
 Figma is software for developing prototypes and creating designs that does not need installation because it is available in the clouds through a web page. It has features for design, prototyping, systems design, collaboration and download. The prototypes have interactions, advanced transitions with intelligent animations, animated GIFs, among others, which allow an experience very close to the real world. It allows quick sharing of the prototype to others and facilitates the contribution.

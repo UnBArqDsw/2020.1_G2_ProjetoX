@@ -38,7 +38,7 @@ To carry out the discipline of Architecture and Software Design, it was decided 
 **Author** : Mikhaelle Bueno</br>
 **Version:** 1.0</br>
 
-![methodologyDevelopment](./images/bpmnMethodologyDevelopment.jpg)
+![methodologyDevelopment](,/images/bpmnMethodologyDevelopment.jpg)
 
 ***
 
