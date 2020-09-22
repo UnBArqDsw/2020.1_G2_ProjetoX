@@ -17,30 +17,31 @@ git clone https://github.com/UnBArqDsw/2020.1_G2_TCLDL.git
 The <b> Branches </b> of the project must include the following specifications:
 
 * The beginning of the branch name must be informing which group it belongs to, being:
-    * feature: For adding features or changes to an existing one; 
+    * TCLDL-feature: For adding features or changes to an existing one; 
 
-    * bug: For bug fixes;
+    * TCLDL-bugfix: For bug fixes;
 
 
-* The name of the branch must be related to the issue number separated by a slash('/')
+* The name of the branch must be related to the issue separated by a slash('-')
 
 * Each branch is aimed at solving a single issue, after closing the issue the branch must be deleted
 
 ````Git
-Exemplo: feature/1
+Exemplo: TCLDL-feature-prototype
 ````
+### Branch Flow
+
 ### Branch Flow
 
 The project will adopt a git flow based on git-flow:
 
- * master: Is the main branch of the repository and plays the role of the production environment. It only accepts duly tested and validated code, so that all insertions made therein will be the project releases;
+ * master: Is the main branch of the repository and plays the role of the production environment. It only accepts duly tested and validated code, so that all insertions made there will be the project releases;
 
- * develop: is the branch that will concentrate all the new functionalities of the project, where it will perform the role of concentrating the work of the development environment, bug fixing and finalization of tests;
+ * dev: is the branch that will concentrate all the new functionalities of the project, where it will perform the role of concentrating the work of the development environment, bug fixing and finalization of tests;
 
- * feature (feat): type of branch used for the development of a new project feature, so the name of the branch should be "feature/" and the number of the issue in github. Ex: “feature/001”;
+ * feature (feat): type of branch used for the development of a new project feature, so the name of the branch should be "feature-" and the name related to the issue in github. Ex: “TCLDL-feature-prototype”;
 
  * Bugfix (bug): Branch to fix bugs in production;
-
 
 ## Commits Policy
 
@@ -127,5 +128,6 @@ Consider a hypothetical situation where we are looking to create a PR for a _bra
 
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 09/06/20 | Mikhaelle Bueno | Document creation and edit | 1.1 |
-| 09/10/20 | Gabriel Filipe | Adds PR policy | 1.2 |
+| 09/09/20 | Mikhaelle Bueno | Document creation and edit | 1.1 |
+| 09/09/20 | Gabriel Filipe | Adds PR policy | 1.2 |
+| 21/09/20 | Gabriel Filipe | Adds PR policy | 1.2 |
