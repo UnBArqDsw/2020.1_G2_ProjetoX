@@ -1,0 +1,52 @@
+site_name: The computional limits of deep learning
+dev_addr: '0.0.0.0:8080'
+
+nav:
+    - Home: index.md
+    - Contribution guide: contributing.md
+    - Base: 
+        - Design Sprint: 
+            - Design Sprint Doc: base/designSprint/design_sprint.md
+            - Prototype: base/designSprint/prototype.md
+        - Requirements:
+            - Elicitation:
+                - Brainstorm: base/requirements/elicitation/brainstorm.md
+                - Story Board: base/requirements/elicitation/storyBoard.md
+                - MoSCoW: base/requirements/elicitation/moscow.md
+            - Modeling:
+                - Backlog: base/requirements/modeling/backlog.md
+                - Glossary: base/requirements/modeling/glossary.md
+                - Lexicons: base/requirements/modeling/lexicons.md
+                - NFR framework: base/requirements/modeling/NFR-framework.md
+                - Backlog Epics:
+                    - Data Visualization: base/requirements/modeling/backlogEpics/dataVisualization.md
+                    - Data Creation: base/requirements/modeling/backlogEpics/dataCreation.md
+            - Pre-Traceability:
+                - 5w2h: base/requirements/preTraceability/5w2h.md
+                - Mind Map: base/requirements/preTraceability/mindMap.md
+                - Argumentation: base/requirements/preTraceability/argumentation.md
+                - RichPicture: base/requirements/preTraceability/RichPicture.md
+        - Methodology:
+            - Methodology: base/methodology/Methodology.md
+            - BPMN: base/methodology/bpmn_methodology
+        - Documentation: 
+            - Risk Plan: base/documentation/riskPlan.md
+            - Cost Estimation: base/documentation/costEstimates.md
+    - Traditional Modeling:
+        - Dynamic Diagrams:
+            - Activity Diagrams: traditionalModeling/dynamicDiagrams/activityDiagram.md
+            - Communication Diagrams: traditionalModeling/dynamicDiagrams/communicationDiagram.md
+            - Sequence Diagrams: traditionalModeling/dynamicDiagrams/sequenceDiagram.md
+            - State Diagrams: traditionalModeling/dynamicDiagrams/stateDiagram.md
+        - Static Diagrams:
+            - Class Diagrams: traditionalModeling/staticDiagrams/classDiagram.md
+            - Component Diagrams: traditionalModeling/staticDiagrams/componentDiagram.md
+            - Package Diagrams: traditionalModeling/staticDiagrams/packageDiagram.md
+
+theme: 
+    name: material
+    logo: images/whiteLogo.png
+    favicon: images/faviconWithoutBackground.png
+
+extra_css:
+    - assets/css/extra.css
