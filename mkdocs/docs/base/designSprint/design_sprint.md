@@ -78,7 +78,10 @@ Video.
 In order for the team to reap the rewards and benefits of the sprint design methodology, some adaptations were made, as has already been said, this process aims to be done within 5 consecutive days in a very agile way, however due to the time differences between members of the team, and the impossibility of doing the whole process in 5 consecutive days the team opted to hold two weekly meetings where in each of the meetings one of the stages of the sprint design was carried out and the elaboration of the aforementioned artifacts was divided together but carried out remotely except for the brainstorm.
 
 ***
-
+## References
+---
+- **[WebSite]** <a href="https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659">Design Sprint</a>
+***
 ## Document Versioning
 ---
 
