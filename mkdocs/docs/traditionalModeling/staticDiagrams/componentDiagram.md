@@ -3,7 +3,7 @@
 
 The component diagram is a diagram of the uml modeling approach that shows previously the components, interfaces and relationships existing in a given system, its objective is that we have a visualization of the components that will be part of our system, it can also be adapted by components equivalents later, if necessary. In this diagram we can represent both physical and logical components of our system.
 
-# Frontend
+## Frontend
 
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view the versions of the frontend component diagram.
 
