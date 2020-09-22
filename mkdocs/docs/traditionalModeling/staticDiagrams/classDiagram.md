@@ -8,13 +8,19 @@ The back-end will be built by services made with the Express microframework in N
 
 # Overview  
 
-- [Version 0.1](./images/classDiagramV1.md)
+- [Version 1](./images/classDiagramV1.md)
+
+- [Version 2](./images/classDiagramV2.md)
 
 
 ---
 ## References
 ---
+
+
 - **[Moodle]** Serrano, Milene. Vídeo Aula : Modelagem, Diagrama de Classe, Dependência & Associação, Classe Concreta & Abstrata & Sobrescrita & Sobrecarga, Agregação & Composição, Herança & Realização
+
+
 ---
 
 ## Document Versioning
