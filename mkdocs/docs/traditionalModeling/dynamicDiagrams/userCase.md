@@ -12,6 +12,13 @@ The purpose of the use case diagrams is simply to provide the high level view of
 
 ---
 
+**Author** : Gabriel Filipe</br>
+**Version:** 2.0</br>
+
+![userCase-v2](./images/user_case_v2.png)
+
+***
+
 ### For TCLDL project were made the following use cases:
 
 **Author** : Gabriel Filipe</br>
@@ -32,3 +39,5 @@ The purpose of the use case diagrams is simply to provide the high level view of
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
 | 09/21/2020 | Gabriel Filipe |  Adds description | 0.1 |
+| 09/21/2020 | Gabriel Filipe |  Adds user case v1 | 0.1 |
+| 09/21/2020 | Gabriel Filipe |  Adds user case v2 | 0.1 |
