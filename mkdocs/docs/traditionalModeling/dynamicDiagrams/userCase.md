@@ -10,11 +10,16 @@ Due to their simplistic nature, use case diagrams can be a good communication to
 
 The purpose of the use case diagrams is simply to provide the high level view of the system and convey the requirements in laypeople's terms for the stakeholders. Additional diagrams and documentation can be used to provide a complete functional and technical view of the system.
 
+---
 
+### For TCLDL project were made the following use cases:
 
-For TCLDL project were made the following use cases:
+**Author** : Gabriel Filipe</br>
+**Version:** 1.0</br>
 
+![userCase-v1](./images/user_case_v1.png)
 
+---
 
 # References
 
