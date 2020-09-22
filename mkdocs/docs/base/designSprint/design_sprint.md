@@ -88,3 +88,5 @@ In order for the team to reap the rewards and benefits of the sprint design meth
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
 | 17/09/2020 | Lorrany Azevedo | Creating the documents | 0.1 |
+| 17/09/2020 | Lorrany Azevedo | Adding reference | 0.1 |
+
