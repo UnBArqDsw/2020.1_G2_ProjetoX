@@ -32,7 +32,16 @@ nav:
         - Documentation: 
             - Risk Plan: base/documentation/riskPlan.md
             - Cost Estimation: base/documentation/costEstimates.md
-        
+    - Traditional Modeling:
+        - Dynamic Diagrams:
+            - Activity Diagrams: traditionalModeling/dynamicDiagrams/activityDiagram.md
+            - Communication Diagrams: traditionalModeling/dynamicDiagrams/communicationDiagram.md
+            - Sequence Diagrams: traditionalModeling/dynamicDiagrams/sequenceDiagram.md
+            - State Diagrams: traditionalModeling/dynamicDiagrams/stateDiagram.md
+        - Static Diagrams:
+            - Class Diagrams: traditionalModeling/staticDiagrams/classDiagram.md
+            - Component Diagrams: traditionalModeling/staticDiagrams/componentDiagram.md
+            - Package Diagrams: traditionalModeling/staticDiagrams/packageDiagram.md
 
 theme: 
     name: material
