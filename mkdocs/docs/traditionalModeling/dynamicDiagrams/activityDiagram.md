@@ -8,6 +8,10 @@ The next flow show the flow from different users in the webSite.
 **Version:** 1.0</br>
 ![activityDiagram_v1](./images/activityDiagram_v1.png)
 
+**Author** : Gabriel Filipe</br>
+**Version:** 1.4</br>
+![activityDiagram_v1_4](./images/activityDiagram_v1_4.png)
+
 
 
 ---
