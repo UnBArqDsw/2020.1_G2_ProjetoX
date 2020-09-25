@@ -2,14 +2,16 @@
 
 In this second delivery we have evolved some documents foreseen for the first milestone of the matter, below we have the list of refactored artifacts, to be redirected to the desired artifact just click on the name of the artifact.
 
-<div style="text-align: left">
- <a href="/base/designSprint/design_sprint/">- Design Sprint</a> </br>
+
+[Design Sprint](../../docs/base/designSprint/design_sprint.md)
+
+
  <a href="/base/designSprint/prototype/">- High Fidelity Prototype</a> </br>
  <a href="/base/requirements/modeling/backlog/">- Backlog </a> </br>
   <a href="/base/requirements/modeling/lexicons/">- Lexicons </a> </br>
  <a href="/base/requirements/preTraceability/mindMap/">- Mind Map </a> </br>
   <a href="/base/requirements/preTraceability/RichPicture/">- Rich Picture </a> </br>
-</div>
+
 
 ***
 ## Document Versioning
