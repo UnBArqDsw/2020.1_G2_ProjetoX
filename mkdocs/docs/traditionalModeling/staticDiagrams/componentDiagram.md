@@ -50,4 +50,5 @@ The backend will be built using Express to route as API, a backend library in Ja
 | 18/09/2020 | Lorrany Azevedo and Guilherme | Create component diagram | 0.3 |
 | 21/09/2020 | Lorrany Azevedo | Adding component diagram version 2| 0.4 |
 | 25/09/2020 | Lorrany Azevedo | Adding tracking requirements| 0.5 |
-| 25/09/2020 | Vitor Meireles | Adding backend diagram| 0.6 |
+| 25/09/2020 | Mikhaelle Bueno | Fix Format | 0.6 |
+| 25/09/2020 | Vitor Meireles | Adding backend diagram| 0.7 |

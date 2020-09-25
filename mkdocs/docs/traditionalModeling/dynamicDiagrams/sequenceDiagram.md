@@ -55,9 +55,11 @@ The diagram below dynamically exemplifies how the paper submission flow will beh
 
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 09/21/2020 | Mikhaelle Bueno | Document creation | 0.1 |
-| 09/25/2020 | Lorrany Azevedo | Adding description | 0.2 |
-| 09/25/2020 | Lorrany Azevedo | Adding User authentication diagram | 0.3 |
-| 09/25/2020 | Lorrany Azevedo | Adding paper submission diagram | 0.4 |
-| 09/25/2020 | Lorrany Azevedo | Adding tracking | 0.5 |
-| 09/25/2020 | Ygor Galeno     | Adding old versions of diagram | 0.6 |
+| 21/09/2020 | Mikhaelle Bueno | Document creation | 0.1 |
+| 25/09/2020 | Lorrany Azevedo | Adding description | 0.2 |
+| 25/09/2020 | Lorrany Azevedo | Adding User authentication diagram | 0.3 |
+| 25/09/2020 | Lorrany Azevedo | Adding paper submission diagram | 0.4 |
+| 25/09/2020 | Lorrany Azevedo | Adding tracking | 0.5 |
+| 25/09/2020 | Mikhaelle Bueno | Fix Format | 0.6 |
+| 09/25/2020 | Ygor Galeno     | Adding old versions of diagram | 0.7 |
+

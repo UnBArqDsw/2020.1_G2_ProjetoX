@@ -7,7 +7,9 @@ The Package Diagram, defined by the UML, describes the packages or pieces of the
 
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view two frontend package diagrams.
 
-- [Package diagram General Strcuture - version 1](./images/structure.png)  
+- Version 1
+- [Package diagram General Strcuture - version 1](./images/structure.png) 
+  
 - Package diagram General Strcuture - version 2
 ![Package diagram General Strcuture - version 2](./images/structureV2.png)  
 
@@ -60,5 +62,6 @@ At the image below, it is possible to see two main packages, 'Users' and 'Databa
 | 21/09/2020 | Lorrany Azevedo | Document creation | 0.1 |
 | 22/09/2020 | Guilherme and Lorrany Azevedo | Adding description and diagrams | 0.2 |
 | 25/09/2020 | Guilherme and Lorrany Azevedo | Adding tracking | 0.3 |
-| 24/09/2020 | Mikhaelle Bueno| Adding Paper Service diagram | 0.3 |
-| 25/09/2020 | Vitor Meireles | Add backend diagram | 0.4 |
+| 24/09/2020 | Mikhaelle Bueno| Adding Paper Service diagram | 0.4 |
+| 25/09/2020 | Vitor Meireles | Add backend diagram | 0.5 |
+| 25/09/2020 |  Mikhaelle Bueno | Fix format| 0.6 |

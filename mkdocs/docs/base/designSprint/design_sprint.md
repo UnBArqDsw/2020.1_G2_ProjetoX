@@ -32,11 +32,12 @@ In the unpack stage, the group held a meeting where we developed our first artif
 
 In addition, still in the unpack stage, we produced the 5W2H, the mind map and our argument, by clicking on the links below it is possible to analyze all the documents mentioned above.
 
-<div style="text-align: left">
-  <a href="/base/requirements/elicitation/brainstorm/">BrainStorm</a> </br>
-  <a href="/base/requirements/preTraceability/5w2h/">5W2H</a> </br>
-  <a href="/base/requirements/preTraceability/mindMap/">Mind Map</a> </br>
-</div>
+
+[BrainStorm](../../base/requirements/elicitation/brainstorm.md)
+
+[5W2H](../../base/requirements/preTraceability/5w2h.md)
+
+[Mind Map](../../base/requirements/preTraceability/mindMap.md)
 
 
 <span id="sk"></span>
@@ -44,29 +45,32 @@ In addition, still in the unpack stage, we produced the 5W2H, the mind map and o
 
 At this stage, the artifacts produced aim to give us greater clarity about what our product will be, clicking on the link below you have access to the documents produced at this stage:
 
-<div style="text-align: left">
-  <a href="/base/requirements/preTraceability/RichPicture/">Rich Picture</a> </br>
-  <a href="/base/requirements/elicitation/storyBoard/">Story Board</a> </br>
-</div>
+
+[Rich Picture](../../base/requirements/preTraceability/RichPicture.md)
+
+
+[Story Board](../../base/requirements/elicitation/storyBoard.md)
+
 
 <span id="de"></span>
 ### **<a href="#de">DECIDE</a>**
 
 At this stage it was necessary to decide everything that would be in the high-fidelity prototype so we used moscow prioritization and argumentation to do this:
 
-<div style="text-align: left">
-  <a href="/base/requirements/elicitation/moscow/">Moscow</a> </br>
-  <a href="/base/requirements/preTraceability/argumentation/">Argumentation</a> </br>
-</div>
+
+[Moscow](../../base/requirements/elicitation/moscow.md)
+
+
+[Argumentation](../../base/requirements/preTraceability/argumentation.md) 
+
 
 <span id="pr"></span>
 ### **<a href="#pr">PROTOTYPE</a>**
 
 At this stage, in addition to using the artifacts mentioned above, other artifacts that can be found in our base documentation, we developed our high-fidelity prototype:
 
-<div style="text-align: left">
-  <a href="/base/designSprint/prototype/">Prototype</a> </br>
-</div>
+
+[Prototype](../../base/designSprint/prototype.md)
 
 <span id="t"></span>
 ### **<a href="#t">TEST</a>**
@@ -91,4 +95,4 @@ In order for the team to reap the rewards and benefits of the sprint design meth
 |------|-------|-----------|--------|
 | 17/09/2020 | Lorrany Azevedo | Creating the documents | 0.1 |
 | 17/09/2020 | Lorrany Azevedo | Adding reference | 0.1 |
-
+| 25/09/2020 | Mikhaelle Bueno | Fix links | 0.1 |
