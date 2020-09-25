@@ -1,5 +1,7 @@
 #<span id="dc"></span>
-# **<a href="#dc">State Diagrams</a>**
+# **<a href="#dc">State Machine</a>**
+
+Behavioral state machine is specialization of behavior and is used to specify discrete behavior of a part of designed system through finite state transitions. The state machine formalism used in this case is an object-based variant of Harel statecharts.
 
 ## Paper Submission
 
