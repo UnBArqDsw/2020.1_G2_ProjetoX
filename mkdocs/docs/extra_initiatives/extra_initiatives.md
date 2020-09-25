@@ -5,9 +5,7 @@ In this second delivery we have evolved some documents foreseen for the first mi
 
 [Design Sprint](../../docs/base/designSprint/design_sprint.md)
 [High Fidelity Prototype](../../docs/base/designSprint/prototype.md)
-
- <a href="/base/designSprint/prototype/">- High Fidelity Prototype</a> </br>
- <a href="/base/requirements/modeling/backlog/">- Backlog </a> </br>
+[Backlog](../../docs/base/requirements/modeling/backlog.md)
   <a href="/base/requirements/modeling/lexicons/">- Lexicons </a> </br>
  <a href="/base/requirements/preTraceability/mindMap/">- Mind Map </a> </br>
   <a href="/base/requirements/preTraceability/RichPicture/">- Rich Picture </a> </br>
