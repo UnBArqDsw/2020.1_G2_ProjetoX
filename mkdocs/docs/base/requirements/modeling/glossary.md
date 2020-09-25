@@ -122,5 +122,5 @@
 
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
-| 09/05/2020 | Lorrany Azevedo | Creating the page and adding the terms | 0.1 |
+| 09/09/2020 | Lorrany Azevedo | Creating the page and adding the terms | 0.1 |
 

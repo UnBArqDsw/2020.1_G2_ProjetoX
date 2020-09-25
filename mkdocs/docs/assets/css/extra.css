@@ -39,6 +39,7 @@ body {
 .md-header {
     background: linear-gradient(90deg, #201D49, #524F88);
     color: white !important;
+    z-index: 10;
 }
 
 .hoverable {
