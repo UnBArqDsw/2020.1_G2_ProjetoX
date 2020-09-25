@@ -163,7 +163,7 @@
 |   |   |
 |---|---|
 |**Name:**|	**<a href="#col">Collaborators</a>** |
-|**Connotation:**| - Person who can submit an article and **<a href="#da">Data</a>** for **<a href="#rev">Review</a>** </br> - Person who can download **<a href="#da">Data</a>** </br> - Person who can submit a article and **<a href="#da">Data</a>** for **<a href="#rev">Review</a>** </br> - Person who can become a **<a href="#adm">Admin</a>** |
+|**Connotation:**| - Person who can submit an article and **<a href="#da">Data</a>** for **<a href="#rev">Review</a>** </br> - Person who can download **<a href="#da">Data</a>** </br> - Person who can submit a article and **<a href="#da">Data</a>** for **<a href="#rev">Review</a>** </br> - Collaborator can become a **<a href="#subadm">SubAdmin</a>**  |
 |**Classification:**|Object|
 |**Denotation:**|- A person who works jointly on an activity or project; an associate. - Person who helps another person to submit a article or **<a href="#da">Data</a>**|
 |**Synonym:**|coworker|
@@ -181,6 +181,36 @@
 |**Classification:**|Object|
 |**Denotation:**|**<a href="#adm">Admin</a>** is the activity or process of organizing an institution or organization|
 |**Synonym:**|administrator, supervisor|
+
+
+<span id="subadm"></span>
+### **<a href="#subadm">SubAdmin</a>**
+
+**Author** : Mikhaelle Bueno</br>
+**Version:** 0.1</br>
+
+|   |   |
+|---|---|
+|**Name:**|	**<a href="#subadm">SubAdmin</a>** |
+|**Connotation:**| - The **<a href="#subAdm">SubAdmin</a>**  have priority in Admin review papers</br> - **<a href="#adm">Admins</a>**  can submit paper</br> |
+|**Classification:**|Object|
+|**Denotation:**|**<a href="#subadm">SubAdmin</a>** derivate from **<a href="#adm">Admin</a>** |
+|**Synonym:**|	**<a href="#col">Collaborators</a>** Master|
+
+
+<span id="vis"></span>
+### **<a href="#vis">Visitor</a>**
+
+**Author** : Mikhaelle Bueno</br>
+**Version:** 0.1</br>
+
+|   |   |
+|---|---|
+|**Name:**|	**<a href="#vis">Visitor</a>** |
+|**Connotation:**| - The **<a href="#vis">Visitor</a>** can view papers and data but not download </br> - The **<a href="#vis">Visitor</a>** has to become a 	**<a href="#col">Collaborator</a>**(create account) if he want to submit papers |
+|**Classification:**|Object|
+|**Denotation:**|**<a href="#vis">Visitor</a>** someone who visits a person or plac or website|
+|**Synonym:**|visitant, tourist |
 
 <span id="per"></span>
 ### **<a href="#per">Performance</a>**
@@ -226,3 +256,4 @@
 | 09/06/2020 | Mikhaelle Bueno | Page edit | 0.2 |
 | 09/07/2020 | Mikhaelle Bueno | Page edit | 0.3 |
 | 09/10/2020 | Mikhaelle Bueno | Page edit | 0.4 |
+| 25/09/2020 | Mikhaelle Bueno | Page edit | 1.0 |
