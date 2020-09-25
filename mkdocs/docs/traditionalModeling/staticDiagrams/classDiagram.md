@@ -51,3 +51,4 @@ The back-end will be built by services made with the Express microframework in N
 | 21/09/2020 | Mikhaelle Bueno | Add Diagram| 0.2 |
 | 24/09/2020 | Mikhaelle Bueno | Add Diagram | 0.3 |
 | 25/09/2020 | Mikhaelle Bueno | Organize document | 0.4 |
+| 25/09/2020 | Mikhaelle Bueno | Fix format | 0.5 |
