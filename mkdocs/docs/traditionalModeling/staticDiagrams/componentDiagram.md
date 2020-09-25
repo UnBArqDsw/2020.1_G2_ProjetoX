@@ -9,8 +9,17 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 
 - [Version 1](./images/component_diagram01.jpg)
   
-- Version 2
-![Version 2](./images/component_diagram02.png)
+- [Version 2](./images/component_diagram02.png)
+
+
+## Backend
+
+The backend will be built using Express to route as API, a backend library in JavaScript language and PostgreSQL as database, a relational database. Below you can view the versions of the frontend component diagram.
+
+- [Version 1](./images/back_component_diagram.png)
+  
+- [Version 2](./images/back_component_diagram2.png)
+
 
 # Tracking Requirements
 
@@ -41,3 +50,4 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 | 18/09/2020 | Lorrany Azevedo and Guilherme | Create component diagram | 0.3 |
 | 21/09/2020 | Lorrany Azevedo | Adding component diagram version 2| 0.4 |
 | 25/09/2020 | Lorrany Azevedo | Adding tracking requirements| 0.5 |
+| 25/09/2020 | Vitor Meireles | Adding backend diagram| 0.6 |
