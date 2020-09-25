@@ -47,6 +47,8 @@ At this stage, the artifacts produced aim to give us greater clarity about what 
 
 
 [Rich Picture](../../base/requirements/preTraceability/RichPicture.md)
+
+
 [Story Board](../../base/requirements/elicitation/storyBoard.md)
 
 
