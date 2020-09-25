@@ -5,6 +5,8 @@ In this second delivery we have evolved some documents foreseen for the first mi
 <div style="text-align: left">
  <a href="/base/designSprint/design_sprint/">- Design Sprint</a> </br>
  <a href="/base/designSprint/prototype/">- High Fidelity Prototype</a> </br>
+  <a href="/base/requirements/modeling/backlog/">- Backlog </a> </br>
+ <a href="/base/requirements/preTraceability/mindMap/">- Mind Map </a> </br>
   
 </div>
 
