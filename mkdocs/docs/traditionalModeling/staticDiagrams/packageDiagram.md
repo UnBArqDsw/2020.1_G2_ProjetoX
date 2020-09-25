@@ -21,7 +21,9 @@ The back-end will be built by services made with the Express microframework in N
 At the image below, it is possible to see two main packages, 'Users' and 'Database'. The other packages have dependency relation with the main packages.
 
 - [Version 1](./images/package_diagram.png)
-- [Version 1](./images/package_diagram2.png)
+- [Version 2](./images/package_diagram2.png)
+
+
 
 ---
 ## References
