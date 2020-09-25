@@ -4,12 +4,16 @@ In this second delivery we have evolved some documents foreseen for the first mi
 
 
 [Design Sprint](../../docs/base/designSprint/design_sprint.md)
+
 [High Fidelity Prototype](../../docs/base/designSprint/prototype.md)
+
 [Backlog](../../docs/base/requirements/modeling/backlog.md)
+
 [Lexicons](../../docs/base/requirements/modeling/lexicons.md)
+
 [Mind Map](../../docs/base/requirements/preTraceability/mindMap.md)
+
 [Rich Picture](../../docs/base/requirements/preTraceability/RichPicture.md)
-  <a href="/base/requirements/preTraceability/RichPicture/">- Rich Picture </a> </br>
 
 
 ***
