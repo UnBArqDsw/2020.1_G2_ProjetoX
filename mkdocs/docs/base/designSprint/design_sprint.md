@@ -1,4 +1,5 @@
-# Design sprint
+<span id="dss"></span>
+# **<a href="#dss">Design Sprin</a>**
 
 ## What is?
 
@@ -51,10 +52,11 @@ At this stage, the artifacts produced aim to give us greater clarity about what 
 <span id="de"></span>
 ### **<a href="#de">DECIDE</a>**
 
-At this stage it was necessary to decide everything that would be in the high-fidelity prototype so we used moscow prioritization to do this:
+At this stage it was necessary to decide everything that would be in the high-fidelity prototype so we used moscow prioritization and argumentation to do this:
 
 <div style="text-align: left">
   <a href="/base/requirements/elicitation/moscow/">Moscow</a> </br>
+  <a href="/base/requirements/preTraceability/argumentation/">Argumentation</a> </br>
 </div>
 
 <span id="pr"></span>
