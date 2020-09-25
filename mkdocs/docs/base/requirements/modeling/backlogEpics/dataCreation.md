@@ -7,7 +7,7 @@
 #### User Stories
 
 | id | As a | Want to | So then I can | Comment | Points | Priority |
-|------|------|--------------------------------|-----------------------------------------------|--------------------------------|------|--------|
+|----|------|-------------------------|---------|--------|----------|-------|
 | US001 | User | Create account | Be part of TCLDL's community | username, email, password, name | ? | Must |
 | US002 | User | Read account | Read my account informations | username,email,password,name | ? | Should |
 | US003 | User | Edit account | Edit my account informations | email, name, password | ? | Should |
@@ -25,7 +25,7 @@
 #### User Stories
 
 | id | As a | Want to | So then I can | Comment | Points | Priority |
-|------|------|--------------------------------|-----------------------------------------------|--------------------------------|------|--------|
+|----|------|-------------------------|---------|--------|----------|-------|
 | US012 | User | Submit new data | Contribute with data | - | ? | Must |
 | US013 | User | Cancel my data submission | Cancel my submission if I submit something wrong | - | ? | Must |
 | US014 | User | Edit my submission | Update my submission info if needed | - | ? | Must |
@@ -44,7 +44,7 @@
 #### User Stories
 
 | id | As a | Want to | So then I can | Comment | Points | Priority |
-|------|------|--------------------------------|-----------------------------------------------|--------------------------------|------|--------|
+|----|------|-------------------------|---------|--------|----------|-------|
 | US022 | Admin | Review submissions | Mke sure that the data is right |   -    |  ?  |  Must  |
 | US023 | Admin | Decline submitted data | Always keep the data correct the data is wrong | - |  ?  | Must |
 | US024 | Admin | See list of submissions | Manage all the data submissions | - | ? | Must |
