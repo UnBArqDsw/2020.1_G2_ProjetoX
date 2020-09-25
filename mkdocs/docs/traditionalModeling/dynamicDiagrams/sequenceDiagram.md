@@ -10,6 +10,12 @@ No diagrama abaixo exemplificamos de forma dinâmica como o fluxo de usuário ir
 
 - [User Authentication - version 1](./images/UserAuthenticationSDV1.png)
 
+## Paper Submission
+
+No diagrama abaixo exemplificamos de forma dinâmica como o fluxo de usuário irá se comportar.
+
+- [Paper submission - version 1](./images/NewPaperSDV1.png)
+
 
 
 ---
@@ -29,3 +35,4 @@ No diagrama abaixo exemplificamos de forma dinâmica como o fluxo de usuário ir
 | 21/09/2020 | Mikhaelle Bueno | Document creation | 0.1 |
 | 25/09/2020 | Lorrany Azevedo | Adding description | 0.2 |
 | 25/09/2020 | Lorrany Azevedo | Adding User authentication diagram | 0.3 |
+| 25/09/2020 | Lorrany Azevedo | Adding paper submission diagram | 0.4 |
