@@ -37,4 +37,4 @@ The BackEnd will be built using Express, a BackEnd framework in JavaScript langu
 | 21/09/2020 | Lorrany Azevedo | Document creation | 0.1 |
 | 22/09/2020 | Guilherme and Lorrany Azevedo | Adding description and diagrams | 0.2 |
 | 24/09/2020 | Mikhaelle Bueno| Adding Paper Service diagram | 0.3 |
->>>>>>> Stashed changes
+
