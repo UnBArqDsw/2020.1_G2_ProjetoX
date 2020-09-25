@@ -10,6 +10,14 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 - [Version 1](./images/component_diagram01.jpg)
 - [Version 2](./images/component_diagram02.png)
 
+# Tracking Requirements
+
+| Source | Destiny |
+|------|-------|
+|  [Prototype](../../../base/designSprint/prototype.md) | Authenticated user flow, User Flow |
+| [Backlog - User](../../../base/requirements/modeling/backlogEpics/dataCreation.md) [Prototype](../../../base/designSprint/prototype.md) | Backend |
+| [BrainStorm](../../../base/requirements/elicitation/brainstorm/)  | All diagram |
+
 ---
 ## References
 ---
@@ -30,3 +38,4 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 | 21/09/2020 | Lorrany Azevedo | Adding description and component diagram version 1| 0.2 |
 | 18/09/2020 | Lorrany Azevedo and Guilherme | Create component diagram | 0.3 |
 | 21/09/2020 | Lorrany Azevedo | Adding component diagram version 2| 0.4 |
+| 25/09/2020 | Lorrany Azevedo | Adding tracking requirements| 0.5 |
