@@ -32,11 +32,10 @@ In the unpack stage, the group held a meeting where we developed our first artif
 
 In addition, still in the unpack stage, we produced the 5W2H, the mind map and our argument, by clicking on the links below it is possible to analyze all the documents mentioned above.
 
-<div style="text-align: left">
-  <a href="/base/requirements/elicitation/brainstorm/">BrainStorm</a> </br>
-  <a href="/base/requirements/preTraceability/5w2h/">5W2H</a> </br>
-  <a href="/base/requirements/preTraceability/mindMap/">Mind Map</a> </br>
-</div>
+
+[BrainStorm](../../base/requirements/elicitation/brainstorm.md)
+[5W2H](../../base/requirements/preTraceability/5w2h.md)
+[Mind Map](../../base/requirements/preTraceability/mindMap.md)
 
 
 <span id="sk"></span>
