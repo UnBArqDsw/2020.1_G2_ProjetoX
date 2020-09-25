@@ -48,3 +48,4 @@ The diagram below dynamically exemplifies how the paper submission flow will beh
 | 25/09/2020 | Lorrany Azevedo | Adding User authentication diagram | 0.3 |
 | 25/09/2020 | Lorrany Azevedo | Adding paper submission diagram | 0.4 |
 | 25/09/2020 | Lorrany Azevedo | Adding tracking | 0.5 |
+| 25/09/2020 | Mikhaelle Bueno | Fix Format | 0.6 |
