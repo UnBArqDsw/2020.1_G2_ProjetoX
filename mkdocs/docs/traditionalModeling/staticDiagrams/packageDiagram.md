@@ -7,8 +7,9 @@ The Package Diagram, defined by the UML, describes the packages or pieces of the
 
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view two frontend package diagrams.
 
-- [Package diagram General Strcuture - version 1](./images/structure.png)
-- [Package diagram Pages and Components - version 1](./images/pages_component.png)
+[Package diagram General Strcuture - version 1](./images/structure.png)
+[Package diagram Pages and Components - version 1](./images/pages_components.png)
+
 
 ## Backend
 
