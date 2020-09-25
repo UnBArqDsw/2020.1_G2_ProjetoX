@@ -57,5 +57,7 @@ TLCL is a web site for update papers related to deep leraning, share it, and sho
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
 | 09/01/20| Lorrany Azevedo | Document creation | 0.1 |
-| 09/01/20| Lorrany Azevedo | Document edit | 0.1 |
+| 09/01/20| Lorrany Azevedo | Document edit | 0.2 |
+| 09/01/20| Lorrany Azevedo and Mikhaele | stylization of documentation | 0.3 |
+| 17/01/20| Lorrany Azevedo | Bugfix in description and members photo | 0.4 |
 
