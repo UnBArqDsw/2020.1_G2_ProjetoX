@@ -1,6 +1,4 @@
-<span id="dc"></span>
-# **<a href="#dc">Class Diagrams</a>**
-
+# Class Diagrams
 
 In Object Oriented Programming, classes are fundamental to the execution of the paradigm. UML created the Class Diagram to facilitate the understanding and design of the software, showing its properties, methods and relationships.
 
@@ -10,11 +8,7 @@ The back-end will be built by services made with the Express microframework in N
 
 ## Mail Service
 
-![Versão 1.0](./images/classDiagramMailService.png)
-
-## Cron Service
-
-## Upload Service
+- [Versão 1.0](./images/classDiagramMailService.png)
 
 ## Paper Service  
 
@@ -45,7 +39,8 @@ The back-end will be built by services made with the Express microframework in N
 
 - **[Moodle]** Serrano, Milene. Vídeo Aula : Modelagem, Diagrama de Classe, Dependência & Associação, Classe Concreta & Abstrata & Sobrescrita & Sobrecarga, Agregação & Composição, Herança & Realização
 
-
+- **[WebSite]** <a href="https://www.uml-diagrams.org/package-diagrams-overview.html">UML site</a>
+  
 ---
 
 ## Document Versioning
@@ -55,3 +50,4 @@ The back-end will be built by services made with the Express microframework in N
 | 19/09/2020 | Mikhaelle Bueno | Document creation | 0.1 |
 | 21/09/2020 | Mikhaelle Bueno | Add Diagram| 0.2 |
 | 24/09/2020 | Mikhaelle Bueno | Add Diagram | 0.3 |
+| 25/09/2020 | Mikhaelle Bueno | Organize document | 0.4 |

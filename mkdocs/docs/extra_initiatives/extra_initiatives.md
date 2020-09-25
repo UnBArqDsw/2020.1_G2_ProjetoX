@@ -6,7 +6,9 @@ In this second delivery we have evolved some documents foreseen for the first mi
  <a href="/base/designSprint/design_sprint/">- Design Sprint</a> </br>
  <a href="/base/designSprint/prototype/">- High Fidelity Prototype</a> </br>
  <a href="/base/requirements/modeling/backlog/">- Backlog </a> </br>
+  <a href="/base/requirements/modeling/lexicons/">- Lexicons </a> </br>
  <a href="/base/requirements/preTraceability/mindMap/">- Mind Map </a> </br>
+  <a href="/base/requirements/preTraceability/RichPicture/">- Rich Picture </a> </br>
 </div>
 
 ***
@@ -17,3 +19,4 @@ In this second delivery we have evolved some documents foreseen for the first mi
 |------|-------|-----------|--------|
 | 09/25/2020 | Lorrany Azevedo | Creating the document | 0.1 |
 | 09/25/2020 | Gabriel Filipe | Adds link to backlog and mind map | 0.2 |
+| 09/25/2020 | Mikhaelle Bueno | Adds link to Rich Picture and Lexicons| 0.3 |

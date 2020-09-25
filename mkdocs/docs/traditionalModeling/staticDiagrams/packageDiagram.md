@@ -7,9 +7,12 @@ The Package Diagram, defined by the UML, describes the packages or pieces of the
 
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view two frontend package diagrams.
 
-[Package diagram General Strcuture - version 2](./images/structureV2.png)  
-[Package diagram General Strcuture - version 1](./images/structure.png)  
-[Package diagram Pages and Components - version 1](./images/pages_components.png)
+- [Package diagram General Strcuture - version 1](./images/structure.png)  
+- Package diagram General Strcuture - version 2
+![Package diagram General Strcuture - version 2](./images/structureV2.png)  
+
+- Package diagram Pages and Components - version 1
+![Package diagram Pages and Components - version 1](./images/pages_components.png)
 
 
 ## Backend
@@ -20,8 +23,13 @@ The back-end will be built by services made with the Express microframework in N
 
 At the image below, it is possible to see two main packages, 'Users' and 'Database'. The other packages have dependency relation with the main packages.
 
-- [Version 1](./images/package_diagram.png)
-- [Version 2](./images/package_diagram2.png)
+
+- [Version 1](./images/backPackageDiagram.png)
+-  [Version 2](./images/package_diagram.png)
+  
+- Version 3
+  
+![Version 3](./images/package_diagram2.png)
 
 ## Tracking Requirements
 

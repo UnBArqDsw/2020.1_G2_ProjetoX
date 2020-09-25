@@ -7,7 +7,8 @@ Behavioral state machine is specialization of behavior and is used to specify di
 
 The diagram below dynamically exemplifies the states of a paper submission.
 
-- [Paper submission - version 1](./images/NewPaperSM1.png)
+- Paper submission - version 1
+![Paper submission - version 1](./images/NewPaperSM1.png)
 
 ---
 ## References
