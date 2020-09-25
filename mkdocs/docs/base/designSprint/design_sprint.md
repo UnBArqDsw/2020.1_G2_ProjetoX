@@ -57,10 +57,10 @@ At this stage, the artifacts produced aim to give us greater clarity about what 
 
 At this stage it was necessary to decide everything that would be in the high-fidelity prototype so we used moscow prioritization and argumentation to do this:
 
-<div style="text-align: left">
-  <a href="/base/requirements/elicitation/moscow/">Moscow</a> </br>
-  <a href="/base/requirements/preTraceability/argumentation/">Argumentation</a> </br>
-</div>
+
+[Moscow](../../base/requirements/elicitation/moscow.md)
+[Argumentation](../../base/requirements/preTraceability/argumentation.md) 
+
 
 <span id="pr"></span>
 ### **<a href="#pr">PROTOTYPE</a>**
