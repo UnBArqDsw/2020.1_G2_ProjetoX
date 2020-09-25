@@ -7,8 +7,16 @@ The Package Diagram, defined by the UML, describes the packages or pieces of the
 
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view two frontend package diagrams.
 
-- [Version 1](./images/structure.jpg)
-- [Version 1](./images/pages_conponent.png)
+- [Package diagram General Strcuture - version 1](./images/structure.png)
+- [Package diagram Pages and Components - version 1](./images/pages_component.png)
+
+# Tracking Requirements
+
+| Source | Destiny |
+|------|-------|
+|  [Prototype](../../../base/designSprint/prototype.md) | General Structure, Pages and Components |
+| [Backlog - User](../../../base/requirements/modeling/backlogEpics/dataCreation.md) [Prototype](../../../base/designSprint/prototype.md) | General Structure, Pages and Components |
+| [BrainStorm](../../../base/requirements/elicitation/brainstorm/)  | General Structure, Pages and Components |
 
 ---
 ## References
@@ -28,3 +36,4 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 |------|-------|-----------|--------|
 | 21/09/2020 | Lorrany Azevedo | Document creation | 0.1 |
 | 22/09/2020 | Guilherme and Lorrany Azevedo | Adding description and diagrams | 0.2 |
+| 25/09/2020 | Guilherme and Lorrany Azevedo | Adding tracking | 0.3 |
