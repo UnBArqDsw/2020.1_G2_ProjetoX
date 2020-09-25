@@ -1,6 +1,12 @@
 #<span id="dc"></span>
 # **<a href="#dc">State Diagrams</a>**
 
+## Paper Submission
+
+The diagram below dynamically exemplifies the states of a paper submission.
+
+- [Paper submission - version 1](./images/NewPaperSM1.png)
+
 ---
 ## References
 ---
