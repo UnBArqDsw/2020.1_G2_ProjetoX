@@ -16,6 +16,12 @@ For this project we created a mind map based on the group brainstorm.
 
 ![Gabriel Filipe & Guilherme Deusdará](./images/mind_map_v1.jpg)
 
+**Author** : Gabriel Filipe</br>
+**Version:** 2.0</br>
+[Click here](https://ibb.co/rfYrBHR) to have a better visualization. </br>
+
+![Gabriel Filipe](./images/mind_map_v2.jpg)
+
 <br>
 
 ---
@@ -32,3 +38,4 @@ For this project we created a mind map based on the group brainstorm.
 |------|-------|-----------|--------|
 | 09/03/2020 | Gabriel Filipe & Guilherme Deusdará | Creates page and adds first version | 0.1 |
 | 09/07/2020 | Gabriel Filipe & Guilherme Deusdará | Updates mind map | 1.0 |
+| 09/25/2020 | Gabriel Filipe  | Updates mind map | 2.0 |
