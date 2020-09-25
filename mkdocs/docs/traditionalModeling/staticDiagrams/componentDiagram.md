@@ -41,3 +41,4 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 | 18/09/2020 | Lorrany Azevedo and Guilherme | Create component diagram | 0.3 |
 | 21/09/2020 | Lorrany Azevedo | Adding component diagram version 2| 0.4 |
 | 25/09/2020 | Lorrany Azevedo | Adding tracking requirements| 0.5 |
+| 25/09/2020 | Mikhaelle Bueno | Fix Format | 0.5 |
