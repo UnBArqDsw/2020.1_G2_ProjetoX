@@ -5,6 +5,10 @@ Activity diagram is UML behavior diagram which shows flow of control or object f
 The next flow show the flow from different users in the webSite.
 
 **Author** : Gabriel Filipe</br>
+**Version:** 2.1</br>
+![activityDiagram_v2](./images/activityDiagram_v2_1.png)
+
+**Author** : Gabriel Filipe</br>
 **Version:** 2.0</br>
 ![activityDiagram_v2](./images/activityDiagram_v2.png)
 
@@ -35,3 +39,4 @@ The next flow show the flow from different users in the webSite.
 | 09/25/2020 | Gabriel Filipe | Adds diagram  | 1.0 |
 | 09/25/2020 | Gabriel Filipe | Adds diagram  | 1.4 |
 | 09/25/2020 | Gabriel Filipe | Adds diagram  | 2.0 |
+| 09/25/2020 | Gabriel Filipe | Adds diagram  | 2.1 |
