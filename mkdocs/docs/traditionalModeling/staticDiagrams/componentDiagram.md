@@ -8,7 +8,9 @@ The component diagram is a diagram of the uml modeling approach that shows previ
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view the versions of the frontend component diagram.
 
 - [Version 1](./images/component_diagram01.jpg)
-- [Version 2](./images/component_diagram02.png)
+  
+- Version 2
+![Version 2](./images/component_diagram02.png)
 
 # Tracking Requirements
 

@@ -8,13 +8,16 @@ The sequence diagram is one of the diagrams of uml modeling that has dynamic cha
 
 The diagram below dynamically exemplifies how the user flow will behave.
 
-- [User Authentication - version 1](./images/UserAuthenticationSDV1.png)
+- User Authentication - version 1
+
+![User Authentication - version 1](./images/UserAuthenticationSDV1.png)
 
 ## Paper Submission
 
 The diagram below dynamically exemplifies how the paper submission flow will behave.
 
-- [Paper submission - version 1](./images/NewPaperSDV1.png)
+- Paper submission - version 1
+![Paper submission - version 1](./images/NewPaperSDV1.png)
 
 
 # Tracking Requirements
