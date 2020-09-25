@@ -8,8 +8,16 @@ The Package Diagram, defined by the UML, describes the packages or pieces of the
 The frontend will be built using React, a frontend framework in JavaScript language. Below you can view two frontend package diagrams.
 
 - [Version 1](./images/structure.jpg)
-- [Version 1](./images/pages_conponent.png)
+- Version 2
+![Versão2](./images/pages_component.png)
 
+
+## BacKEnd
+The BackEnd will be built using Express, a BackEnd framework in JavaScript language.
+
+- Version 1
+  
+![backPackageDiagram](./images/backPackageDiagram.png)
 ---
 ## References
 ---
@@ -28,3 +36,5 @@ The frontend will be built using React, a frontend framework in JavaScript langu
 |------|-------|-----------|--------|
 | 21/09/2020 | Lorrany Azevedo | Document creation | 0.1 |
 | 22/09/2020 | Guilherme and Lorrany Azevedo | Adding description and diagrams | 0.2 |
+| 24/09/2020 | Mikhaelle Bueno| Adding Paper Service diagram | 0.3 |
+

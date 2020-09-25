@@ -8,12 +8,35 @@ In Object Oriented Programming, classes are fundamental to the execution of the 
 
 The back-end will be built by services made with the Express microframework in NodeJs, using JavaScript language and Hexagonal architecture. Each of the microservices has a corresponding diagram.
 
-# Overview  
+## Mail Service
+
+![Versão 1.0](./images/classDiagramMailService.png)
+
+## Cron Service
+
+## Upload Service
+
+## Paper Service  
 
 - [Version 1](./images/classDiagramV1.md)
 
-- [Version 2](./images/classDiagramV2.md)
+- Version 2
 
+![Versão 1.0](./images/classDiagramV2.png)
+
+
+### Tracking Requirements
+
+| Source | Destiny |
+|------|-------|
+|  [Prototype](../../base/designSprint/prototype.md) | Questionary |
+| [Backlog - User](../../base/requirements/modeling/backlogEpics/dataCreation.md) [Prototype](../../base/designSprint/prototype.md) | User |
+| [Lexicos - Domain](../../base/requirements/modeling/lexicons.md) / [Prototype](../../base/designSprint/prototype.md) | Domain |
+| [Prototype](../../base/designSprint/prototype.md) / [Storyboard](../../base/requirements/elicitation/storyBoard.md) | Paper |
+| [Backlog - Graph](../../base/requirements/modeling/backlogEpics/dataVisualization.md) | Graph |
+
+
+# Search Service
 
 ---
 ## References
@@ -29,4 +52,6 @@ The back-end will be built by services made with the Express microframework in N
 
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 21/09/2020 | Mikhaelle Bueno | Document creation | 0.1 |
+| 19/09/2020 | Mikhaelle Bueno | Document creation | 0.1 |
+| 21/09/2020 | Mikhaelle Bueno | Add Diagram| 0.2 |
+| 24/09/2020 | Mikhaelle Bueno | Add Diagram | 0.3 |
