@@ -69,9 +69,8 @@ At this stage it was necessary to decide everything that would be in the high-fi
 
 At this stage, in addition to using the artifacts mentioned above, other artifacts that can be found in our base documentation, we developed our high-fidelity prototype:
 
-<div style="text-align: left">
-  <a href="/base/designSprint/prototype/">Prototype</a> </br>
-</div>
+
+[Prototype](../../base/designSprint/prototype.md)
 
 <span id="t"></span>
 ### **<a href="#t">TEST</a>**
