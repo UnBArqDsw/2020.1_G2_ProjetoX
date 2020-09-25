@@ -45,10 +45,10 @@ In addition, still in the unpack stage, we produced the 5W2H, the mind map and o
 
 At this stage, the artifacts produced aim to give us greater clarity about what our product will be, clicking on the link below you have access to the documents produced at this stage:
 
-<div style="text-align: left">
-  <a href="/base/requirements/preTraceability/RichPicture/">Rich Picture</a> </br>
-  <a href="/base/requirements/elicitation/storyBoard/">Story Board</a> </br>
-</div>
+
+[Rich Picture](../../base/requirements/preTraceability/RichPicture.md)
+[Story Board](../../base/requirements/elicitation/storyBoard.md)
+
 
 <span id="de"></span>
 ### **<a href="#de">DECIDE</a>**
