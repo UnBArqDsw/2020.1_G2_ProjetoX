@@ -61,5 +61,5 @@ The diagram below dynamically exemplifies how the paper submission flow will beh
 | 25/09/2020 | Lorrany Azevedo | Adding paper submission diagram | 0.4 |
 | 25/09/2020 | Lorrany Azevedo | Adding tracking | 0.5 |
 | 25/09/2020 | Mikhaelle Bueno | Fix Format | 0.6 |
-| 09/25/2020 | Ygor Galeno     | Adding old versions of diagram | 0.7 |
+| 25/09/2020 | Ygor Galeno     | Adding old versions of diagram | 0.7 |
 
