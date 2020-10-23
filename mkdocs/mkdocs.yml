@@ -42,6 +42,8 @@ nav:
             - Class Diagrams: traditionalModeling/staticDiagrams/classDiagram.md
             - Component Diagrams: traditionalModeling/staticDiagrams/componentDiagram.md
             - Package Diagrams: traditionalModeling/staticDiagrams/packageDiagram.md
+    - Design Patterns: 
+        - GRASPs: desing_patterns/grasp.md
     - Extra initiatives: extra_initiatives/extra_initiatives.md
 
 
