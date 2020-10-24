@@ -52,8 +52,12 @@ Put photo code example
 
 The controller is the layer responsible for receiving the inputs that users make through the user interface and handling to these events, it is usually the intermediary layer between the requests of the actors and the backend that responds to the requests of those requests. This layer is responsible for understanding the users' requests and immediately afterwards it redirects that request to the element in the backend responsible for handling it. In our code we use the controller pattern a lot and below we have an example of its implementation.
 
-<span id="pf"></span>
-## **<a href="#pf">Pure Fabrication</a>**
+
+<span id="ind"></span>
+## **<a href="#ind">Indirection</a>**
+
+The indirect pattern assigns responsibilities to intermediary objects between two other objects, a controller can be considered an object of induction since in an MVC model it is a mediator between as models and as views. Another object that fits this standard is the middleware and validators that are responsible for verifying that the data of a request matches what is expected. In the project code we use middleware, validators and controllers.
+
 
 
 ---
@@ -77,3 +81,5 @@ The controller is the layer responsible for receiving the inputs that users make
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add high coeshion definition | 0.4 |
 | 10/23/2020 | Lorrany Azevedo, Vitor Meireles| Add polymorphis definition | 0.5 |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe| Add controller definition | 0.6 |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará| Add indirection definition | 0.7 |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno| Add pure fabrication definition | 0.8 |
