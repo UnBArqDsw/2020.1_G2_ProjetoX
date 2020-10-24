@@ -40,6 +40,12 @@ As it has also been explained, the concept of low coupling is a very important c
 
 The concept of high cohesion is directly related to the concept of low coupling, this means that we can only have one if we have the other, to maintain high cohesion it is important to choose an appropriate architecture for your product and to make use of the good software practices, in addition to using the gof and grasp standards we also chose to use a hexagonal architecture, this architecture alone already helps us to maintain a high cohesion since the outer layers cannot access the inner layers, architecture the use of interfaces, factory, adapters and other standards becomes highly necessary so that the layers can communicate with each other in a correct way and respecting the architecture.
 
+<span id="pl"></span>
+## **<a href="#pl">Polymorphism</a>**
+
+The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class. . In our code we have several cases of polymorphism but we will put just one example of implementation below.
+
+Put photo code example
 
 ---
 ## References
@@ -60,3 +66,4 @@ The concept of high cohesion is directly related to the concept of low coupling,
 | 10/23/2020 | Lorrany Azevedo, Gabriel Filipe | Add grasp concept | 0.2 |
 | 10/23/2020 | Lorrany Azevedo, Ygor Galeno | Add creators, information expert and low coupling definitions | 0.3 |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add high coeshion definition | 0.4 |
+| 10/23/2020 | Lorrany Azevedo, Vitor Meireles| Add polymorphis definition | 0.4 |
