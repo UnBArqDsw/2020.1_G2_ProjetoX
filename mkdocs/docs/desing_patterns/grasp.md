@@ -47,6 +47,15 @@ The concept of polymorphism is already a well-known concept and used in the obje
 
 Put photo code example
 
+<span id="cont"></span>
+## **<a href="#cont">Controller</a>**
+
+The controller is the layer responsible for receiving the inputs that users make through the user interface and handling to these events, it is usually the intermediary layer between the requests of the actors and the backend that responds to the requests of those requests. This layer is responsible for understanding the users' requests and immediately afterwards it redirects that request to the element in the backend responsible for handling it. In our code we use the controller pattern a lot and below we have an example of its implementation.
+
+<span id="pf"></span>
+## **<a href="#pf">Pure Fabrication</a>**
+
+
 ---
 ## References
 ---
@@ -66,4 +75,5 @@ Put photo code example
 | 10/23/2020 | Lorrany Azevedo, Gabriel Filipe | Add grasp concept | 0.2 |
 | 10/23/2020 | Lorrany Azevedo, Ygor Galeno | Add creators, information expert and low coupling definitions | 0.3 |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add high coeshion definition | 0.4 |
-| 10/23/2020 | Lorrany Azevedo, Vitor Meireles| Add polymorphis definition | 0.4 |
+| 10/23/2020 | Lorrany Azevedo, Vitor Meireles| Add polymorphis definition | 0.5 |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe| Add controller definition | 0.6 |
