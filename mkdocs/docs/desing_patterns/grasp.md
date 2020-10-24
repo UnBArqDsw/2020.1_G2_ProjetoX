@@ -14,6 +14,27 @@ GRASP standards are guidelines that assign responsibility to classes and objects
 - **Controllers**: Assigns responsibility for handling system events for classes other than UI, it delegates the work that needs to be done to other objects.
 - **Indirection**: Mediating object between two elements, this makes the coupling smaller. 
 
+In our project we used several of the patterns mentioned above, below explain why we use these patterns and show where they were used in our project code. 
+
+<span id="creator"></span>
+## **<a href="#Creator">Creators</a>**
+
+As has already been said, creators are the classes responsible for instantiating objects, instantiating objects can be a complicated task and creators are used when some factors occur, one of these factors is when aggregation between two classes occurs.
+
+Put creators example: controller, signupcontroller, signupcontrollerfactory
+
+<span id="sp"></span>
+## **<a href="#sp">Information Expert</a>**
+
+Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are.
+
+Put experts example:
+
+<span id="lc"></span>
+## **<a href="#lc">Low Coupling</a>**
+
+As it has also been explained, the concept of low coupling is a very important concept when it comes to maintaining the quality of the software, it allows us greater manageability since the classes seek to be as independent as possible. Grasp patterns alone, when properly used, already reduce our coupling, but we can further decrease this coupling using the gof patterns that will be explained in the documents below.
+
 
 ---
 ## References
@@ -32,3 +53,4 @@ GRASP standards are guidelines that assign responsibility to classes and objects
 |------|-------|-----------|--------|
 | 10/23/2020 | Lorrany Azevedo | Document creation | 0.1 |
 | 10/23/2020 | Lorrany Azevedo, Gabriel Filipe | Add grasp concept | 0.2 |
+| 10/23/2020 | Lorrany Azevedo, Ygor Galeno | Add creators, information expert and low coupling definitions | 0.3 |
