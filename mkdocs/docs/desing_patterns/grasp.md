@@ -58,7 +58,12 @@ The controller is the layer responsible for receiving the inputs that users make
 
 The indirect pattern assigns responsibilities to intermediary objects between two other objects, a controller can be considered an object of induction since in an MVC model it is a mediator between as models and as views. Another object that fits this standard is the middleware and validators that are responsible for verifying that the data of a request matches what is expected. In the project code we use middleware, validators and controllers.
 
+<span id="pf"></span>
+## **<a href="#pf">Pure Fabrication</a>**
 
+The concept of pure manufacturing is based on the idea of creating elements that are not necessarily design patterns, but there is a need to create them in order to further improve the quality of the code, they are usually classes created to be intermediate in the communication between other classes, api's that facilitate and improve product quality etc. The concept of indirectness fits here, since this pattern is usually an intermediary between objects. Our main pure manufacturing is the API_Gateway repository, which will be responsible for being the intermediate gate between the client (Frontend) and our server (Backend - Paper_service).
+
+Link para o API_Gateway
 
 ---
 ## References
