@@ -26,6 +26,19 @@ Below we have an example of implementing an adapter:
 
 File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/adapters/ExpressControllerAdapter.ts" target="blank">ExpressControlerAdapter.ts</a>
 
+Outro exemplo de adapter utilizado no nosso código: 
+
+![AdapterMid](./images/MiddlewareAdapter.jpg)
+
+
+File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/adapters/ExpressMiddlewareAdapter.ts" target="blank">ExpressMiddlewareAdapter.ts</a>
+
+
+<span id="OB"></span>
+### <a href="#OB">Objectives and problems solved</a>
+
+Reunir com o grupo
+
 ---
 ## References
 ---
