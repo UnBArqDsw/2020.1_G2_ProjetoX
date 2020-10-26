@@ -58,7 +58,7 @@ In our application the use of decorators was through TypeORM, which is an ORM (O
 ---
 
 - **[Moodle]** Serrano, Milene. Vídeo Aula : Gofs Estruturais
-- **[WebSite]** <a href="deco">https://refactoring.guru/design-patterns/decorator</a>
+- **[WebSite]** <a href="https://refactoring.guru/design-patterns/decorator">Decorator</a>
 
 
 ---

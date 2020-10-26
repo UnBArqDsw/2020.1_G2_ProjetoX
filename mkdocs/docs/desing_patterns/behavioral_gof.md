@@ -47,6 +47,27 @@ For a visualization and better understanding of the user authentication flow, it
 
 Bearing in mind that each user has a role, at request time it is necessary to create a JWT for each user and the JWT will define which tasks that user will be able to perform. Thus, the strategy is the most suitable standard for solving this problem and that is why we chose it for this. 
 
+O modelo de dominío abaixo exemplifica a implementação do strategy para a funcionalidade de encontrar o repository pelo id e pelo tipo, para que a classe CreateUserDBFactory possa criar o adapter para a criação de um novo usuário no banco de dados.
+
+![Strategy Diagram](./images/StrategyDiagram.png)
+
+As implementações das classes do modelo de dominío acima são mostradas logo abaixo:
+
+![CreateUser](./images/CreateUserDbFactory.png)
+
+File: <a href="" target="blank">CreateUserDbFactory.ts</a>
+
+![Adapter](./images/FindRoleRepositoryContextAdapter.png)
+
+File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/development/src/infra/db/typeorm/repositories/role/FindRoleRepositoryContextAdapter.ts" target="blank">FindRoleRepositoryContextAdapter.ts</a>
+
+![Id](./images/FindRoleRepositoryByIdAdapter.png)
+
+File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/development/src/infra/db/typeorm/repositories/role/FindRoleRepositoryByIdAdapter.ts" target="blank">FindRoleRepositoryByIdAdapter.ts</a>
+
+![Type](./images/FindRoleRepositoryByTypeAdapter.png)
+
+File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/development/src/infra/db/typeorm/repositories/role/FindRoleRepositoryByTypeAdapter.ts" target="blank">FindRoleRepositoryByTypeAdapter.ts</a>
 
 <span id="dec"></span>
 ## <a href="#dec">Chain of Resposability</a>
@@ -63,13 +84,16 @@ Code Example:
 
 ![chain](./images/RemoveUserRoute.png)
 
+File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/routes/RemoveUserRoute.ts" target="blank">RemoveUserRoute.ts</a>
+
 
 ---
 ## References
 ---
 
 - **[Moodle]** Serrano, Milene. Vídeo Aula : Gofs Comportamentais
-- **[WebSite]** <a href="deco">https://refactoring.guru/design-patterns/strategy</a>
+- **[WebSite]** <a href="https://refactoring.guru/design-patterns/strategy">Strategy</a>
+- **[WebSite]** <a href="https://refactoring.guru/design-patterns/chain-of-responsibility">Chain of Resposability</a>
 
 
 ---
@@ -83,4 +107,5 @@ Code Example:
 | 10/26/2020 | Lorrany Azevedo, Ygor Galeno | Add strategy definition | 0.3 |
 | 10/26/2020 | Lorrany Azevedo, Gabriel Fillipe | Add behavioral patterns definition | 0.4 |
 | 10/26/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add objectivies and problems solved - Strategy | 0.5|
-| 10/26/2020 | Lorrany Azevedo, Guilherme Deusdará | Add objectivies and problems solved - Chain of Resposability | 0.5|
+| 10/26/2020 | Lorrany Azevedo, Guilherme Deusdará | Add objectivies and problems solved - Chain of Resposability | 0.6|
+| 10/26/2020 | Lorrany Azevedo | Add code example | 0.7|
