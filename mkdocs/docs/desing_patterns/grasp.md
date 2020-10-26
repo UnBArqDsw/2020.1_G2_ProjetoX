@@ -28,7 +28,7 @@ A code example is [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_
 
  Code example:
 
-![SignUpControllerFactory](./images/factoryExample2.jpg)
+![SignUpControllerFactory](./images/factoryExample2.png)
 
 
 <span id="sp"></span>
@@ -76,7 +76,7 @@ In our project the controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/s
 
 A code example is [SignUpController](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) 
 
-![gifController](./images/controllerExample.jpg)
+![gifController](./images/controllerExample.png)
 
 
 
@@ -90,7 +90,7 @@ In our project the middlewares can be found in: [2020.1_G2_TCLDL_Paper_Service/s
 
 A code example is [SignUpValidatorMiddleware](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/SignUpValidatorMiddleware.ts) 
 
-![midleware](./images/midlewareExample.jpg)
+![midleware](./images/midlewareExample.png)
 
 <span id="pf"></span>
 ## **<a href="#pf">Pure Fabrication</a>**
@@ -122,3 +122,4 @@ The concept of pure manufacturing is based on the idea of creating elements that
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará | Add indirection definition                                    | 0.7     |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno        | Add pure fabrication definition                               | 0.8     |
 | 10/25/2020 | Mikhaelle Bueno       | Add gifs and images examples                        | 0.9     |
+| 10/26/2020 | Mikhaelle Bueno, Guilherme Deusdará       | Add gifs and images examples                        | 0.9     |
