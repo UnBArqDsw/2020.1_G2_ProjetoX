@@ -39,12 +39,27 @@ File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/m
 
 Reunir com o grupo
 
+<span id="dec"></span>
+## <a href="#dec">Decorator</a>
+
+The decorator is a design pattern that allows you to add conformity to objects. We started from a base application and added other features to that base.
+
+For a better understanding of the functioning of this pattern, we put below an example that shows us a class diagram of a notification functionality and its respective decorators, the application base sends as notifications only by email, as other forms of notification such as for example SMS are made through decorators.
+
+![AdapterMid](./images/decorator_example.jpg) (<a href="https://refactoring.guru/design-patterns/decorator" target="blank">Image Reference</a>)
+
+In our application the use of decorators was through TypeORM, which is an ORM (Object-relational mapping) for the language used in the project (TypeScript / JavaScript).
+
+"Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages." (<a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping" target="blank">Wikipedia</a>)
+
+
 
 ---
 ## References
 ---
 
 - **[Moodle]** Serrano, Milene. Vídeo Aula : Gofs Estruturais
+- **[WebSite]** <a href="deco">https://refactoring.guru/design-patterns/decorator</a>
 
 
 ---
@@ -58,3 +73,4 @@ Reunir com o grupo
 | 10/25/2020 | Lorrany Azevedo, Gabriel Fillipe | Add adapter concept | 0.3 |
 | 10/26/2020 | Lorrany Azevedo, Mikhaelle Bueno| Add adapter code example | 0.4 |
 | 10/26/2020 | Lorrany Azevedo, Guilherme Deusdará| Add adapter code example | 0.5 |
+| 10/26/2020 | Lorrany Azevedo, Gabriel Fillipe, Mikhaelle Bueno| Add decorator definition | 0.6 |
