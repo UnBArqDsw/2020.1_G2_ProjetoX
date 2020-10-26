@@ -4,7 +4,9 @@ Test-driven development is a software development practice advocated in XP and c
 
 Using TDD we program the tests in the extension codes _. Spec.ts_ in order to know the type of result we would like to obtain, with that done the extension code _. Ts_ is done.
 
+As expected from TDD, the project code does unit tests to check every minor part of the system that is decoupled, evaluating the results of classes and methods.
 
+The technology used for Js tests is Jest to mitigate redundancies and couplings in a backend with node and express.
 
 ---
 ## References
