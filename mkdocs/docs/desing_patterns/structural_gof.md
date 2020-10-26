@@ -17,8 +17,6 @@ The structural gofs patterns are concerned with how objects will be organized to
 
 The adapter design pattern as the definition already tells us, allows us to replace one object with another without complications with our client, it is characteristic of objects with similar behaviors due to the fact that we use polymorphism to overwrite the behavior of these objects. A great use of the adapter is to allow us to change the behavior of a given object without touching its code, avoiding, for example, a new version of it. 
 
-The adapter in the context of the Paper Service, which is our micro-service responsible for the backend, is used to adapt the Controller interface, which is responsible for receiving customer requests. 
-
 Below we have an example of implementing an adapter:
 
 ![Adapter](./images/ExpressControllerAdapter.png)
@@ -37,7 +35,8 @@ File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/m
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
 
-Reunir com o grupo
+The adapter in the context of the Paper Service, which is our micro-service responsible for the backend, is used to adapt the Controller interface, which is responsible for receiving customer requests. 
+
 
 <span id="dec"></span>
 ## <a href="#dec">Decorator</a>

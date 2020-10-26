@@ -56,7 +56,12 @@ A cadeia de responsabilidades é um padrão comportamental que permite que você
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
 
-No nosso projeto a cadeia de requisição também se aplica a funcionalidade de autenticação de usuário já que cada requisição será processada por diversos handles até que chegue no handle que irá tratá-la e redirecioná-la para o resposável por responder a essa requisição.
+No nosso projeto é basicamente uma cadeia de responsabilidade gigante, isso acontece por conta do principio de inversion dependency control que é muito utilizado por conta da arquitetura Hexagonal que é a que está sendo utilizada no nosso projeto, porém um exemplo mais específico dessa cadeia é o arquivo <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/routes/RemoveUserRoute.ts" target="blank">RemoveUserRoute.ts</a>, onde chamamos um método de uma classe para encontrar o usuário pelo id da requisição, e caso esse usuário seja encontrado chamamos outro método de outra classe para que esse usuário seja removido.
+
+
+Code Example: 
+
+![chain](./images/RemoveUserRoute.png)
 
 
 ---
@@ -78,3 +83,4 @@ No nosso projeto a cadeia de requisição também se aplica a funcionalidade de 
 | 10/26/2020 | Lorrany Azevedo, Ygor Galeno | Add strategy definition | 0.3 |
 | 10/26/2020 | Lorrany Azevedo, Gabriel Fillipe | Add behavioral patterns definition | 0.4 |
 | 10/26/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add objectivies and problems solved - Strategy | 0.5|
+| 10/26/2020 | Lorrany Azevedo, Guilherme Deusdará | Add objectivies and problems solved - Chain of Resposability | 0.5|
