@@ -53,11 +53,17 @@ The project has a Node.js base and database and test integration is managed by t
 
 ### Code Climate
 
+Codeclimate is a static code quality analysis tool. This tool scans the code for duplication problems, code smells and other miscellaneous problems, thus raising the quality of the code. This is useful for avoid mistakes that makes code clean.
+
+- [Code climate](./images/code_climate.png)
+
+
 ---
 ## References
 ---
 - **[WebSite]** <a href="https://jestjs.io/">Jest site</a>
 - **[WebSite]** <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional commits site</a>
+
 ---
 
 ## Document Versioning
