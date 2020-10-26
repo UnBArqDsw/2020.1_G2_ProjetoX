@@ -49,6 +49,8 @@ The project has a Node.js base and database and test integration is managed by t
 
 ## Code Quality && Coverage 100%
 
+This is used as metric to put in numbers or letters how good the code is being constructered.
+
 - [Coverage](./images/code_quality.png)
 
 ### Code Climate
@@ -75,3 +77,6 @@ Codeclimate is a static code quality analysis tool. This tool scans the code for
 | 10/25/2020 | Vitor Meireles | Adds concepts  | 1.0 |
 | 10/26/2020 | Vitor Meireles | Adds images  | 1.1 |
 | 10/26/2020 | Vitor Meireles | Adds reference  | 1.2 |
+| 10/26/2020 | Vitor Meireles | Adds code climate  | 1.3 |
+| 10/26/2020 | Vitor Meireles | Makes documentation cleaner  | 1.4 |
+
