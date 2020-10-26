@@ -18,7 +18,7 @@ The technology used for _Js_ and _Ts_ tests is Jest to mitigate redundancies and
 
 Based on a commits convention, it is used to validate messages with relatively little red tape. This is useful for standardizing team commits. 
 
-- [Lint](./tests_and_ci/lint.md)
+- [Lint](./tests_and_ci/commitlint.md)
 
 
 ### Husky hook
@@ -43,6 +43,8 @@ This is used as metric to put in numbers or letters how good the code is being c
 ### Code Climate
 
 Codeclimate is a static code quality analysis tool. This tool scans the code for duplication problems, code smells and other miscellaneous problems, thus raising the quality of the code. This is useful for avoid mistakes that makes code clean.
+
+- [Coverage](./tests_and_ci/coverage.md)
 
 
 ---

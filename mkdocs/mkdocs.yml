@@ -48,6 +48,7 @@ nav:
         - Behaviors GOF's: desing_patterns/behavior_gof.md
         - Structural GOF's: desing_patterns/structural_gof.md
         - Emerging Design Patterns: desing_patterns/emerging_patterns.md
+        - Tests and Continuous Integration: desing_patterns/tests.md
 
     - Extra initiatives: extra_initiatives/extra_initiatives.md
 
