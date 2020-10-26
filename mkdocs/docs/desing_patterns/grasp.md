@@ -60,6 +60,11 @@ The concept of high cohesion is directly related to the concept of low coupling,
 
 The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class.
 
+In our project a example of Polymorphism are the [MiddlewareFactories](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/server/factories/middlewares). All this classes implements MiddlewareFactory and use it to create difference things.
+
+Code example:
+
+![polymorphismExample](./images/polymorphismExample.png)
 
 <span id="cont"></span>
 ## **<a href="#cont">Controller</a>**
