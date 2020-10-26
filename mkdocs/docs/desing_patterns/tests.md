@@ -11,21 +11,15 @@ As expected from TDD, the project code does unit tests to check every minor part
 
 The technology used for _Js_ and _Ts_ tests is Jest to mitigate redundancies and couplings in a backend with node and express, which are some of our technologies. The Jest tool was choosen because it`s fast safe and easy mocking.
 
-- [Tests directory example](./images/tests_folder.png)
-
-- [Jest test file](./images/jest.png)
-- [File](./images/jest2.png)
+- [Jest](./tests_and_ci/jest.md)
 
 
 ## Commitlint
 
 Based on a commits convention, it is used to validate messages with relatively little red tape. This is useful for standardizing team commits. 
 
-- [Lint](./images/lint_rc.png)
+- [Lint](./tests_and_ci/lint.md)
 
-- [Lint Staged](./images/lint_staged_rc.png)
-
-- [Lint Ignore](./images/lint_ignore.png)
 
 ### Husky hook
 
