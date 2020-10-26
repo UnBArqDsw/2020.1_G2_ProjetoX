@@ -25,20 +25,15 @@ Based on a commits convention, it is used to validate messages with relatively l
 
 Husky supports Commitlint and is being used to lint commit messages.
 
-- [Husky](./images/husky_rc.png)
+- [Husky](./tests_and_ci/husky.md)
 
-
-## Github actions
+## GitHub Actions
 
 GitHub Actions is the tool of choice for automating and executing workflows and software development, including CI / CD.
 
 The project has a Node.js base and database and test integration is managed by the GitHub Actions configuration files.
 
-- [Pipeline default](./images/pipeline_default.png)
-
-- [Pipeline Development](./images/pipeline_development.png)
-
-- [Pipeline Master](./images/pipeline_master.png)
+- [GitHub Actions](./tests_and_ci/github_actions.md)
 
 
 ## Code Quality && Coverage 100%
