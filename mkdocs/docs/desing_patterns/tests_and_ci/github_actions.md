@@ -10,3 +10,11 @@ This is the development part of paper service
 
 This is the paper service to master integration
 ![Pipeline Master](../images/pipeline_master.png)
+
+
+## Document Versioning
+
+| Date | Author(s) | Description | Version |
+|------|-------|-----------|--------|
+| 10/25/2020 | Vitor Meireles | Document creation | 0.1 |
+| 10/26/2020 | Vitor Meireles | Add contents  | 1.0 |
