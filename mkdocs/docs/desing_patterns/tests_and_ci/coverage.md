@@ -1,4 +1,4 @@
-![Coverage](./images/code_quality.png)
+![Coverage](../images/code_quality.png)
 
 
-![Code climate](./images/code_climate.png)
+![Code climate](../images/code_climate.png)
