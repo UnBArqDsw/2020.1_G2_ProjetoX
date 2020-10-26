@@ -8,6 +8,13 @@ As expected from TDD, the project code does unit tests to check every minor part
 
 The technology used for Js tests is Jest to mitigate redundancies and couplings in a backend with node and express.
 
+
+- Tests folder organization - version 1
+- [Version 1](./images/tests_folder.png)
+
+- Tests and file, side by side - version 1
+- [Version 2](./images/test_bide_by_side.png)
+
 ---
 ## References
 ---
