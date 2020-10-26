@@ -21,14 +21,14 @@ The adapter in the context of the Paper Service, which is our micro-service resp
 
 Below we have an example of implementing an adapter:
 
-![Adapter](./images/ExpressAdapter.jpg)
+![Adapter](./images/ExpressControllerAdapter.png)
 
 
 File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/adapters/ExpressControllerAdapter.ts" target="blank">ExpressControlerAdapter.ts</a>
 
-Outro exemplo de adapter utilizado no nosso código: 
+Another example of an adapter: 
 
-![AdapterMid](./images/MiddlewareAdapter.jpg)
+![AdapterMid](./images/ExpressMiddlewareAdapter.png)
 
 
 File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/adapters/ExpressMiddlewareAdapter.ts" target="blank">ExpressMiddlewareAdapter.ts</a>
@@ -38,6 +38,7 @@ File: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/m
 ### <a href="#OB">Objectives and problems solved</a>
 
 Reunir com o grupo
+
 
 ---
 ## References
@@ -55,4 +56,5 @@ Reunir com o grupo
 | 10/23/2020 | Lorrany Azevedo | Document creation | 0.1 |
 | 10/25/2020 | Lorrany Azevedo, Ygor Galeno | Add gofs description | 0.2 |
 | 10/25/2020 | Lorrany Azevedo, Gabriel Fillipe | Add adapter concept | 0.3 |
-| 10/25/2020 | Lorrany Azevedo, Mikhaelle Bueno| Add adapter code example | 0.4 |
+| 10/26/2020 | Lorrany Azevedo, Mikhaelle Bueno| Add adapter code example | 0.4 |
+| 10/26/2020 | Lorrany Azevedo, Guilherme Deusdará| Add adapter code example | 0.5 |
