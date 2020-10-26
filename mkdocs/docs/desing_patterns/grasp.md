@@ -21,26 +21,34 @@ In our project we used several of the patterns mentioned above, below explain wh
 
 As has already been said, creators are the classes responsible for instantiating objects, instantiating objects can be a complicated task and creators are used when some factors occur, one of these factors is when aggregation between two classes occurs.
 
-In our project a example of creators are the interactors. The controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/src/domain/interactors/](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/domain/interactors)
+In our project a example of Creators are the [factorys](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts).
 
 
-A code example is [Createuser](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) that instantiates a user.
+A code example is [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts) class whose specific purpose is to instantiate users. 
 
-![gifCreator](./images/interactorExample.jpg)
+ Code example:
+
+![SignUpControllerFactory](./images/factoryExample2.jpg)
+
 
 <span id="sp"></span>
 ## **<a href="#sp">Information Expert</a>**
 
-Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are.
+Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are. 
 
-The above example can also be considered a Information Expert pattern.
+In our project a example of Experts are the [FindBy's](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/infra/db/typeorm/repositories/role). The findBy is use for 
+specific consultation tasks.
+
+Code example:
+
+![findByExample](./images/findByExample.png)
 
 <span id="lc"></span>
 ## **<a href="#lc">Low Coupling</a>**
 
 As it has also been explained, the concept of low coupling is a very important concept when it comes to maintaining the quality of the software, it allows us greater manageability since the classes seek to be as independent as possible. Grasp patterns alone, when properly used, already reduce our coupling, but we can further decrease this coupling using the gof patterns that will be explained in the documents below.
 
-The hexagonal architecture of our application also allows for low coupling
+The hexagonal architecture of our application also allows for low coupling.
 
 <span id="hc"></span>
 ## **<a href="#hc">High Coeshion</a>**
@@ -50,9 +58,8 @@ The concept of high cohesion is directly related to the concept of low coupling,
 <span id="pl"></span>
 ## **<a href="#pl">Polymorphism</a>**
 
-The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class. In our code we have several cases of polymorphism but we will put just one example of implementation below.
+The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class.
 
-Put photo code example
 
 <span id="cont"></span>
 ## **<a href="#cont">Controller</a>**
