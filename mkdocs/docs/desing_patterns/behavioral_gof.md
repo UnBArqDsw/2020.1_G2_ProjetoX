@@ -1,7 +1,7 @@
 <span id="sp"></span>
 # **<a href="#sp">Behavioral Patterns</a>**
 
-Os padrões comportamentais são padrões voltados para a alterações no nível de comportamento de objetos. Neste documento nós daremos um breve overview sobre os padrões existentes e iremos explicar mais afundo os padrões que utilizamos no nosso projeto.
+Behavioral patterns are patterns aimed at changing the level of behavior of objects. In this document we will give a brief overview of the existing standards and explain further the patterns we use in our project.
 
 - **Command**: Control calls to a specific component, modeling each request as an object. Allow operations to be undone or recorded.
 - **Iterator**: Provide an efficient way to cycle through the elements of a collection sequentially, without exposing the internal structure of the collection.
@@ -30,7 +30,22 @@ File: <a href="" target="blank"></a>
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
 
-Reunir com o grupo
+No nosso projeto nós utilizamos os strategy para resolver o problema das roles de autenticação de usuário e o problema dos JWT (Jason Web Token), que também fazem parte do fluxo de autenticação de usuários.
+
+ **Brief explanation of authentication flow**: 
+
+No nosso projeto existem quatro tipos de usuários, esses usuários se dividem entre usuário que possuem conta, e usuários que não possuem conta. Para os usuários que possuem conta existem roles que definem o nível de permissão desses usários, são elas:
+
+- Admin: Usuário com nível máximo de permissão, são responsáveis por aceitar e revisar os papers enviados por outros usuários.
+- Sub-Admin: São usuários que podem revisar os papers porém não podem aceitá-los.
+- Collaborator: Usuários que podem apenas submeter papers. 
+
+Para uma visualização e melhor entendimento do fluxo de autenticação de usuários, recomenda-se a leitura dos seguintes documentos: 
+
+[Class Diagram](../traditionalModeling/staticDiagrams/classDiagram.md)
+
+[Sequence Diagram](../traditionalModeling/dynamicDiagrams/sequenceDiagram.md)
+
 
 <span id="dec"></span>
 ## <a href="#dec">Chain of Resposability</a>
