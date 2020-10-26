@@ -21,14 +21,17 @@ In our project we used several of the patterns mentioned above, below explain wh
 
 As has already been said, creators are the classes responsible for instantiating objects, instantiating objects can be a complicated task and creators are used when some factors occur, one of these factors is when aggregation between two classes occurs.
 
-Put creators example: controller, signupcontroller, signupcontrollerfactory
+In our project a example of creators are the controllers. The controllers can be found in :[2020.1_G2_TCLDL_Paper_Service/src/presentation/controllers/](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/presentation/controllers)
+
+
+A code example is [SignUpController](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) that instantiates a user.
 
 <span id="sp"></span>
 ## **<a href="#sp">Information Expert</a>**
 
 Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are.
 
-Put experts example:
+The above example can also be considered a Information Expert pattern.
 
 <span id="lc"></span>
 ## **<a href="#lc">Low Coupling</a>**
@@ -78,13 +81,13 @@ Link para o API_Gateway
 
 ## Document Versioning
 
-| Date | Author(s) | Description | Version |
-|------|-------|-----------|--------|
-| 10/23/2020 | Lorrany Azevedo | Document creation | 0.1 |
-| 10/23/2020 | Lorrany Azevedo, Gabriel Filipe | Add grasp concept | 0.2 |
-| 10/23/2020 | Lorrany Azevedo, Ygor Galeno | Add creators, information expert and low coupling definitions | 0.3 |
-| 10/23/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add high coeshion definition | 0.4 |
-| 10/23/2020 | Lorrany Azevedo, Vitor Meireles| Add polymorphis definition | 0.5 |
-| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe| Add controller definition | 0.6 |
-| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará| Add indirection definition | 0.7 |
-| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno| Add pure fabrication definition | 0.8 |
+| Date       | Author(s)                                            | Description                                                   | Version |
+| ---------- | ---------------------------------------------------- | ------------------------------------------------------------- | ------- |
+| 10/23/2020 | Lorrany Azevedo                                      | Document creation                                             | 0.1     |
+| 10/23/2020 | Lorrany Azevedo, Gabriel Filipe                      | Add grasp concept                                             | 0.2     |
+| 10/23/2020 | Lorrany Azevedo, Ygor Galeno                         | Add creators, information expert and low coupling definitions | 0.3     |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle Bueno                     | Add high coeshion definition                                  | 0.4     |
+| 10/23/2020 | Lorrany Azevedo, Vitor Meireles                      | Add polymorphis definition                                    | 0.5     |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe     | Add controller definition                                     | 0.6     |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará | Add indirection definition                                    | 0.7     |
+| 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno        | Add pure fabrication definition                               | 0.8     |
