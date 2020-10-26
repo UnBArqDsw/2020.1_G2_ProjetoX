@@ -5,7 +5,7 @@
 - **Factory Method**: Delegates instantiation to mirror subclasses. A subclass can be created as a mirror of the upper class. This subclass is specialized in creating instances. 
 - **Abstract Factory**: Similar to the Factory Method, but the difference is in the encapsulation of a group that has a common theme among them. 
 - **Builder**: The Builder takes complex instances and divides their construction into parts.
-- **Prototype**: 
+- **Prototype**: The client consumes a generalist class that is implemented in specific classes that contain the methods of the upper class.
 - **Singleton**:
 - **Multiton**:
 - **Object Pool**:
@@ -21,9 +21,9 @@ An example is the [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_
 
  Code example:
 
- ![SignUpControllerFactory](./images/factoryExample2.jpg)
+ ![SignUpControllerFactory](./images/factoryExample2.png)
  
- ![ControllerFactory](./images/factoryExample1.jpg)
+ ![ControllerFactory](./images/factoryExample2.png)
 
 Class Diagram Example: 
 
@@ -40,6 +40,23 @@ Similar to the Factory Method, the Abstract Factory creates generic abstract cla
 
 The Builder takes complex instances and divides their construction into parts. Unlike the Factory Method, the Builder divides the creation of instances into parts, containing more than one abstract method that are instantiated by concrete classes. The Builder has not yet been used in the project, because the Factory Method met the needs and there is not a case, today, where the Builder would be a better alternative.
 
+<span id="pt"></span>
+## **<a href="#bd">Prototype</a>**
+
+The client consumes a generalist class that is implemented in specific classes that contain the methods of the upper class. It generates many optimizations mainly in games and in our project it is used through a TypeScript tool which is Object.assign (). Object.assign () creates a copy of the data and assigns it to this. In Our Project, this method is used in RoleAdapter and UserAdapter.
+
+ Code example:
+
+ ![UserAdapterExample](./images/userAdapterExample.png)
+
+<span id="sç"></span>
+## **<a href="#bd">Singleton</a>**
+
+<span id="ml"></span>
+## **<a href="#bd">Multiton</a>**
+
+<span id="op"></span>
+## **<a href="#bd">Object Pool</a>**
 ---
 ## References
 ---
