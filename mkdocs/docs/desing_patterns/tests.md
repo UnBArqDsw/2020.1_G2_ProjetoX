@@ -63,7 +63,8 @@ Codeclimate is a static code quality analysis tool. This tool scans the code for
 ---
 - **[WebSite]** <a href="https://jestjs.io/">Jest site</a>
 - **[WebSite]** <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional commits site</a>
-
+- **[WebSite]** <a href="https://codeclimate.com/">CodeClimate site</a>
+- **[WebSite]** <a href="https://typicode.github.io/husky/#/">Husky doc site</a>
 ---
 
 ## Document Versioning
