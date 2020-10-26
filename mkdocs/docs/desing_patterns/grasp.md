@@ -21,10 +21,12 @@ In our project we used several of the patterns mentioned above, below explain wh
 
 As has already been said, creators are the classes responsible for instantiating objects, instantiating objects can be a complicated task and creators are used when some factors occur, one of these factors is when aggregation between two classes occurs.
 
-In our project a example of creators are the controllers. The controllers can be found in :[2020.1_G2_TCLDL_Paper_Service/src/presentation/controllers/](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/presentation/controllers)
+In our project a example of creators are the interactors. The controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/src/domain/interactors/](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/domain/interactors)
 
 
-A code example is [SignUpController](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) that instantiates a user.
+A code example is [Createuser](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) that instantiates a user.
+
+![gifCreator](./gifs/gifcreator.gif)
 
 <span id="sp"></span>
 ## **<a href="#sp">Information Expert</a>**
@@ -38,6 +40,8 @@ The above example can also be considered a Information Expert pattern.
 
 As it has also been explained, the concept of low coupling is a very important concept when it comes to maintaining the quality of the software, it allows us greater manageability since the classes seek to be as independent as possible. Grasp patterns alone, when properly used, already reduce our coupling, but we can further decrease this coupling using the gof patterns that will be explained in the documents below.
 
+The hexagonal architecture of our application also allows for low coupling
+
 <span id="hc"></span>
 ## **<a href="#hc">High Coeshion</a>**
 
@@ -46,7 +50,7 @@ The concept of high cohesion is directly related to the concept of low coupling,
 <span id="pl"></span>
 ## **<a href="#pl">Polymorphism</a>**
 
-The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class. . In our code we have several cases of polymorphism but we will put just one example of implementation below.
+The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class. In our code we have several cases of polymorphism but we will put just one example of implementation below.
 
 Put photo code example
 
@@ -54,6 +58,14 @@ Put photo code example
 ## **<a href="#cont">Controller</a>**
 
 The controller is the layer responsible for receiving the inputs that users make through the user interface and handling to these events, it is usually the intermediary layer between the requests of the actors and the backend that responds to the requests of those requests. This layer is responsible for understanding the users' requests and immediately afterwards it redirects that request to the element in the backend responsible for handling it. In our code we use the controller pattern a lot and below we have an example of its implementation.
+
+In our project the controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/src/presentation/controllers/](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/presentation/controllers). The controllers handle with HTTP requests.
+
+
+A code example is [SignUpController](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) 
+
+![gifCreator](./gifs/gifController.gif)
+
 
 
 <span id="ind"></span>
