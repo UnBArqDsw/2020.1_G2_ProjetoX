@@ -1,1 +1,1 @@
-- [Husky](./images/husky_rc.png)
+![Husky](./images/husky_rc.png)

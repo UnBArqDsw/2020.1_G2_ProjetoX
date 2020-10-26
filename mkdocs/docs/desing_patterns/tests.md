@@ -40,13 +40,9 @@ The project has a Node.js base and database and test integration is managed by t
 
 This is used as metric to put in numbers or letters how good the code is being constructered.
 
-- [Coverage](./images/code_quality.png)
-
 ### Code Climate
 
 Codeclimate is a static code quality analysis tool. This tool scans the code for duplication problems, code smells and other miscellaneous problems, thus raising the quality of the code. This is useful for avoid mistakes that makes code clean.
-
-- [Code climate](./images/code_climate.png)
 
 
 ---
