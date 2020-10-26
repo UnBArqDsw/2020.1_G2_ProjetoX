@@ -26,7 +26,7 @@ In our project a example of creators are the interactors. The controllers can be
 
 A code example is [Createuser](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) that instantiates a user.
 
-![gifCreator](./gifs/gifcreator.gif)
+![gifCreator](./images/interactorExample.jpg)
 
 <span id="sp"></span>
 ## **<a href="#sp">Information Expert</a>**
@@ -64,7 +64,7 @@ In our project the controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/s
 
 A code example is [SignUpController](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) 
 
-![gifController](./gifs/gifController.gif)
+![gifController](./images/controllerExample.jpg)
 
 
 
@@ -78,7 +78,7 @@ In our project the middlewares can be found in: [2020.1_G2_TCLDL_Paper_Service/s
 
 A code example is [SignUpValidatorMiddleware](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/SignUpValidatorMiddleware.ts) 
 
-![midleware](./gifs/midlewareExample.jpg)
+![midleware](./images/midlewareExample.jpg)
 
 <span id="pf"></span>
 ## **<a href="#pf">Pure Fabrication</a>**
