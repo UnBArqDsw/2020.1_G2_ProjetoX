@@ -13,17 +13,17 @@ The technology used for Js tests is Jest to mitigate redundancies and couplings 
 - [Version 1](./images/tests_folder.png)
 
 - Tests and file, side by side - version 1
-- [Version 2](./images/test_bide_by_side.png)
+- [Version 1](./images/test_bide_by_side.png)
 
 ---
 ## References
 ---
-
 ---
 
 ## Document Versioning
 
 | Date | Author(s) | Description | Version |
 |------|-------|-----------|--------|
-| 09/25/2020 | Vitor Meireles | Document creation | 0.1 |
-| 09/25/2020 | Vitor Meireles | Adds concepts  | 1.0 |
+| 10/25/2020 | Vitor Meireles | Document creation | 0.1 |
+| 10/25/2020 | Vitor Meireles | Adds concepts  | 1.0 |
+| 10/26/2020 | Vitor Meireles | Adds images  | 1.1 |
