@@ -21,7 +21,6 @@ solving a particular problem.
 
 The strategy is a behavioral design pattern that allows us to define a family of algorithms, make each algorithm become a class and make the objects of those classes interchangeable. This pattern helps us to encapsulate decision-making algorithms at runtime, this means that instead of implementing an algorithm with all pre-defined decision-making, our code can receive instructions at runtime and from choose which strategy he will follow.
 
-![](./images/)
 
 
 File: <a href="" target="blank"></a>
@@ -46,6 +45,8 @@ Para uma visualização e melhor entendimento do fluxo de autenticação de usu�
 
 [Sequence Diagram](../traditionalModeling/dynamicDiagrams/sequenceDiagram.md)
 
+Tendo em vista que cada usuário tem uma role, em tempo de requisição é necessário que criemos um JWT para cada usuário e o JWT irá definir quais tarefas aquele usuário irá poder executar. Sendo assim o strategy é o padrão mais adequado para a resolução deste problema e por isto o escolhemos para tal. 
+
 
 <span id="dec"></span>
 ## <a href="#dec">Chain of Resposability</a>
@@ -58,8 +59,8 @@ Para uma visualização e melhor entendimento do fluxo de autenticação de usu�
 ## References
 ---
 
-- **[Moodle]** Serrano, Milene. Vídeo Aula : Gofs Estruturais
-- **[WebSite]** <a href="deco">https://refactoring.guru/design-patterns/decorator</a>
+- **[Moodle]** Serrano, Milene. Vídeo Aula : Gofs Comportamentais
+- **[WebSite]** <a href="deco">https://refactoring.guru/design-patterns/strategy</a>
 
 
 ---
@@ -72,3 +73,4 @@ Para uma visualização e melhor entendimento do fluxo de autenticação de usu�
 | 10/26/2020 | Lorrany Azevedo| Add document structure | 0.2 |
 | 10/26/2020 | Lorrany Azevedo, Ygor Galeno | Add strategy definition | 0.3 |
 | 10/26/2020 | Lorrany Azevedo, Gabriel Fillipe | Add behavioral patterns definition | 0.4 |
+| 10/26/2020 | Lorrany Azevedo, Mikhaelle Bueno | Add objectivies and problems solved - Strategy | 0.5|
