@@ -69,8 +69,6 @@ Link para o API_Gateway
 ## References
 ---
 
-- **[WebSite]** <a href="https://www.uml-diagrams.org/package-diagrams-overview.html">UML site</a>
-
 - **[Moodle]** Serrano, Milene. Vídeo Aula : GRASP
 
 
