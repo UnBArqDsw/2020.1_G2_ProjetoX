@@ -30,6 +30,11 @@ Class Diagram Example:
 ![CreateUserExample](./images/createUserExample.png)
 
 
+<span id="fm"></span>
+## **<a href="#fm">Abstract Factory</a>**
+
+Similar to the Factory Method, the Abstract Factory creates generic abstract classes that are then implemented in concrete methods, the difference is in the encapsulation of a group that has a common theme among them, creating individual factories for each item. We chose not to use this method in our project because the factory method met our requirements enough and has already allowed for good packaging and easy maintenance.
+
 ---
 ## References
 ---
