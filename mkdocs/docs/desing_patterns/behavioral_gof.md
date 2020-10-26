@@ -51,8 +51,12 @@ Tendo em vista que cada usuário tem uma role, em tempo de requisição é neces
 <span id="dec"></span>
 ## <a href="#dec">Chain of Resposability</a>
 
+A cadeia de responsabilidades é um padrão comportamental que permite que você passe para frente as requisições através de uma cadeia de handles. Quando um handle recebe a requisição ele decide se ele irá lidar com essa requisção ou se irá passá-la para frente. 
+
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
+
+No nosso projeto a cadeia de requisição também se aplica a funcionalidade de autenticação de usuário já que cada requisição será processada por diversos handles até que chegue no handle que irá tratá-la e redirecioná-la para o resposável por responder a essa requisição.
 
 
 ---
