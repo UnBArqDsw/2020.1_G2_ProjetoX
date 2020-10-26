@@ -6,7 +6,7 @@ Using TDD we program the tests in the extension codes _. Spec.ts_ in order to kn
 
 As expected from TDD, the project code does unit tests to check every minor part of the system that is decoupled, evaluating the results of classes and methods.
 
-The technology used for Js tests is Jest to mitigate redundancies and couplings in a backend with node and express.
+The technology used for _Js_ and _Ts_ tests is Jest to mitigate redundancies and couplings in a backend with node and express, which are some of our technologies. The Jest tool was choosen because it`s fast safe and easy mocking.
 
 
 - Tests folder organization - version 1
@@ -18,6 +18,7 @@ The technology used for Js tests is Jest to mitigate redundancies and couplings 
 ---
 ## References
 ---
+- **[WebSite]** <a href="https://jestjs.io/">Jest site</a>
 ---
 
 ## Document Versioning
@@ -27,3 +28,4 @@ The technology used for Js tests is Jest to mitigate redundancies and couplings 
 | 10/25/2020 | Vitor Meireles | Document creation | 0.1 |
 | 10/25/2020 | Vitor Meireles | Adds concepts  | 1.0 |
 | 10/26/2020 | Vitor Meireles | Adds images  | 1.1 |
+| 10/26/2020 | Vitor Meireles | Adds reference  | 1.2 |
