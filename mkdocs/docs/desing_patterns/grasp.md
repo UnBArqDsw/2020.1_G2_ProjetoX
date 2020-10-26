@@ -109,3 +109,4 @@ The concept of pure manufacturing is based on the idea of creating elements that
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe     | Add controller definition                                     | 0.6     |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará | Add indirection definition                                    | 0.7     |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno        | Add pure fabrication definition                               | 0.8     |
+| 10/25/2020 | Mikhaelle Bueno       | Add gifs and images examples                        | 0.9     |
