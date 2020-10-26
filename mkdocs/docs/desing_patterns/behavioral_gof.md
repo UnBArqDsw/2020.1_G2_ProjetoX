@@ -29,34 +29,34 @@ File: <a href="" target="blank"></a>
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
 
-No nosso projeto nós utilizamos os strategy para resolver o problema das roles de autenticação de usuário e o problema dos JWT (Jason Web Token), que também fazem parte do fluxo de autenticação de usuários.
+In our project we use the strategies to solve the problem of user authentication roles and the problem of JWT (Jason Web Token), which are also part of the user authentication flow.
 
  **Brief explanation of authentication flow**: 
 
-No nosso projeto existem quatro tipos de usuários, esses usuários se dividem entre usuário que possuem conta, e usuários que não possuem conta. Para os usuários que possuem conta existem roles que definem o nível de permissão desses usários, são elas:
+In our project there are four types of users, these users are divided between users who have an account, and users who do not have an account. For users who have an account there are roles that define the permission level of these users, they are:
 
-- Admin: Usuário com nível máximo de permissão, são responsáveis por aceitar e revisar os papers enviados por outros usuários.
-- Sub-Admin: São usuários que podem revisar os papers porém não podem aceitá-los.
-- Collaborator: Usuários que podem apenas submeter papers. 
+- Admin: Users with maximum permission level, are responsible for accepting and reviewing papers sent by other users.
+- Sub-Admin: They are users who can review the papers but cannot accept them.
+- Collaborator: Users who can only submit papers.
 
-Para uma visualização e melhor entendimento do fluxo de autenticação de usuários, recomenda-se a leitura dos seguintes documentos: 
+For a visualization and better understanding of the user authentication flow, it is recommended to read the following documents: 
 
 [Class Diagram](../traditionalModeling/staticDiagrams/classDiagram.md)
 
 [Sequence Diagram](../traditionalModeling/dynamicDiagrams/sequenceDiagram.md)
 
-Tendo em vista que cada usuário tem uma role, em tempo de requisição é necessário que criemos um JWT para cada usuário e o JWT irá definir quais tarefas aquele usuário irá poder executar. Sendo assim o strategy é o padrão mais adequado para a resolução deste problema e por isto o escolhemos para tal. 
+Bearing in mind that each user has a role, at request time it is necessary to create a JWT for each user and the JWT will define which tasks that user will be able to perform. Thus, the strategy is the most suitable standard for solving this problem and that is why we chose it for this. 
 
 
 <span id="dec"></span>
 ## <a href="#dec">Chain of Resposability</a>
 
-A cadeia de responsabilidades é um padrão comportamental que permite que você passe para frente as requisições através de uma cadeia de handles. Quando um handle recebe a requisição ele decide se ele irá lidar com essa requisção ou se irá passá-la para frente. 
+The chain of responsibilities is a behavioral pattern that allows you to forward requests through a chain of handles. When a handle receives the request, it decides whether it will handle that request or pass it on.
 
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
 
-No nosso projeto é basicamente uma cadeia de responsabilidade gigante, isso acontece por conta do principio de inversion dependency control que é muito utilizado por conta da arquitetura Hexagonal que é a que está sendo utilizada no nosso projeto, porém um exemplo mais específico dessa cadeia é o arquivo <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/routes/RemoveUserRoute.ts" target="blank">RemoveUserRoute.ts</a>, onde chamamos um método de uma classe para encontrar o usuário pelo id da requisição, e caso esse usuário seja encontrado chamamos outro método de outra classe para que esse usuário seja removido.
+In our project it is basically a giant chain of responsibility, this happens due to the principle of inversion dependency control which is widely used due to the Hexagonal architecture that is being used in our project, but a more specific example of this chain is the <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/routes/RemoveUserRoute.ts" target="blank"> RemoveUserRoute.ts </a> file, where we call one method of a class to find the user by the request id, and if that user is found we call another method of another class to have that user removed.
 
 
 Code Example: 
