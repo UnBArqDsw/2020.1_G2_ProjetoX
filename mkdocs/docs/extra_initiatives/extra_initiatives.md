@@ -1,6 +1,6 @@
 # Extra Initiatives
 
-In this second delivery we have evolved some documents foreseen for the first milestone of the matter, below we have the list of refactored artifacts, to be redirected to the desired artifact just click on the name of the artifact.
+## Second delivery
 
 
 [Design Sprint](../base/designSprint/design_sprint.md)
@@ -15,6 +15,11 @@ In this second delivery we have evolved some documents foreseen for the first mi
 
 [Rich Picture](../base/requirements/preTraceability/RichPicture.md)
 
+## Third delivery
+
+[High Fidelity Prototype](../base/designSprint/prototype.md)
+
+<a href="https://www.youtube.com/watch?v=MTo3o3w-wN4">Video 02</a>
 
 ***
 ## Document Versioning
