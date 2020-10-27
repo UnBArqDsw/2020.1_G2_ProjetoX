@@ -77,7 +77,9 @@ At this stage, in addition to using the artifacts mentioned above, other artifac
 
 Finally, we validate our prototype with our possible users and collect their feedback for possible improvements in the prototype, as it has already been decided that this will be the implemented idea, we will only make the changes requested by users and we will version our prototype until it gets as close as possible to the idea that will be implemented, below we have a video of the meeting with our possible users:
 
-<a href="https://www.youtube.com/watch?v=kllmpNHHav4&feature=emb_title">Video Link</a>
+<a href="https://www.youtube.com/watch?v=kllmpNHHav4&feature=emb_title">Video Link 01</a>
+
+<a href="https://www.youtube.com/watch?v=MTo3o3w-wN4">Video Link 02</a>
 
 ### Adaptations
 
