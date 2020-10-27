@@ -48,7 +48,6 @@ All this is stating is that every subclass/derived class should be substitutable
 ![liskov](./images/liskov_substitution_principle-CreateUserAdapterDb.png)
 arquivo: [CreateUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/CreateUserAdapterDb.ts)
 
-/Users/gmanso/Desktop/UNB/DES/2020.1_G2_TCLDL_Mono_Repo/apps/2020.1_G2_TCLDL_Paper_Service/src/data/interactors/CreateUserAdapterDb.ts
 
 ### Interface Segregation Principle
 
@@ -78,15 +77,7 @@ arquivo: [RequestValidatorMiddleware.ts](https://github.com/UnBArqDsw/2020.1_G2_
 
 > Design pattern used to implement IoC. It allows the creation of dependent objects outside of a class and provides those objects to a class through different ways. Using DI, we move the creation and binding of the dependent objects outside of the class that depends on them.
 
-The Dependency Injection pattern involves 3 types of classes.
-
-- Client Class: The client class (dependent class) is a class which depends on the service class;
-
-- Service Class: The service class (dependency) is a class that provides service to the client class;
-
-Injector Class: The injector class injects the service class object into the client class;
-
-The following figure illustrates the relationship between these classes:
+The Dependency Injection can be found in our project in all the iteractors. One example can be seen below:
 
 ![dependency_injection](./images/dependency_injection-RequestValidatorMiddleware.png)
 arquivo: [RequestValidatorMiddleware.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/RequestValidatorMiddleware.ts)
