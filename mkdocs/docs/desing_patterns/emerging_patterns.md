@@ -24,6 +24,13 @@ These principles, when combined together, make it easy for a programmer to devel
 
 Let’s look at each principle individually to understand why S.O.L.I.D can help make us better developers.
 
+### Single-Responsibility Principle
+S.R.P for short - this principle states that:
+
+> A class should have one and only one reason to change, meaning that a class should have only one job.
+
+![single_responsibility](./images/single_responsibility_principle-VerifyIfUserAlreadyExistsMiddleware.png)
+
 ---
 ## References
 ---
