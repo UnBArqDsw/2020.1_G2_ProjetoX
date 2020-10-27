@@ -6,10 +6,11 @@ Figma is software for developing prototypes and creating designs that does not n
 
 The Protype is avaiable for navegation in:
 
- [Prototype version 1](https://www.figma.com/proto/eDPefFCFvVwSj13AD7RqVs/TLCDL?node-id=106%3A2&scaling=min-zoom)
+[Prototype version 1](https://www.figma.com/proto/eDPefFCFvVwSj13AD7RqVs/TLCDL?node-id=106%3A2&scaling=min-zoom)
 
 [Prototype version 2](https://www.figma.com/proto/H3Yaq99iQw5HVpdEaNoqAw/TLCDL?node-id=1%3A429&scaling=min-zoom)
 
+[Prototype version 3](https://www.figma.com/proto/H3Yaq99iQw5HVpdEaNoqAw/TLCDL?node-id=145%3A169&scaling=min-zoom)
 
 
 ## Prototype versioning
@@ -20,4 +21,5 @@ The Protype is avaiable for navegation in:
 |  09/08/2020| Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe | Start change password, sing up and benchmark | 0.2 |
 |  09/09/2020| Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe | Start admin and collaborator page, domain and user survey page | 0.3 |
 |  09/09/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe | Start admin and collaborator home, admin submission and review page | 0.4 |
-|  25/09/2020 | Lorrany Azevedo | Adding version 2 of the prototype | 0.5 |
+|  09/25/2020 | Lorrany Azevedo | Adding version 2 of the prototype | 0.5 |
+|  10/26/2020 | Gabriel Filipe | Adding version 3 of the prototype | 1.0 |
