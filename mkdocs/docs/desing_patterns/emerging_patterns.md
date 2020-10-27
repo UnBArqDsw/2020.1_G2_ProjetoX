@@ -59,6 +59,14 @@ This is an exemple of a simple interface that is extended by the class
 ![findUser](./images/interface_segregation_principle-FIndUserAdapterDb.png)
 arquivo: [FIndUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/FindUserAdapterDb.ts)
 
+### Dependency Inversion Principle
+
+The last, but definitely not the least states that:
+
+> Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+![dependency_inversion](./images/dependency_inversion_principle-RemoveUserAdapterDb.png)
+
 
 ---
 ## References
