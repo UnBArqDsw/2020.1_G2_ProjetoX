@@ -6,11 +6,11 @@ Figma is software for developing prototypes and creating designs that does not n
 
 The Protype is avaiable for navegation in:
 
-[Prototype version 1](https://www.figma.com/proto/eDPefFCFvVwSj13AD7RqVs/TLCDL?node-id=106%3A2&scaling=min-zoom)
+[Prototype version 3](https://www.figma.com/proto/H3Yaq99iQw5HVpdEaNoqAw/TLCDL?node-id=145%3A169&scaling=min-zoom)
 
 [Prototype version 2](https://www.figma.com/proto/H3Yaq99iQw5HVpdEaNoqAw/TLCDL?node-id=1%3A429&scaling=min-zoom)
 
-[Prototype version 3](https://www.figma.com/proto/H3Yaq99iQw5HVpdEaNoqAw/TLCDL?node-id=145%3A169&scaling=min-zoom)
+[Prototype version 1](https://www.figma.com/proto/eDPefFCFvVwSj13AD7RqVs/TLCDL?node-id=106%3A2&scaling=min-zoom)
 
 
 ## Prototype versioning
