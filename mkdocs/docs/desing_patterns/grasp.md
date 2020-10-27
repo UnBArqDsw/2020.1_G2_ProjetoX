@@ -24,7 +24,7 @@ As has already been said, creators are the classes responsible for instantiating
 In our project a example of Creators are the [factorys](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts).
 
 
-A code example is [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts) class whose specific purpose is to instantiate users. 
+A code example is [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts) class whose specific purpose is to instantiate SignUpController
 
  Code example:
 
@@ -36,7 +36,7 @@ A code example is [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_
 
 Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are. 
 
-In our project a example of Experts are the [FindBy's](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/infra/db/typeorm/repositories/role). The findBy is use for 
+In our project a example of Experts are the [FindBy's](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/infra/db/typeorm/repositories/FindRoleRepositoryContextAdapter.ts). The findBy is use for 
 specific consultation tasks.
 
 Code example:
