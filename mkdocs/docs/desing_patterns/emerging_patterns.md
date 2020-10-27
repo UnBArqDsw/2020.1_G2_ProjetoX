@@ -37,6 +37,14 @@ S.R.P for short - this principle states that:
 
 ![open_closed](./images/open_closed_principle-BadRequestError.png)
 
+### Liskov Substitution Principle
+
+> Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
+
+All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
+
+![liskov](./images/liskov_substitution_principle-CreateUserAdapterDb.png)
+
 ---
 ## References
 ---
