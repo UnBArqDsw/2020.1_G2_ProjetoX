@@ -88,10 +88,9 @@ The following figure illustrates the relationship between these classes:
 ## References
 ---
 
-- **[WebSite]** <a href="-">-</a>
+- **[WebSite]** <a href="https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design">S.O.L.I.D: The First 5 Principles of Object Oriented Design</a>
 
-- **[-]** -
-
+- **[WebSite]** <a href="https://www.tutorialsteacher.com/ioc/dependency-injection#:~:text=Dependency%20Injection%20(DI)%20is%20a,class%20that%20depends%20on%20them.">Dependency Injection</a>
 
 ---
 
