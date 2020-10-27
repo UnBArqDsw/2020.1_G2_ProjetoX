@@ -60,7 +60,8 @@ Singleton is a single instance of an object that is declared globally. This obje
 
 <span id="op"></span>
 ## **<a href="#bd">Object Pool</a>**
-
+A Object Pool is a interface or abstract class that has multiple objects that are 
+instantiated together. The Builder has not yet been used in the project, because of architectural standards, we keep objects as uncoupled as possible.
 
 ---
 ## References
