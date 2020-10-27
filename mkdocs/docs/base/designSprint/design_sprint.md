@@ -33,11 +33,11 @@ In the unpack stage, the group held a meeting where we developed our first artif
 In addition, still in the unpack stage, we produced the 5W2H, the mind map and our argument, by clicking on the links below it is possible to analyze all the documents mentioned above.
 
 
-[BrainStorm](../../base/requirements/elicitation/brainstorm.md)
+- [BrainStorm](../../base/requirements/elicitation/brainstorm.md)
 
-[5W2H](../../base/requirements/preTraceability/5w2h.md)
+- [5W2H](../../base/requirements/preTraceability/5w2h.md)
 
-[Mind Map](../../base/requirements/preTraceability/mindMap.md)
+- [Mind Map](../../base/requirements/preTraceability/mindMap.md)
 
 
 <span id="sk"></span>
@@ -46,10 +46,10 @@ In addition, still in the unpack stage, we produced the 5W2H, the mind map and o
 At this stage, the artifacts produced aim to give us greater clarity about what our product will be, clicking on the link below you have access to the documents produced at this stage:
 
 
-[Rich Picture](../../base/requirements/preTraceability/RichPicture.md)
+- [Rich Picture](../../base/requirements/preTraceability/RichPicture.md)
 
 
-[Story Board](../../base/requirements/elicitation/storyBoard.md)
+- [Story Board](../../base/requirements/elicitation/storyBoard.md)
 
 
 <span id="de"></span>
@@ -58,28 +58,26 @@ At this stage, the artifacts produced aim to give us greater clarity about what 
 At this stage it was necessary to decide everything that would be in the high-fidelity prototype so we used moscow prioritization and argumentation to do this:
 
 
-[Moscow](../../base/requirements/elicitation/moscow.md)
+- [Moscow](../../base/requirements/elicitation/moscow.md)
 
 
-[Argumentation](../../base/requirements/preTraceability/argumentation.md) 
+- [Argumentation](../../base/requirements/preTraceability/argumentation.md) 
 
 
 <span id="pr"></span>
 ### **<a href="#pr">PROTOTYPE</a>**
 
-At this stage, in addition to using the artifacts mentioned above, other artifacts that can be found in our base documentation, we developed our high-fidelity prototype:
+At this point, in addition to using the artifacts mentioned above, other artifacts that can be found in our base documentation is the high-fidelity prototype:
 
+- [Prototype](../../base/designSprint/prototype.md)
 
-[Prototype](../../base/designSprint/prototype.md)
+<span id="t"></span> **<a href="#t">PARTNER VALIDATION</a>**
 
-<span id="t"></span>
-### **<a href="#t">TEST</a>**
+Finally, we validated our prototype with our partners, and collected their feedbacks, for possible future improvements. The meetings were recorded and the links are available below. Check this out! 
 
-Finally, we validate our prototype with our possible users and collect their feedback for possible improvements in the prototype, as it has already been decided that this will be the implemented idea, we will only make the changes requested by users and we will version our prototype until it gets as close as possible to the idea that will be implemented, below we have a video of the meeting with our possible users:
+- <a href="https://www.youtube.com/watch?v=MTo3o3w-wN4">Video Link (Second meeting)</a>
 
-<a href="https://www.youtube.com/watch?v=kllmpNHHav4&feature=emb_title">Video Link 01</a>
-
-<a href="https://www.youtube.com/watch?v=MTo3o3w-wN4">Video Link 02</a>
+- <a href="https://www.youtube.com/watch?v=kllmpNHHav4&feature=emb_title">Video Link (First meeting)</a>
 
 ### Adaptations
 
@@ -96,5 +94,6 @@ In order for the team to reap the rewards and benefits of the sprint design meth
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
 | 17/09/2020 | Lorrany Azevedo | Creating the documents | 0.1 |
-| 17/09/2020 | Lorrany Azevedo | Adding reference | 0.1 |
-| 25/09/2020 | Mikhaelle Bueno | Fix links | 0.1 |
+| 17/09/2020 | Lorrany Azevedo | Adding reference | 0.2 |
+| 25/09/2020 | Mikhaelle Bueno | Fix links | 0.3 |
+| 26/09/2020 | Gabriel Filipe | Add new prototype video | 0.4 |
