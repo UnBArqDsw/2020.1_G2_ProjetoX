@@ -1,3 +1,22 @@
+# Emerging Pattern Desing
+
+Emerging design patterns are those associated with the latest platforms and technologies. In our project several of them were implemented and will be discussed in this section.
+
+### List:
+
+#### Back-end
+
+* **S.O.L.I.D**
+
+  - **S** - Single-responsiblity principle;
+  - **O** - Open-closed principle;
+  - **L** - Liskov substitution principle;
+  - **I** - Interface segregation principle;
+  - **D** - Dependency Inversion Principle;
+
+* **Dependency injection**
+
+---
 ## References
 ---
 
