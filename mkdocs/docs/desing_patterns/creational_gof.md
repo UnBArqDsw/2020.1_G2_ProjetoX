@@ -7,8 +7,9 @@
 - **Builder**: The Builder takes complex instances and divides their construction into parts.
 - **Prototype**: The client consumes a generalist class that is implemented in specific classes that contain the methods of the upper class.
 - **Singleton**: Singleton is a single instance of an object that is declared globally.
-- **Multiton**: A Multiton is a implemantation of many singletons.
-- **Object Pool**:
+- **Multiton**: A Multiton allows the creation of a limited number of instances and provides a static method for retrieving them.
+- **Object Pool**: A Object Pool is a interface or abstract class that has multiple objects that are 
+instantiated together.
 
 <span id="fm"></span>
 ## **<a href="#fm">Factory Method</a>**
@@ -55,9 +56,12 @@ Singleton is a single instance of an object that is declared globally. This obje
 
 <span id="ml"></span>
 ## **<a href="#bd">Multiton</a>**
+ A Multiton allows the creation of a limited number of instances and provides a static method for retrieving them. This object cannot be instantiated again or modified by other classes. In our project, we chose not to use this standard because it does not comply with architectural pattern.
 
 <span id="op"></span>
 ## **<a href="#bd">Object Pool</a>**
+
+
 ---
 ## References
 ---
