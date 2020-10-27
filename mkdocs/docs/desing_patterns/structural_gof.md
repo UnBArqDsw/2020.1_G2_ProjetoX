@@ -51,6 +51,8 @@ In our application the use of decorators was through TypeORM, which is an ORM (O
 
 "Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages." (<a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping" target="blank">Wikipedia</a>)
 
+In typeorm there is the use of the convergent pattern called Data Mapper, this pattern and its behavior are decorators. Data mappers have some characteristics such as being a record object that models information from the application and is passed to a repository that handles operations such as saving, among other features. This concept emerged through DDD (Domain Drive Design) architecture.
+
 
 
 ---

@@ -22,10 +22,6 @@ solving a particular problem.
 The strategy is a behavioral design pattern that allows us to define a family of algorithms, make each algorithm become a class and make the objects of those classes interchangeable. This pattern helps us to encapsulate decision-making algorithms at runtime, this means that instead of implementing an algorithm with all pre-defined decision-making, our code can receive instructions at runtime and from choose which strategy he will follow.
 
 
-
-File: <a href="" target="blank"></a>
-
-
 <span id="OB"></span>
 ### <a href="#OB">Objectives and problems solved</a>
 
@@ -47,7 +43,7 @@ For a visualization and better understanding of the user authentication flow, it
 
 Bearing in mind that each user has a role, at request time it is necessary to create a JWT for each user and the JWT will define which tasks that user will be able to perform. Thus, the strategy is the most suitable standard for solving this problem and that is why we chose it for this. 
 
-O modelo de dominío abaixo exemplifica a implementação do strategy para a funcionalidade de encontrar o repository pelo id e pelo tipo, para que a classe CreateUserDBFactory possa criar o adapter para a criação de um novo usuário no banco de dados.
+The domain model below exemplifies the implementation of the strategy for the functionality of finding the repository by id and type, so that the CreateUserDBFactory class can create the adapter for creating a new user in the database.
 
 ![Strategy Diagram](./images/StrategyDiagram.png)
 
