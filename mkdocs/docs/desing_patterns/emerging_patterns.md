@@ -108,3 +108,4 @@ arquivo: [RequestValidatorMiddleware.ts](https://github.com/UnBArqDsw/2020.1_G2_
 | 10/26/2020 | Gabriel Filipe, Guilherme Deusdará | Dependency Inversion principle | 0.8 |
 | 10/26/2020 | Gabriel Filipe, Guilherme Deusdará | Dependency injection | 0.9 |
 | 10/26/2020 | Gabriel Filipe, Guilherme Deusdará | References | 1.0 |
+| 10/26/2020 | Gabriel Filipe | Fix links | 1.1 |

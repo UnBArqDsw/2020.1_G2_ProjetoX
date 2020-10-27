@@ -22,4 +22,4 @@ The Protype is avaiable for navegation in:
 |  09/09/2020| Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe | Start admin and collaborator page, domain and user survey page | 0.3 |
 |  09/09/2020 | Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe | Start admin and collaborator home, admin submission and review page | 0.4 |
 |  09/25/2020 | Lorrany Azevedo | Adding version 2 of the prototype | 0.5 |
-|  10/26/2020 | Gabriel Filipe | Adding version 3 of the prototype | 1.0 |
+|  10/26/2020 | Gabriel Filipe, Guilherme Deusdará | Adding version 3 of the prototype | 1.0 |
