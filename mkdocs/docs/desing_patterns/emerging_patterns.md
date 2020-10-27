@@ -31,6 +31,12 @@ S.R.P for short - this principle states that:
 
 ![single_responsibility](./images/single_responsibility_principle-VerifyIfUserAlreadyExistsMiddleware.png)
 
+### Open-Closed Principle
+
+> Objects or entities should be open for extension, but closed for modification.
+
+![open_closed](./images/open_closed_principle-BadRequestError.png)
+
 ---
 ## References
 ---
