@@ -21,26 +21,34 @@ In our project we used several of the patterns mentioned above, below explain wh
 
 As has already been said, creators are the classes responsible for instantiating objects, instantiating objects can be a complicated task and creators are used when some factors occur, one of these factors is when aggregation between two classes occurs.
 
-In our project a example of creators are the interactors. The controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/src/domain/interactors/](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/domain/interactors)
+In our project a example of Creators are the [factorys](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts).
 
 
-A code example is [Createuser](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) that instantiates a user.
+A code example is [SignUpControllerFactory](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts) class whose specific purpose is to instantiate SignUpController
 
-![gifCreator](./images/interactorExample.jpg)
+ Code example:
+
+![SignUpControllerFactory](./images/factoryExample2.png)
+
 
 <span id="sp"></span>
 ## **<a href="#sp">Information Expert</a>**
 
-Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are.
+Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are. 
 
-The above example can also be considered a Information Expert pattern.
+In our project a example of Experts are the [FindBy's](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/infra/db/typeorm/repositories/FindRoleRepositoryContextAdapter.ts). The findBy is use for 
+specific consultation tasks.
+
+Code example:
+
+![findByExample](./images/findByExample.png)
 
 <span id="lc"></span>
 ## **<a href="#lc">Low Coupling</a>**
 
 As it has also been explained, the concept of low coupling is a very important concept when it comes to maintaining the quality of the software, it allows us greater manageability since the classes seek to be as independent as possible. Grasp patterns alone, when properly used, already reduce our coupling, but we can further decrease this coupling using the gof patterns that will be explained in the documents below.
 
-The hexagonal architecture of our application also allows for low coupling
+The hexagonal architecture of our application also allows for low coupling.
 
 <span id="hc"></span>
 ## **<a href="#hc">High Coeshion</a>**
@@ -50,9 +58,13 @@ The concept of high cohesion is directly related to the concept of low coupling,
 <span id="pl"></span>
 ## **<a href="#pl">Polymorphism</a>**
 
-The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class. In our code we have several cases of polymorphism but we will put just one example of implementation below.
+The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class.
 
-Put photo code example
+In our project a example of Polymorphism are the [MiddlewareFactories](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/server/factories/middlewares). All this classes implements MiddlewareFactory and use it to create difference things.
+
+Code example:
+
+![polymorphismExample](./images/polymorphismExample.png)
 
 <span id="cont"></span>
 ## **<a href="#cont">Controller</a>**
@@ -64,7 +76,7 @@ In our project the controllers can be found in: [2020.1_G2_TCLDL_Paper_Service/s
 
 A code example is [SignUpController](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts) 
 
-![gifController](./images/controllerExample.jpg)
+![gifController](./images/controllerExample.png)
 
 
 
@@ -78,7 +90,7 @@ In our project the middlewares can be found in: [2020.1_G2_TCLDL_Paper_Service/s
 
 A code example is [SignUpValidatorMiddleware](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/SignUpValidatorMiddleware.ts) 
 
-![midleware](./images/midlewareExample.jpg)
+![midleware](./images/midlewareExample.png)
 
 <span id="pf"></span>
 ## **<a href="#pf">Pure Fabrication</a>**
@@ -108,3 +120,4 @@ The concept of pure manufacturing is based on the idea of creating elements that
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará | Add indirection definition                                    | 0.7     |
 | 10/23/2020 | Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno        | Add pure fabrication definition                               | 0.8     |
 | 10/25/2020 | Mikhaelle Bueno       | Add gifs and images examples                        | 0.9     |
+| 10/26/2020 | Mikhaelle Bueno, Guilherme Deusdará       | Add gifs and images examples                        | 0.9     |
