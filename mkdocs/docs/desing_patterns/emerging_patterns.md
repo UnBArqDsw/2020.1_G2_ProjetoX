@@ -45,6 +45,21 @@ All this is stating is that every subclass/derived class should be substitutable
 
 ![liskov](./images/liskov_substitution_principle-CreateUserAdapterDb.png)
 
+### Interface Segregation Principle
+
+> A client should never be forced to implement an interface that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
+
+This pattern is implemented in all our back-end structure, and there is a lot of examples.
+
+![interface](./images/interface_segregation_principle-FindUserRepository.png)
+arquivo: [FindUserRepository.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/repositories/FindUserRepository.ts)
+
+This is an exemple of a simple interface that is extended by the class
+
+![findUser](./images/interface_segregation_principle-FIndUserAdapterDb.png)
+arquivo: [FIndUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/FindUserAdapterDb.ts)
+
+
 ---
 ## References
 ---
