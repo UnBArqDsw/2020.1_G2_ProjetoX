@@ -45,7 +45,7 @@ nav:
     - Design Patterns: 
         - GRASP: desing_patterns/grasp.md
         - Creational GOF's: desing_patterns/creational_gof.md
-        - Behaviors GOF's: desing_patterns/behavior_gof.md
+        - Behavioral GOF's: desing_patterns/behavioral_gof.md
         - Structural GOF's: desing_patterns/structural_gof.md
         - Emerging Design Patterns: desing_patterns/emerging_patterns.md
 

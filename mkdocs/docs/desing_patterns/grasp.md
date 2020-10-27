@@ -90,8 +90,6 @@ The concept of pure manufacturing is based on the idea of creating elements that
 ## References
 ---
 
-- **[WebSite]** <a href="https://www.uml-diagrams.org/package-diagrams-overview.html">UML site</a>
-
 - **[Moodle]** Serrano, Milene. Vídeo Aula : GRASP
 
 
