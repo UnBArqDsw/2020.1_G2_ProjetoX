@@ -60,8 +60,8 @@ arquivo: [FindUserRepository.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Pa
 
 This is an exemple of a simple interface that is extended by the class
 
-![findUser](./images/interface_segregation_principle-FindUserAdapterDb.png)
-arquivo: [FindUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/FindUserAdapterDb.ts)
+![findUser](./images/interface_segregation_principle-FindUserAdapterDb1.png)
+arquivo: [FindUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/FindUserAdapterDb.ts)
 
 
 ### Dependency Inversion Principle
