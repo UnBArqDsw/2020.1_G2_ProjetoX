@@ -30,12 +30,14 @@ S.R.P for short - this principle states that:
 > A class should have one and only one reason to change, meaning that a class should have only one job.
 
 ![single_responsibility](./images/single_responsibility_principle-VerifyIfUserAlreadyExistsMiddleware.png)
+arquivo: [VerifyIfUserAlreadyExistsMiddleware.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/VerifyIfUserAlreadyExistsMiddleware.ts)
 
 ### Open-Closed Principle
 
 > Objects or entities should be open for extension, but closed for modification.
 
 ![open_closed](./images/open_closed_principle-BadRequestError.png)
+arquivo: [BadRequestError.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/errors/BadRequestError.ts)
 
 ### Liskov Substitution Principle
 
@@ -44,6 +46,9 @@ S.R.P for short - this principle states that:
 All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
 ![liskov](./images/liskov_substitution_principle-CreateUserAdapterDb.png)
+arquivo: [CreateUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/CreateUserAdapterDb.ts)
+
+/Users/gmanso/Desktop/UNB/DES/2020.1_G2_TCLDL_Mono_Repo/apps/2020.1_G2_TCLDL_Paper_Service/src/data/interactors/CreateUserAdapterDb.ts
 
 ### Interface Segregation Principle
 
@@ -52,12 +57,12 @@ All this is stating is that every subclass/derived class should be substitutable
 This pattern is implemented in all our back-end structure, and there is a lot of examples.
 
 ![interface](./images/interface_segregation_principle-FindUserRepository.png)
-arquivo: [FindUserRepository.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/repositories/FindUserRepository.ts)
+arquivo: [FindUserRepository.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/repositories/user/FindUserRepository.ts)
 
 This is an exemple of a simple interface that is extended by the class
 
-![findUser](./images/interface_segregation_principle-FIndUserAdapterDb.png)
-arquivo: [FIndUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/FindUserAdapterDb.ts)
+![findUser](./images/interface_segregation_principle-FindUserAdapterDb.png)
+arquivo: [FindUserAdapterDb.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/FindUserAdapterDb.ts)
 
 ### Dependency Inversion Principle
 
@@ -66,6 +71,8 @@ The last, but definitely not the least states that:
 > Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
 ![dependency_inversion](./images/dependency_inversion_principle-RemoveUserAdapterDb.png)
+arquivo: [RequestValidatorMiddleware.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/data/interactors/user/RemoveUserAdapterDb.ts)
+
 
 ## Dependency Injection
 
@@ -82,6 +89,7 @@ Injector Class: The injector class injects the service class object into the cli
 The following figure illustrates the relationship between these classes:
 
 ![dependency_injection](./images/dependency_injection-RequestValidatorMiddleware.png)
+arquivo: [RequestValidatorMiddleware.ts](https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/RequestValidatorMiddleware.ts)
 
 
 ---
