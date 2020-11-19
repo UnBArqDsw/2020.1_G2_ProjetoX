@@ -1,8 +1,12 @@
 # Software Architecture Document
 
+This document aims to register the architectural structure of the TCLDL website, developed as a final product of the ADS (Architecture and Software Design) discipline, on the Gama campus, at the University of Brasília.
+ 
+The Software Architecture Document demonstrates the set of views that intend to cover the technical and structural aspects related to the development and implementation of the TCLDL website.
 
 
 ## 1. Introduction
+This architecture document has the function of specifying and documenting relevant architectural decisions in the production and implementation of the TCLDL website describing aspects of the system in a clear, structured and objective manner.
 
 ### 1.1	Purpose
 
