@@ -57,9 +57,20 @@ Express was used to build the back end of the web application and was chosen bec
 
 
 ## 3. Use-Case View
+The Use-Case Diagram describes the main features that the system intends to have. It is built of actors, who represent the real users of the system and the functionality (present in balloons) of the proposed application.
+ 
+Use-case diagrams are used to describe the Use-Case View because it offers a high-level model in relation to functionality
+ 
+During the development of the project, versions of the diagram have already been created, which can be seen in the Use-Case Diagram.
+ 
+However, the most current version can be seen below:
 
 
 ## 4. Logical View
+
+The logical view is basically a view of the project model, visualized through packages, classes and interaction diagrams.
+ 
+The Package Diagram are normally used in this view. It is defined by the UML and describes the packages or pieces of the system divided into logical groupings showing the dependencies between them. This diagram is widely used to illustrate the architecture of a system showing the grouping of its classes.
 
 
 ### 4.1 Front-end Logical View
