@@ -43,11 +43,14 @@ The **NextJs** is a react framework that use javascript language and is componen
    
 **NextJs** was chosen to be used in the scope of the discipline because almost all members of the team had already had contact with React and the JavaScript language which would facilitate the site development process. In addition, the framework offers easy installation, quick configuration, easy learning, fast performance and several features that facilitate the development process, such as automatic route mapping.
 #### 2.1.2 Back-End
+**Express** Express is a framework for web applications in Node.js, which uses javascript and has support for typescript. Small and flexible, it contains a robust set of features for web and mobile applications.
+ 
+Express was used to build the back end of the web application and was chosen because it is not a framework with a cast architecture, and can be shaped according to the needs of the discipline. In addition, it demonstrates all its value in its choice when it comes to real-time services, and also, for its wide community that actively maintain the framework, in addition to its simplicity.
 
 
 
 #### 2.1.3 Data Base
-
+- **Postgrees**
 
 
 ###  2.2 Architectural Goals and Constraints
