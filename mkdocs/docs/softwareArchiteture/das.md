@@ -10,16 +10,28 @@ This architecture document has the function of specifying and documenting releva
 
 ### 1.1	Purpose
 
+This document applies to the development process of the TLDL website, an application developed in the discipline Architecture and Software Design, at the University of Brasília, in order to provide articles and data to be obtained quickly and easily.
+ 
+
+
 
 ### 1.2	Scope
 
-
+In this project, using the RUP (Rational Unified Process), we start with a typical set of views called "4 + 1 view model".
+The different views are listed below and will be addressed in the scope of this document.
+ 
+- Use-Case View
+- Logical View
+- Implementation View
+- Process View
+- Deployment Vision
+- Data View
 
 
 ### 1.3	Definitions, Acronyms, and Abbreviations
-
+- RUP (Rational Unified Process)
 ### 1.4 References	
-
+https://nextjs.org/
 ### 1.5	Overview
 
 ## 2. Architectural Representation
@@ -59,3 +71,4 @@ This architecture document has the function of specifying and documenting releva
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
 | 11/18/2020 | Mikhaelle Bueno | Creating the document | 0.1 |
+| 11/19/2020 | Mikhaelle Bueno | Adding introdution | 0.1 |
