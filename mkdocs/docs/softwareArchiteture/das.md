@@ -38,6 +38,10 @@ https://nextjs.org/
 ### 2.1 Tecnologies
 #### 2.1.1 Front-End 
 
+ 
+The **NextJs** is a react framework that use javascript language and is component oriented. It has some feature like: hybrid static & server rendering, typeScript support, smart bundling, route pre-fetching, and more.
+   
+**NextJs** was chosen to be used in the scope of the discipline because almost all members of the team had already had contact with React and the JavaScript language which would facilitate the site development process. In addition, the framework offers easy installation, quick configuration, easy learning, fast performance and several features that facilitate the development process, such as automatic route mapping.
 #### 2.1.2 Back-End
 
 
