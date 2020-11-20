@@ -130,7 +130,7 @@ Autora: Mikhaelle Bueno.
 
 ## 10. Implantation View
 
-# 11. Architectural Pattern
+## 11. Architectural Pattern
 
   Hexagonal/DDS
 
@@ -143,7 +143,7 @@ The choice of this architecture was due to the fact that the group has a plan to
 
 In addition we also have some artifacts that were produced and that are highly related to the quality of a software, considering that in order to build quality software it is necessary to take into account not only the functional requirements specified by the customer, but also non-functional requirements.
 
-### NFR
+### 12.1 NFR
 
 Nfr is intended to track non-functional requirements, our first version of nfr was made on the first delivery, this version is available at the link below:
 
@@ -155,10 +155,15 @@ Bellow we have a new version of NFR.
 [New NFR](./images/NFR.png).
 
 
+---
+## References
+---
 
+- **[Moodle]** Serrano, Milene. Vídeo Aula : DAS
 
-
+---
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
 | 11/18/2020 | Mikhaelle Bueno | Creating the document | 0.1 |
-| 11/19/2020 | Mikhaelle Bueno | Adding introdution | 0.1 |
+| 11/19/2020 | Mikhaelle Bueno | Adding introdution | 0.2 |
+| 11/20/2020 | Lorrany Azevedo | Adding quality and nfr documents | 0.3 |
