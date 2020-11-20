@@ -39,6 +39,9 @@ https://expressjs.com/
 
 ### 1.5	Overview
 
+For the FrontEnd a component architeture is used with NextJs and in the BackEnd hexagonal architeture is used with Express. More about this is described in the next sections
+
+
 ## 2. Architectural Representation
 
 
@@ -67,7 +70,21 @@ The use of PostgreSQL was based on its robustness, as it is one of the most used
 
 
 ###  2.2 Architectural Goals and Constraints
+**Goals**
+|Requirements | |
+|------|------|
+|Scalability | The application must be scalable |
+| Security | The application must safely handle users' sensitive data |
+| Continous Integration | The application must have continous integration|
 
+**Constrains**
+
+|Constrains | |
+|------|------|
+| Connectivity | Internet connection is required|
+| Language | The application will be developed in English|
+| Team | The team has 6 people|
+| Deadline | The proposed scope must be completed by the end of the course|
 
 ## 3. Use-Case View
 The Use-Case Diagram describes the main features that the system intends to have. It is built of actors, who represent the real users of the system and the functionality (present in balloons) of the proposed application.
@@ -90,9 +107,11 @@ The most updated version of it can be seen below, and its traceability can be fo
 
 ### 4.1 Front-end Logical View
 ![Package Diagram](./images/packageDiagramFront.png).
+Autora: Mikhaelle Bueno.
 
 ### 4.2 Back-end Logical View
 ![Package Diagram](./images/packageDiagramBack.png).
+Autora: Mikhaelle Bueno.
 
 ## 5. Process View
 
