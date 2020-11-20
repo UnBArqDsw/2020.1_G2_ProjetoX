@@ -26,6 +26,7 @@ The different views are listed below and will be addressed in the scope of this 
 - Process View
 - Deployment Vision
 - Data View
+- Implantation View
 
 
 ### 1.3	Definitions, Acronyms, and Abbreviations
@@ -127,7 +128,25 @@ Autora: Mikhaelle Bueno.
 
 ## 9. Size and Performance
 
-## 10. Quality
+## 10. Implantation View
+
+# 11. Architectural Pattern
+
+  Hexagonal/DDS
+
+
+## 12. Quality
+
+Ensuring quality, the chosen architecture model (Hexagonal) helps us to maintain the scalable application, as this architecture is designed precisely so that large applications remain cohesive with the creation of service layers according to their responsibilities. Therefore, each layer / service is implemented independently, which in line with design standards and good programming practices helps us to keep very large software healthy.
+
+The choice of this architecture was due to the fact that the group has a plan to make the project expand after the end of the story and we believe that it has a great potential to grow and become a robust and complex project.
+
+In addition we also have some artifacts that were produced and that are highly related to the quality of a software, considering that in order to build quality software it is necessary to take into account not only the functional requirements specified by the customer, but also non-functional requirements.
+
+### NFR
+
+O nfr 
+
 
 | Date | Author(s) | Descrição | Versão |
 |------|-------|-----------|--------|
