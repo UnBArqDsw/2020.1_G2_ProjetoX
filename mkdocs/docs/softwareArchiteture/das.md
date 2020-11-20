@@ -89,6 +89,7 @@ The Package Diagram are normally used in this view. It is defined by the UML and
 The most updated version of it can be seen below, and its traceability can be followed in the [Package Diagram](../traditionalModeling/staticDiagrams/packageDiagram.md).
 
 ### 4.1 Front-end Logical View
+![Package Diagram](./images/packageDiagramFront.png).
 
 ### 4.2 Back-end Logical View
 
