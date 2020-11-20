@@ -130,6 +130,10 @@ Autora: Mikhaelle Bueno.
 
 ## 10. Implantation View
 
+The implantation diagram is a structural UML diagram that seeks to describe the application system, it represents the physical distribution of the system through hardware nodes, components and dependencies.
+
+In our project we use Docker to create application containers and run them individually, so the containers are our representation of us. We also use Docker-Compose to integrate application containers and upload them all at once. Below is a diagram of the TCLDL implementation.
+
 ## 11. Architectural Pattern
 
   Hexagonal/DDS
@@ -160,6 +164,7 @@ Bellow we have a new version of NFR.
 ---
 
 - **[Moodle]** Serrano, Milene. Vídeo Aula : DAS
+- **[WebSite]** <a href="http://www.deinf.ufma.br/~geraldo/dob/13.Componentes_Implantacao.pdf">Componentes_Implantação</a>
 
 ---
 | Date | Author(s) | Descrição | Versão |
