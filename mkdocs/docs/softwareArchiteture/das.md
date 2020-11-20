@@ -71,6 +71,7 @@ The use of PostgreSQL was based on its robustness, as it is one of the most used
 
 ###  2.2 Architectural Goals and Constraints
 **Goals**
+
 |Requirements | |
 |------|------|
 |Scalability | The application must be scalable |
