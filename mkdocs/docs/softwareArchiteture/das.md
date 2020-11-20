@@ -145,7 +145,12 @@ In addition we also have some artifacts that were produced and that are highly r
 
 ### NFR
 
-O nfr 
+Nfr is intended to track non-functional requirements, our first version of nfr was made on the first delivery, this version is available at the link below:
+
+
+[First NFR](../base/requirements/modeling/NFR-framework.md).
+
+
 
 
 | Date | Author(s) | Descrição | Versão |
