@@ -150,6 +150,11 @@ Nfr is intended to track non-functional requirements, our first version of nfr w
 
 [First NFR](../base/requirements/modeling/NFR-framework.md).
 
+Bellow we have a new version of NFR. 
+
+[New NFR](./images/NFR.png).
+
+
 
 
 
