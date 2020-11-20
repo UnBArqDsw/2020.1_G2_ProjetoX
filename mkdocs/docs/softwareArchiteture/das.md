@@ -92,14 +92,21 @@ The most updated version of it can be seen below, and its traceability can be fo
 ![Package Diagram](./images/packageDiagramFront.png).
 
 ### 4.2 Back-end Logical View
+![Package Diagram](./images/packageDiagramBack.png).
 
 ## 5. Process View
+
 ## 6. Deployment View
+
 ## 7. Implementation View
+
 ### 7.1	Overview
 ### 7.2	Layers
+
 ## 8. Data View (optional)
+
 ## 9. Size and Performance
+
 ## 10. Quality
 
 | Date | Author(s) | Descrição | Versão |
