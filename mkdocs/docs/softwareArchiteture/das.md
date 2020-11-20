@@ -74,10 +74,11 @@ The Use-Case Diagram describes the main features that the system intends to have
  
 Use-case diagrams are used to describe the Use-Case View because it offers a high-level model in relation to functionality
  
-During the development of the project, versions of the diagram have already been created, which can be seen in the Use-Case Diagram.
+During the development of the project, versions of the diagram have already been created, which can be seen in the [Use-Case Diagram](../traditionalModeling/dynamicDiagrams/userCase.md).
  
 However, the most current version can be seen below:
 
+![Use-Case Diagram](../traditionalModeling/dynamicDiagrams/images/user_case_v2.png).
 
 ## 4. Logical View
 
@@ -85,6 +86,7 @@ The logical view is basically a view of the project model, visualized through pa
  
 The Package Diagram are normally used in this view. It is defined by the UML and describes the packages or pieces of the system divided into logical groupings showing the dependencies between them. This diagram is widely used to illustrate the architecture of a system showing the grouping of its classes.
 
+The most updated version of it can be seen below, and its traceability can be followed in the [Package Diagram](../traditionalModeling/staticDiagrams/packageDiagram.md).
 
 ### 4.1 Front-end Logical View
 

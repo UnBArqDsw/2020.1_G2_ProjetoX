@@ -38,6 +38,7 @@ nav:
             - Communication Diagrams: traditionalModeling/dynamicDiagrams/communicationDiagram.md
             - Sequence Diagrams: traditionalModeling/dynamicDiagrams/sequenceDiagram.md
             - State Diagrams: traditionalModeling/dynamicDiagrams/stateDiagram.md
+            - User Case Diagrams: traditionalModeling/dynamicDiagrams/userCase.md
         - Static Diagrams:
             - Class Diagrams: traditionalModeling/staticDiagrams/classDiagram.md
             - Component Diagrams: traditionalModeling/staticDiagrams/componentDiagram.md
@@ -49,7 +50,8 @@ nav:
         - Structural GOF's: desing_patterns/structural_gof.md
         - Emerging Design Patterns: desing_patterns/emerging_patterns.md
         - Tests and Continuous Integration: desing_patterns/tests.md
-
+    - Software Architeture:
+        - DAS: softwareArchiteture/das.md
     - Extra initiatives: extra_initiatives/extra_initiatives.md
 
 
