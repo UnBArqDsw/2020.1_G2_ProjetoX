@@ -134,6 +134,12 @@ The implantation diagram is a structural UML diagram that seeks to describe the 
 
 In our project we use Docker to create application containers and run them individually, so the containers are our representation of us. We also use Docker-Compose to integrate application containers and upload them all at once. Below is a diagram of the TCLDL implementation.
 
+![Implatation](./images/implantation.png).
+
+Currently, due to the great demand for work, we were unable to implement the gateway, so the client's requests are hitting the paper service, but it is an important part of the application and will be implemented in the future.
+
+Author: **Lorrany Azevedo**
+
 ## 11. Architectural Pattern
 
   Hexagonal/DDS
@@ -147,6 +153,7 @@ The choice of this architecture was due to the fact that the group has a plan to
 
 In addition we also have some artifacts that were produced and that are highly related to the quality of a software, considering that in order to build quality software it is necessary to take into account not only the functional requirements specified by the customer, but also non-functional requirements.
 
+
 ### 12.1 NFR
 
 Nfr is intended to track non-functional requirements, our first version of nfr was made on the first delivery, this version is available at the link below:
@@ -156,8 +163,9 @@ Nfr is intended to track non-functional requirements, our first version of nfr w
 
 Bellow we have a new version of NFR. 
 
-[New NFR](./images/NFR.png).
+[New NFR](./images/NFR.png). 
 
+Author: **Lorrany Azevedo**
 
 ---
 ## References
@@ -172,3 +180,4 @@ Bellow we have a new version of NFR.
 | 11/18/2020 | Mikhaelle Bueno | Creating the document | 0.1 |
 | 11/19/2020 | Mikhaelle Bueno | Adding introdution | 0.2 |
 | 11/20/2020 | Lorrany Azevedo | Adding quality and nfr documents | 0.3 |
+| 11/20/2020 | Lorrany Azevedo | Adding implantation description and diagram | 0.4 |

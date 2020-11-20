@@ -13,6 +13,8 @@ In our project we did not create any specific framework or library for TCLDL, bu
 - [Frontend framework - Next.Js](./das.md).
 - [Backend framework - Express](./das.md).
 
+Author: **Lorrany Azevedo**
+
 # Components
 
 Reuse through components is widely used and in our code it was used both on the backend and on the frontend. Some component diagrams have already been made and covered in the delivery of [Traditional Modeling - Component Diagrams](../traditionalModeling/staticDiagrams/componentDiagram.md), clicking on the link below you can see all previous versions of these diagrams.
@@ -23,6 +25,8 @@ Reuse through components is widely used and in our code it was used both on the 
 In addition, some new components were created to meet some needs of the frontend and reuse code, since these components are common to several pages of the site, below we have a diagram for the new components.
 
 ![New Components](./images/ComponentDiagramFront.png)
+
+Author: **Lorrany Azevedo**
 
 ---
 ## References
