@@ -32,9 +32,18 @@ The different views are listed below and will be addressed in the scope of this 
 - RUP (Rational Unified Process)
 ### 1.4 References	
 https://nextjs.org/
+
+https://www.postgresql.org/
+
+https://expressjs.com/
+
 ### 1.5	Overview
 
 ## 2. Architectural Representation
+
+
+Model of representation of the implemented services and the interactions established between those services, as well as the nature of these interactions.
+
 ### 2.1 Tecnologies
 #### 2.1.1 Front-End 
 
@@ -50,7 +59,11 @@ Express was used to build the back end of the web application and was chosen bec
 
 
 #### 2.1.3 Data Base
-- **Postgrees**
+**PostgreSQL** is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+
+
+The use of PostgreSQL was based on its robustness, as it is one of the most used banks in the world, and one of the most common in cloud services.
+
 
 
 ###  2.2 Architectural Goals and Constraints
