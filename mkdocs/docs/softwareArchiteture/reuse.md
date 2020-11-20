@@ -15,7 +15,7 @@ In our project we did not create any specific framework or library for TCLDL, bu
 
 # Components
 
-Reuse through components is widely used and in our code it was used both on the backend and on the frontend. Some component diagrams have already been made and covered in the delivery of [Traditional Modeling - Component Diagrams](../traditionalModeling/staticDiagrams/componentDiagram/), clicking on the link below you can see all previous versions of these diagrams.
+Reuse through components is widely used and in our code it was used both on the backend and on the frontend. Some component diagrams have already been made and covered in the delivery of [Traditional Modeling - Component Diagrams](../traditionalModeling/staticDiagrams/componentDiagram.md), clicking on the link below you can see all previous versions of these diagrams.
 
 - [Frontend Componets Diagram](../traditionalModeling/staticDiagrams/images/component_diagram02.png)
 - [Backend Componets Diagram](../traditionalModeling/staticDiagrams/images/back_component_diagram2.png)
