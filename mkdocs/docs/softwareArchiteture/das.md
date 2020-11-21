@@ -163,7 +163,6 @@ Author: **Lorrany Azevedo**
 
   Hexagonal/DDS
 
-
 ## 11. Quality
 
 Ensuring quality, the chosen architecture model (Hexagonal) helps us to maintain the scalable application, as this architecture is designed precisely so that large applications remain cohesive with the creation of service layers according to their responsibilities. Therefore, each layer / service is implemented independently, which in line with design standards and good programming practices helps us to keep very large software healthy.
