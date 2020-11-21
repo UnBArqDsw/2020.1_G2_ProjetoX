@@ -141,7 +141,20 @@ Author: **Gabriel Filipe**
 ## 6. Implementation View
 
 ### 6.1	Overview
-### 6.2	Layers
+
+#### 6.1.1 CreateUserAdapterDbFactory
+
+![CreateUserAdaoterDbFactory](./images/CreateUserAdapterDbFactory.png)
+***Open image in other tab to see more detailed***
+Author: **Ygor Galeno**
+
+#### 6.1.2 CreateUserControllerFactory
+![CreateUserControllerFactory](./images/CreateUserControllerFactory.png)
+Author: **Ygor Galeno**
+
+#### 6.1.3 AuthMiddlewareFactory
+![AuthMiddlewareFactory](./images/AuthMiddlewareFactory.png)
+Author: **Ygor Galeno**
 
 ## 7. Data View (optional)
 
@@ -161,7 +174,8 @@ Author: **Lorrany Azevedo**
 
 ## 10. Architectural Pattern
 
-  Hexagonal/DDS
+Hexagonal architecture is an architecture divided into layers, due to this division, the hexagonal architecture promotes clean and decoupled code, facilitating the development of big systems.
+![Hexagonal/DDS](./images/ArcHex.png)
 
 ## 11. Quality
 
@@ -203,3 +217,4 @@ Author: **Lorrany Azevedo**
 | 11/20/2020 | Gabriel Filipe | Adding visitor's procces diagram v1 | 0.6 |
 | 11/20/2020 | Guilherme Deusdara | Adding collaborator's procces diagram | 0.7 |
 | 11/20/2020 | Gabriel Filipe | Adding admin's procces diagram | 0.8 |
+| 11/20/2020 | Ygor Galeno | Adding implementation view | 0.9 |
