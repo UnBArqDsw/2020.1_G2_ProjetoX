@@ -122,7 +122,17 @@ Autora: Mikhaelle Bueno.
 ## 7. Implementation View
 
 ### 7.1	Overview
-### 7.2	Layers
+
+#### 7.1.1 CreateUserAdapterDbFactory
+
+![CreateUserAdaoterDbFactory](./images/CreateUserAdapterDbFactory.png)
+
+Open image in other tab to see more detailed
+#### 7.1.2 CreateUserControllerFactory
+![CreateUserControllerFactory](./images/CreateUserControllerFactory.png)
+
+#### 7.1.3 AuthMiddlewareFactory
+![AuthMiddlewareFactory](./images/AuthMiddlewareFactory.png)
 
 ## 8. Data View (optional)
 
@@ -142,7 +152,8 @@ Author: **Lorrany Azevedo**
 
 ## 11. Architectural Pattern
 
-  Hexagonal/DDS
+Hexagonal architecture is an architecture divided into layers, due to this division, the hexagonal architecture promotes clean and decoupled code, facilitating the development of big systems.
+![Hexagonal/DDS](./images/ArcHex.png)
 
 
 ## 12. Quality
