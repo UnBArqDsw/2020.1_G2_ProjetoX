@@ -117,6 +117,9 @@ Author: **Mikhaelle Bueno**
 
 ## 5. Process View
 
+Give details how operations are carried out, what messages are sent and when. Capture the process view of an architecture and provide a
+dynamic view of behavior.
+
 ### 5.1 Visitor - Process View
 
 ![Process Diagram - Visitor v1](./images/ProcessViewVisitor-2.png).
@@ -135,16 +138,16 @@ Author: **Guilherme Deusdara**
 ![Process Diagram - Admin](./images/ProcessViewAdmin.png).
 Author: **Gabriel Filipe**
 
-## 7. Implementation View
+## 6. Implementation View
 
-### 7.1	Overview
-### 7.2	Layers
+### 6.1	Overview
+### 6.2	Layers
 
-## 8. Data View (optional)
+## 7. Data View (optional)
 
-## 9. Size and Performance
+## 8. Size and Performance
 
-## 10. Implantation View
+## 9. Implantation View
 
 The implantation diagram is a structural UML diagram that seeks to describe the application system, it represents the physical distribution of the system through hardware nodes, components and dependencies.
 
@@ -156,12 +159,12 @@ Currently, due to the great demand for work, we were unable to implement the gat
 
 Author: **Lorrany Azevedo**
 
-## 11. Architectural Pattern
+## 10. Architectural Pattern
 
   Hexagonal/DDS
 
 
-## 12. Quality
+## 11. Quality
 
 Ensuring quality, the chosen architecture model (Hexagonal) helps us to maintain the scalable application, as this architecture is designed precisely so that large applications remain cohesive with the creation of service layers according to their responsibilities. Therefore, each layer / service is implemented independently, which in line with design standards and good programming practices helps us to keep very large software healthy.
 
