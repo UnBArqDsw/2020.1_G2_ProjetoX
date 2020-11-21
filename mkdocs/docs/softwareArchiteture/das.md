@@ -109,26 +109,45 @@ The most updated version of it can be seen below, and its traceability can be fo
 
 ### 4.1 Front-end Logical View
 ![Package Diagram](./images/packageDiagramFront.png).
-Autora: Mikhaelle Bueno.
+Author: **Mikhaelle Bueno**
 
 ### 4.2 Back-end Logical View
 ![Package Diagram](./images/packageDiagramBack.png).
-Autora: Mikhaelle Bueno.
+Author: **Mikhaelle Bueno**
 
 ## 5. Process View
 
-## 6. Deployment View
+Give details how operations are carried out, what messages are sent and when. Capture the process view of an architecture and provide a
+dynamic view of behavior.
 
-## 7. Implementation View
+### 5.1 Visitor - Process View
 
-### 7.1	Overview
-### 7.2	Layers
+![Process Diagram - Visitor v1](./images/ProcessViewVisitor-2.png).
+Author: **Gabriel Filipe**
 
-## 8. Data View (optional)
+![Process Diagram - Visitor v0](./images/ProcessViewVisitor-1.png).
+Author: **Guilherme Deusdara**
 
-## 9. Size and Performance
+### 5.2 Collaborator - Process View
 
-## 10. Implantation View
+![Process Diagram - Collaborator](./images/ProcessViewCollaborator.png).
+Author: **Guilherme Deusdara**
+
+### 5.3 Admin - Process View
+
+![Process Diagram - Admin](./images/ProcessViewAdmin.png).
+Author: **Gabriel Filipe**
+
+## 6. Implementation View
+
+### 6.1	Overview
+### 6.2	Layers
+
+## 7. Data View (optional)
+
+## 8. Size and Performance
+
+## 9. Implantation View
 
 The implantation diagram is a structural UML diagram that seeks to describe the application system, it represents the physical distribution of the system through hardware nodes, components and dependencies.
 
@@ -140,12 +159,11 @@ Currently, due to the great demand for work, we were unable to implement the gat
 
 Author: **Lorrany Azevedo**
 
-## 11. Architectural Pattern
+## 10. Architectural Pattern
 
   Hexagonal/DDS
 
-
-## 12. Quality
+## 11. Quality
 
 Ensuring quality, the chosen architecture model (Hexagonal) helps us to maintain the scalable application, as this architecture is designed precisely so that large applications remain cohesive with the creation of service layers according to their responsibilities. Therefore, each layer / service is implemented independently, which in line with design standards and good programming practices helps us to keep very large software healthy.
 
@@ -181,3 +199,7 @@ Author: **Lorrany Azevedo**
 | 11/19/2020 | Mikhaelle Bueno | Adding introdution | 0.2 |
 | 11/20/2020 | Lorrany Azevedo | Adding quality and nfr documents | 0.3 |
 | 11/20/2020 | Lorrany Azevedo | Adding implantation description and diagram | 0.4 |
+| 11/20/2020 | Guilherme Deusdara | Adding visitor's procces diagram | 0.5 |
+| 11/20/2020 | Gabriel Filipe | Adding visitor's procces diagram v1 | 0.6 |
+| 11/20/2020 | Guilherme Deusdara | Adding collaborator's procces diagram | 0.7 |
+| 11/20/2020 | Gabriel Filipe | Adding admin's procces diagram | 0.8 |
