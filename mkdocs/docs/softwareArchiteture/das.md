@@ -130,6 +130,11 @@ Author: **Guilherme Deusdara**
 ![Process Diagram - Collaborator](./images/ProcessViewCollaborator.png).
 Author: **Guilherme Deusdara**
 
+### 5.3 Admin - Process View
+
+![Process Diagram - Admin](./images/ProcessViewAdmin.png).
+Author: **Gabriel Filipe**
+
 ## 7. Implementation View
 
 ### 7.1	Overview
@@ -195,4 +200,4 @@ Author: **Lorrany Azevedo**
 | 11/20/2020 | Guilherme Deusdara | Adding visitor's procces diagram | 0.5 |
 | 11/20/2020 | Gabriel Filipe | Adding visitor's procces diagram v1 | 0.6 |
 | 11/20/2020 | Guilherme Deusdara | Adding collaborator's procces diagram | 0.7 |
-
+| 11/20/2020 | Gabriel Filipe | Adding admin's procces diagram | 0.8 |
