@@ -88,6 +88,8 @@ The use of PostgreSQL was based on its robustness, as it is one of the most used
 | Team | The team has 6 people|
 | Deadline | The proposed scope must be completed by the end of the course|
 
+Author: **Mikhaelle Bueno**
+
 ## 3. Use-Case View
 The Use-Case Diagram describes the main features that the system intends to have. It is built of actors, who represent the real users of the system and the functionality (present in balloons) of the proposed application.
  
@@ -98,6 +100,7 @@ During the development of the project, versions of the diagram have already been
 However, the most current version can be seen below:
 
 ![Use-Case Diagram](../traditionalModeling/dynamicDiagrams/images/user_case_v2.png).
+Author: **Gabriel Filipe**
 
 ## 4. Logical View
 
@@ -122,26 +125,19 @@ dynamic view of behavior.
 
 ### 5.1 Visitor - Process View
 
-Version 2
+[Version 2]
 ![Process Diagram - Visitor v1](./images/ProcessViewVisitor-2.png).
 Author: **Gabriel Filipe**
 
-Version 1
+[Version 1]
 ![Process Diagram - Visitor v0](./images/ProcessViewVisitor-1.png).
 Author: **Guilherme Deusdara**
 
 ### 5.2 Collaborator - Process View
-The under diagram show using a simple representation the database use.
-![Package Diagram](./images/db.png).
-
-
-## 9. Size and Performance
-
 ![Process Diagram - Collaborator](./images/ProcessViewCollaborator.png).
 Author: **Guilherme Deusdara**
 
 ### 5.3 Admin - Process View
-
 ![Process Diagram - Admin](./images/ProcessViewAdmin.png).
 Author: **Gabriel Filipe**
 
@@ -164,7 +160,7 @@ Author: **Ygor Galeno**
 ![AuthMiddlewareFactory](./images/AuthMiddlewareFactory.png)
 Author: **Ygor Galeno**
 
-## 9. Implantation View
+## 7. Implantation View
 
 The implantation diagram is a structural UML diagram that seeks to describe the application system, it represents the physical distribution of the system through hardware nodes, components and dependencies.
 
@@ -176,12 +172,12 @@ Currently, due to the great demand for work, we were unable to implement the gat
 
 Author: **Lorrany Azevedo**
 
-## 10. Architectural Pattern
+## 8. Architectural Pattern
 
 Hexagonal architecture is an architecture divided into layers, due to this division, the hexagonal architecture promotes clean and decoupled code, facilitating the development of big systems.
 ![Hexagonal/DDS](./images/ArcHex.png)
 
-## 11. Quality
+## 9. Quality
 
 Ensuring quality, the chosen architecture model (Hexagonal) helps us to maintain the scalable application, as this architecture is designed precisely so that large applications remain cohesive with the creation of service layers according to their responsibilities. Therefore, each layer / service is implemented independently, which in line with design standards and good programming practices helps us to keep very large software healthy.
 
@@ -190,7 +186,7 @@ The choice of this architecture was due to the fact that the group has a plan to
 In addition we also have some artifacts that were produced and that are highly related to the quality of a software, considering that in order to build quality software it is necessary to take into account not only the functional requirements specified by the customer, but also non-functional requirements.
 
 
-### 12.1 NFR
+### 10 NFR
 
 Nfr is intended to track non-functional requirements, our first version of nfr was made on the first delivery, this version is available at the link below:
 
@@ -222,3 +218,4 @@ Author: **Lorrany Azevedo**
 | 11/20/2020 | Guilherme Deusdara | Adding collaborator's procces diagram | 0.7 |
 | 11/20/2020 | Gabriel Filipe | Adding admin's procces diagram | 0.8 |
 | 11/20/2020 | Ygor Galeno | Adding implementation view | 0.9 |
+| 11/20/2020 | Gabriel Filipe | Adding Use-Case View | 1 |
