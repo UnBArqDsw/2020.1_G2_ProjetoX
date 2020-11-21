@@ -122,9 +122,11 @@ dynamic view of behavior.
 
 ### 5.1 Visitor - Process View
 
+Version 2
 ![Process Diagram - Visitor v1](./images/ProcessViewVisitor-2.png).
 Author: **Gabriel Filipe**
 
+Version 1
 ![Process Diagram - Visitor v0](./images/ProcessViewVisitor-1.png).
 Author: **Guilherme Deusdara**
 
@@ -151,6 +153,7 @@ Author: **Gabriel Filipe**
 
 ![CreateUserAdaoterDbFactory](./images/CreateUserAdapterDbFactory.png)
 ***Open image in other tab to see more detailed***
+
 Author: **Ygor Galeno**
 
 #### 6.1.2 CreateUserControllerFactory
@@ -160,10 +163,6 @@ Author: **Ygor Galeno**
 #### 6.1.3 AuthMiddlewareFactory
 ![AuthMiddlewareFactory](./images/AuthMiddlewareFactory.png)
 Author: **Ygor Galeno**
-
-## 7. Data View (optional)
-
-## 8. Size and Performance
 
 ## 9. Implantation View
 
