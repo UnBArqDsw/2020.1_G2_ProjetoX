@@ -118,8 +118,12 @@ Author: **Mikhaelle Bueno**
 ## 5. Process View
 
 ### 5.1 Visitor - Process View
-![Process Diagram - Visitor](./images/ProcessViewVisitor-1.png).
-Author: **Guilherme**
+
+![Process Diagram - Visitor v1](./images/ProcessViewVisitor-2.png).
+Author: **Gabriel Filipe**
+
+![Process Diagram - Visitor v0](./images/ProcessViewVisitor-1.png).
+Author: **Guilherme Deusdara**
 
 ## 7. Implementation View
 
@@ -184,4 +188,5 @@ Author: **Lorrany Azevedo**
 | 11/20/2020 | Lorrany Azevedo | Adding quality and nfr documents | 0.3 |
 | 11/20/2020 | Lorrany Azevedo | Adding implantation description and diagram | 0.4 |
 | 11/20/2020 | Guilherme Deusdara | Adding visitor's procces diagram | 0.5 |
+| 11/20/2020 | Gabriel Filipe | Adding visitor's procces diagram v1 | 0.6 |
 
