@@ -129,6 +129,11 @@ Author: **Gabriel Filipe**
 Author: **Guilherme Deusdara**
 
 ### 5.2 Collaborator - Process View
+The under diagram show using a simple representation the database use.
+![Package Diagram](./images/db.png).
+
+
+## 9. Size and Performance
 
 ![Process Diagram - Collaborator](./images/ProcessViewCollaborator.png).
 Author: **Guilherme Deusdara**
