@@ -125,6 +125,11 @@ Author: **Gabriel Filipe**
 ![Process Diagram - Visitor v0](./images/ProcessViewVisitor-1.png).
 Author: **Guilherme Deusdara**
 
+### 5.2 Collaborator - Process View
+
+![Process Diagram - Collaborator](./images/ProcessViewCollaborator.png).
+Author: **Guilherme Deusdara**
+
 ## 7. Implementation View
 
 ### 7.1	Overview
@@ -189,4 +194,5 @@ Author: **Lorrany Azevedo**
 | 11/20/2020 | Lorrany Azevedo | Adding implantation description and diagram | 0.4 |
 | 11/20/2020 | Guilherme Deusdara | Adding visitor's procces diagram | 0.5 |
 | 11/20/2020 | Gabriel Filipe | Adding visitor's procces diagram v1 | 0.6 |
+| 11/20/2020 | Guilherme Deusdara | Adding collaborator's procces diagram | 0.7 |
 
