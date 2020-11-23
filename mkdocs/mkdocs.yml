@@ -53,7 +53,8 @@ nav:
     - Software Architeture:
         - DAS: softwareArchiteture/das.md
         - Software Reuse: softwareArchiteture/reuse.md
-    - Extra initiatives: extra_initiatives/extra_initiatives.md
+    - Extra Initiatives: extra_initiatives/extra_initiatives.md
+    - Final Presentation: finalPresentation.md
 
 
 theme: 
