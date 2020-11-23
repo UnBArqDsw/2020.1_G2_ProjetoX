@@ -1,0 +1,1875 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../images/faviconWithoutBackground.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>DAS - The computional limits of deep learning</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#software-architecture-document" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="The computional limits of deep learning" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/whiteLogo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                The computional limits of deep learning
+              </span>
+              <span class="md-header-nav__topic">
+                DAS
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="The computional limits of deep learning" class="md-nav__button md-logo">
+      
+        <img src="../../images/whiteLogo.png" width="48" height="48">
+      
+    </a>
+    The computional limits of deep learning
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../contributing/" title="Contribution guide" class="md-nav__link">
+      Contribution guide
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Base
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Base
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Design Sprint
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Design Sprint
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/designSprint/design_sprint/" title="Design Sprint Doc" class="md-nav__link">
+      Design Sprint Doc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/designSprint/prototype/" title="Prototype" class="md-nav__link">
+      Prototype
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-1" type="checkbox" id="nav-3-2-1">
+    
+    <label class="md-nav__link" for="nav-3-2-1">
+      Elicitation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-1">
+        Elicitation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/elicitation/brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/elicitation/storyBoard/" title="Story Board" class="md-nav__link">
+      Story Board
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/elicitation/moscow/" title="MoSCoW" class="md-nav__link">
+      MoSCoW
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2" type="checkbox" id="nav-3-2-2">
+    
+    <label class="md-nav__link" for="nav-3-2-2">
+      Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-2">
+        Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/lexicons/" title="Lexicons" class="md-nav__link">
+      Lexicons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/NFR-framework/" title="NFR framework" class="md-nav__link">
+      NFR framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2-5" type="checkbox" id="nav-3-2-2-5">
+    
+    <label class="md-nav__link" for="nav-3-2-2-5">
+      Backlog Epics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-2-2-5">
+        Backlog Epics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/backlogEpics/dataVisualization/" title="Data Visualization" class="md-nav__link">
+      Data Visualization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/backlogEpics/dataCreation/" title="Data Creation" class="md-nav__link">
+      Data Creation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-3" type="checkbox" id="nav-3-2-3">
+    
+    <label class="md-nav__link" for="nav-3-2-3">
+      Pre-Traceability
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-3">
+        Pre-Traceability
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/mindMap/" title="Mind Map" class="md-nav__link">
+      Mind Map
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/argumentation/" title="Argumentation" class="md-nav__link">
+      Argumentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Methodology
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Methodology
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/methodology/Methodology/" title="Methodology" class="md-nav__link">
+      Methodology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/methodology/bpmn_methodology" title="BPMN" class="md-nav__link">
+      BPMN
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/documentation/riskPlan/" title="Risk Plan" class="md-nav__link">
+      Risk Plan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/documentation/costEstimates/" title="Cost Estimation" class="md-nav__link">
+      Cost Estimation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Traditional Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Traditional Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      Dynamic Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        Dynamic Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/activityDiagram/" title="Activity Diagrams" class="md-nav__link">
+      Activity Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/communicationDiagram/" title="Communication Diagrams" class="md-nav__link">
+      Communication Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/sequenceDiagram/" title="Sequence Diagrams" class="md-nav__link">
+      Sequence Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/stateDiagram/" title="State Diagrams" class="md-nav__link">
+      State Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/userCase/" title="User Case Diagrams" class="md-nav__link">
+      User Case Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      Static Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        Static Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/staticDiagrams/classDiagram/" title="Class Diagrams" class="md-nav__link">
+      Class Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/staticDiagrams/componentDiagram/" title="Component Diagrams" class="md-nav__link">
+      Component Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/staticDiagrams/packageDiagram/" title="Package Diagrams" class="md-nav__link">
+      Package Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Design Patterns
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Design Patterns
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../desing_patterns/grasp/" title="GRASP" class="md-nav__link">
+      GRASP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../desing_patterns/creational_gof/" title="Creational GOF's" class="md-nav__link">
+      Creational GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../desing_patterns/behavioral_gof/" title="Behavioral GOF's" class="md-nav__link">
+      Behavioral GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../desing_patterns/structural_gof/" title="Structural GOF's" class="md-nav__link">
+      Structural GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../desing_patterns/emerging_patterns/" title="Emerging Design Patterns" class="md-nav__link">
+      Emerging Design Patterns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../desing_patterns/tests/" title="Tests and Continuous Integration" class="md-nav__link">
+      Tests and Continuous Integration
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Software Architeture
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Software Architeture
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        DAS
+      </label>
+    
+    <a href="./" title="DAS" class="md-nav__link md-nav__link--active">
+      DAS
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction" title="1. Introduction" class="md-nav__link">
+    1. Introduction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-purpose" title="1.1 Purpose" class="md-nav__link">
+    1.1 Purpose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-scope" title="1.2 Scope" class="md-nav__link">
+    1.2 Scope
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-definitions-acronyms-and-abbreviations" title="1.3 Definitions, Acronyms, and Abbreviations" class="md-nav__link">
+    1.3 Definitions, Acronyms, and Abbreviations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-references" title="1.4 References" class="md-nav__link">
+    1.4 References
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-overview" title="1.5 Overview" class="md-nav__link">
+    1.5 Overview
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-architectural-representation" title="2. Architectural Representation" class="md-nav__link">
+    2. Architectural Representation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-tecnologies" title="2.1 Tecnologies" class="md-nav__link">
+    2.1 Tecnologies
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-front-end" title="2.1.1 Front-End" class="md-nav__link">
+    2.1.1 Front-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-back-end" title="2.1.2 Back-End" class="md-nav__link">
+    2.1.2 Back-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-data-base" title="2.1.3 Data Base" class="md-nav__link">
+    2.1.3 Data Base
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-architectural-goals-and-constraints" title="2.2 Architectural Goals and Constraints" class="md-nav__link">
+    2.2 Architectural Goals and Constraints
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-use-case-view" title="3. Use-Case View" class="md-nav__link">
+    3. Use-Case View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-logical-view" title="4. Logical View" class="md-nav__link">
+    4. Logical View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-front-end-logical-view" title="4.1 Front-end Logical View" class="md-nav__link">
+    4.1 Front-end Logical View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-back-end-logical-view" title="4.2 Back-end Logical View" class="md-nav__link">
+    4.2 Back-end Logical View
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-process-view" title="5. Process View" class="md-nav__link">
+    5. Process View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-visitor-process-view" title="5.1 Visitor - Process View" class="md-nav__link">
+    5.1 Visitor - Process View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-collaborator-process-view" title="5.2 Collaborator - Process View" class="md-nav__link">
+    5.2 Collaborator - Process View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-admin-process-view" title="5.3 Admin - Process View" class="md-nav__link">
+    5.3 Admin - Process View
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-implementation-view" title="6. Implementation View" class="md-nav__link">
+    6. Implementation View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-overview" title="6.1 Overview" class="md-nav__link">
+    6.1 Overview
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#611-createuseradapterdbfactory" title="6.1.1 CreateUserAdapterDbFactory" class="md-nav__link">
+    6.1.1 CreateUserAdapterDbFactory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#612-createusercontrollerfactory" title="6.1.2 CreateUserControllerFactory" class="md-nav__link">
+    6.1.2 CreateUserControllerFactory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#613-authmiddlewarefactory" title="6.1.3 AuthMiddlewareFactory" class="md-nav__link">
+    6.1.3 AuthMiddlewareFactory
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-implantation-view" title="7. Implantation View" class="md-nav__link">
+    7. Implantation View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-architectural-pattern" title="8. Architectural Pattern" class="md-nav__link">
+    8. Architectural Pattern
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-quality" title="9. Quality" class="md-nav__link">
+    9. Quality
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10-nfr" title="10 NFR" class="md-nav__link">
+    10 NFR
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reuse/" title="Software Reuse" class="md-nav__link">
+      Software Reuse
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../extra_initiatives/extra_initiatives/" title="Extra Initiatives" class="md-nav__link">
+      Extra Initiatives
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../finalPresentation/" title="Final Presentation" class="md-nav__link">
+      Final Presentation
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction" title="1. Introduction" class="md-nav__link">
+    1. Introduction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-purpose" title="1.1 Purpose" class="md-nav__link">
+    1.1 Purpose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-scope" title="1.2 Scope" class="md-nav__link">
+    1.2 Scope
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-definitions-acronyms-and-abbreviations" title="1.3 Definitions, Acronyms, and Abbreviations" class="md-nav__link">
+    1.3 Definitions, Acronyms, and Abbreviations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-references" title="1.4 References" class="md-nav__link">
+    1.4 References
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-overview" title="1.5 Overview" class="md-nav__link">
+    1.5 Overview
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-architectural-representation" title="2. Architectural Representation" class="md-nav__link">
+    2. Architectural Representation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-tecnologies" title="2.1 Tecnologies" class="md-nav__link">
+    2.1 Tecnologies
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-front-end" title="2.1.1 Front-End" class="md-nav__link">
+    2.1.1 Front-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-back-end" title="2.1.2 Back-End" class="md-nav__link">
+    2.1.2 Back-End
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-data-base" title="2.1.3 Data Base" class="md-nav__link">
+    2.1.3 Data Base
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-architectural-goals-and-constraints" title="2.2 Architectural Goals and Constraints" class="md-nav__link">
+    2.2 Architectural Goals and Constraints
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-use-case-view" title="3. Use-Case View" class="md-nav__link">
+    3. Use-Case View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-logical-view" title="4. Logical View" class="md-nav__link">
+    4. Logical View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-front-end-logical-view" title="4.1 Front-end Logical View" class="md-nav__link">
+    4.1 Front-end Logical View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-back-end-logical-view" title="4.2 Back-end Logical View" class="md-nav__link">
+    4.2 Back-end Logical View
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-process-view" title="5. Process View" class="md-nav__link">
+    5. Process View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-visitor-process-view" title="5.1 Visitor - Process View" class="md-nav__link">
+    5.1 Visitor - Process View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-collaborator-process-view" title="5.2 Collaborator - Process View" class="md-nav__link">
+    5.2 Collaborator - Process View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-admin-process-view" title="5.3 Admin - Process View" class="md-nav__link">
+    5.3 Admin - Process View
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-implementation-view" title="6. Implementation View" class="md-nav__link">
+    6. Implementation View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-overview" title="6.1 Overview" class="md-nav__link">
+    6.1 Overview
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#611-createuseradapterdbfactory" title="6.1.1 CreateUserAdapterDbFactory" class="md-nav__link">
+    6.1.1 CreateUserAdapterDbFactory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#612-createusercontrollerfactory" title="6.1.2 CreateUserControllerFactory" class="md-nav__link">
+    6.1.2 CreateUserControllerFactory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#613-authmiddlewarefactory" title="6.1.3 AuthMiddlewareFactory" class="md-nav__link">
+    6.1.3 AuthMiddlewareFactory
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-implantation-view" title="7. Implantation View" class="md-nav__link">
+    7. Implantation View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-architectural-pattern" title="8. Architectural Pattern" class="md-nav__link">
+    8. Architectural Pattern
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-quality" title="9. Quality" class="md-nav__link">
+    9. Quality
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10-nfr" title="10 NFR" class="md-nav__link">
+    10 NFR
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="software-architecture-document">Software Architecture Document</h1>
+<p>This document aims to register the architectural structure of the TCLDL website, developed as a final product of the ADS (Architecture and Software Design) discipline, on the Gama campus, at the University of Brasília.</p>
+<p>The Software Architecture Document demonstrates the set of views that intend to cover the technical and structural aspects related to the development and implementation of the TCLDL website.</p>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>This architecture document has the function of specifying and documenting relevant architectural decisions in the production and implementation of the TCLDL website describing aspects of the system in a clear, structured and objective manner.</p>
+<h3 id="11-purpose">1.1 Purpose</h3>
+<p>This document applies to the development process of the TLDL website, an application developed in the discipline Architecture and Software Design, at the University of Brasília, in order to provide articles and data to be obtained quickly and easily.</p>
+<h3 id="12-scope">1.2 Scope</h3>
+<p>In this project, using the RUP (Rational Unified Process), we start with a typical set of views called "4 + 1 view model".
+The different views are listed below and will be addressed in the scope of this document.</p>
+<ul>
+<li>Use-Case View</li>
+<li>Logical View</li>
+<li>Implementation View</li>
+<li>Process View</li>
+<li>Deployment Vision</li>
+<li>Data View</li>
+<li>Implantation View</li>
+</ul>
+<h3 id="13-definitions-acronyms-and-abbreviations">1.3 Definitions, Acronyms, and Abbreviations</h3>
+<ul>
+<li>RUP (Rational Unified Process)</li>
+</ul>
+<h3 id="14-references">1.4 References</h3>
+<p>https://nextjs.org/</p>
+<p>https://www.postgresql.org/</p>
+<p>https://expressjs.com/</p>
+<h3 id="15-overview">1.5 Overview</h3>
+<p>For the FrontEnd a component architeture is used with NextJs and in the BackEnd hexagonal architeture is used with Express. More about this is described in the next sections</p>
+<h2 id="2-architectural-representation">2. Architectural Representation</h2>
+<p>Model of representation of the implemented services and the interactions established between those services, as well as the nature of these interactions.</p>
+<h3 id="21-tecnologies">2.1 Tecnologies</h3>
+<h4 id="211-front-end">2.1.1 Front-End</h4>
+<p>The <strong>NextJs</strong> is a react framework that use javascript language and is component oriented. It has some feature like: hybrid static &amp; server rendering, typeScript support, smart bundling, route pre-fetching, and more.</p>
+<p><strong>NextJs</strong> was chosen to be used in the scope of the discipline because almost all members of the team had already had contact with React and the JavaScript language which would facilitate the site development process. In addition, the framework offers easy installation, quick configuration, easy learning, fast performance and several features that facilitate the development process, such as automatic route mapping.</p>
+<h4 id="212-back-end">2.1.2 Back-End</h4>
+<p><strong>Express</strong> Express is a framework for web applications in Node.js, which uses javascript and has support for typescript. Small and flexible, it contains a robust set of features for web and mobile applications.</p>
+<p>Express was used to build the back end of the web application and was chosen because it is not a framework with a cast architecture, and can be shaped according to the needs of the discipline. In addition, it demonstrates all its value in its choice when it comes to real-time services, and also, for its wide community that actively maintain the framework, in addition to its simplicity.</p>
+<h4 id="213-data-base">2.1.3 Data Base</h4>
+<p><strong>PostgreSQL</strong> is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</p>
+<p>The use of PostgreSQL was based on its robustness, as it is one of the most used banks in the world, and one of the most common in cloud services.</p>
+<h3 id="22-architectural-goals-and-constraints">2.2 Architectural Goals and Constraints</h3>
+<p><strong>Goals</strong></p>
+<table>
+<thead>
+<tr>
+<th>Requirements</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scalability</td>
+<td>The application must be scalable</td>
+</tr>
+<tr>
+<td>Security</td>
+<td>The application must safely handle users' sensitive data</td>
+</tr>
+<tr>
+<td>Continous Integration</td>
+<td>The application must have continous integration</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Constrains</strong></p>
+<table>
+<thead>
+<tr>
+<th>Constrains</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Connectivity</td>
+<td>Internet connection is required</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>The application will be developed in English</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>The team has 6 people</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>The proposed scope must be completed by the end of the course</td>
+</tr>
+</tbody>
+</table>
+<p>Author: <strong>Mikhaelle Bueno</strong></p>
+<h2 id="3-use-case-view">3. Use-Case View</h2>
+<p>The Use-Case Diagram describes the main features that the system intends to have. It is built of actors, who represent the real users of the system and the functionality (present in balloons) of the proposed application.</p>
+<p>Use-case diagrams are used to describe the Use-Case View because it offers a high-level model in relation to functionality</p>
+<p>During the development of the project, versions of the diagram have already been created, which can be seen in the <a href="../../traditionalModeling/dynamicDiagrams/userCase/">Use-Case Diagram</a>.</p>
+<p>However, the most current version can be seen below:</p>
+<p><img alt="Use-Case Diagram" src="../../traditionalModeling/dynamicDiagrams/images/user_case_v2.png" />.
+Author: <strong>Gabriel Filipe</strong></p>
+<h2 id="4-logical-view">4. Logical View</h2>
+<p>The logical view is basically a view of the project model, visualized through packages, classes and interaction diagrams.</p>
+<p>The Package Diagram are normally used in this view. It is defined by the UML and describes the packages or pieces of the system divided into logical groupings showing the dependencies between them. This diagram is widely used to illustrate the architecture of a system showing the grouping of its classes.</p>
+<p>The most updated version of it can be seen below, and its traceability can be followed in the <a href="../../traditionalModeling/staticDiagrams/packageDiagram/">Package Diagram</a>.</p>
+<h3 id="41-front-end-logical-view">4.1 Front-end Logical View</h3>
+<p><img alt="Package Diagram" src="../images/packageDiagramFront.png" />.
+Author: <strong>Mikhaelle Bueno</strong></p>
+<h3 id="42-back-end-logical-view">4.2 Back-end Logical View</h3>
+<p><img alt="Package Diagram" src="../images/packageDiagramBack.png" />.
+Author: <strong>Mikhaelle Bueno</strong></p>
+<h2 id="5-process-view">5. Process View</h2>
+<p>Give details how operations are carried out, what messages are sent and when. Capture the process view of an architecture and provide a
+dynamic view of behavior.</p>
+<h3 id="51-visitor-process-view">5.1 Visitor - Process View</h3>
+<p>[Version 2]
+<img alt="Process Diagram - Visitor v1" src="../images/ProcessViewVisitor-2.png" />.
+Author: <strong>Gabriel Filipe</strong></p>
+<p>[Version 1]
+<img alt="Process Diagram - Visitor v0" src="../images/ProcessViewVisitor-1.png" />.
+Author: <strong>Guilherme Deusdara</strong></p>
+<h3 id="52-collaborator-process-view">5.2 Collaborator - Process View</h3>
+<p><img alt="Process Diagram - Collaborator" src="../images/ProcessViewCollaborator.png" />.
+Author: <strong>Guilherme Deusdara</strong></p>
+<h3 id="53-admin-process-view">5.3 Admin - Process View</h3>
+<p><img alt="Process Diagram - Admin" src="../images/ProcessViewAdmin.png" />.
+Author: <strong>Gabriel Filipe</strong></p>
+<h2 id="6-implementation-view">6. Implementation View</h2>
+<h3 id="61-overview">6.1 Overview</h3>
+<h4 id="611-createuseradapterdbfactory">6.1.1 CreateUserAdapterDbFactory</h4>
+<p><img alt="CreateUserAdaoterDbFactory" src="../images/CreateUserAdapterDbFactory.png" />
+<strong><em>Open image in other tab to see more detailed</em></strong></p>
+<p>Author: <strong>Ygor Galeno</strong></p>
+<h4 id="612-createusercontrollerfactory">6.1.2 CreateUserControllerFactory</h4>
+<p><img alt="CreateUserControllerFactory" src="../images/CreateUserControllerFactory.png" />
+Author: <strong>Ygor Galeno</strong></p>
+<h4 id="613-authmiddlewarefactory">6.1.3 AuthMiddlewareFactory</h4>
+<p><img alt="AuthMiddlewareFactory" src="../images/AuthMiddlewareFactory.png" />
+Author: <strong>Ygor Galeno</strong></p>
+<h2 id="7-implantation-view">7. Implantation View</h2>
+<p>The implantation diagram is a structural UML diagram that seeks to describe the application system, it represents the physical distribution of the system through hardware nodes, components and dependencies.</p>
+<p>In our project we use Docker to create application containers and run them individually, so the containers are our representation of us. We also use Docker-Compose to integrate application containers and upload them all at once. Below is a diagram of the TCLDL implementation.</p>
+<p><img alt="Implatation" src="../images/implantation.png" />.</p>
+<p>Currently, due to the great demand for work, we were unable to implement the gateway, so the client's requests are hitting the paper service, but it is an important part of the application and will be implemented in the future.</p>
+<p>Author: <strong>Lorrany Azevedo</strong></p>
+<h2 id="8-architectural-pattern">8. Architectural Pattern</h2>
+<p>Hexagonal architecture is an architecture divided into layers, due to this division, the hexagonal architecture promotes clean and decoupled code, facilitating the development of big systems.
+<img alt="Hexagonal/DDS" src="../images/ArcHex.png" /></p>
+<h2 id="9-quality">9. Quality</h2>
+<p>Ensuring quality, the chosen architecture model (Hexagonal) helps us to maintain the scalable application, as this architecture is designed precisely so that large applications remain cohesive with the creation of service layers according to their responsibilities. Therefore, each layer / service is implemented independently, which in line with design standards and good programming practices helps us to keep very large software healthy.</p>
+<p>The choice of this architecture was due to the fact that the group has a plan to make the project expand after the end of the story and we believe that it has a great potential to grow and become a robust and complex project.</p>
+<p>In addition we also have some artifacts that were produced and that are highly related to the quality of a software, considering that in order to build quality software it is necessary to take into account not only the functional requirements specified by the customer, but also non-functional requirements.</p>
+<h3 id="10-nfr">10 NFR</h3>
+<p>Nfr is intended to track non-functional requirements, our first version of nfr was made on the first delivery, this version is available at the link below:</p>
+<p><a href="../../base/requirements/modeling/NFR-framework/">First NFR</a>.</p>
+<p>Bellow we have a new version of NFR. </p>
+<p><a href="../images/NFR.png">New NFR</a>. </p>
+<p>Author: <strong>Lorrany Azevedo</strong></p>
+<hr />
+<h2 id="references">References</h2>
+<hr />
+<ul>
+<li><strong>[Moodle]</strong> Serrano, Milene. Vídeo Aula : DAS</li>
+<li><strong>[WebSite]</strong> <a href="http://www.deinf.ufma.br/~geraldo/dob/13.Componentes_Implantacao.pdf">Componentes_Implantação</a></li>
+</ul>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Author(s)</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11/18/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Creating the document</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>11/19/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Adding introdution</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Lorrany Azevedo</td>
+<td>Adding quality and nfr documents</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Lorrany Azevedo</td>
+<td>Adding implantation description and diagram</td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Guilherme Deusdara</td>
+<td>Adding visitor's procces diagram</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Gabriel Filipe</td>
+<td>Adding visitor's procces diagram v1</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Guilherme Deusdara</td>
+<td>Adding collaborator's procces diagram</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Gabriel Filipe</td>
+<td>Adding admin's procces diagram</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Ygor Galeno</td>
+<td>Adding implementation view</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>11/20/2020</td>
+<td>Gabriel Filipe</td>
+<td>Adding Use-Case View</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../desing_patterns/tests/" title="Tests and Continuous Integration" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Tests and Continuous Integration
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../reuse/" title="Software Reuse" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Software Reuse
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

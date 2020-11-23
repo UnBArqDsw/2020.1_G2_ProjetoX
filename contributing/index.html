@@ -1,0 +1,1562 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../images/faviconWithoutBackground.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Contribution guide - The computional limits of deep learning</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#contributing" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="The computional limits of deep learning" class="md-header-nav__button md-logo">
+          
+            <img src="../images/whiteLogo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                The computional limits of deep learning
+              </span>
+              <span class="md-header-nav__topic">
+                Contribution guide
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="The computional limits of deep learning" class="md-nav__button md-logo">
+      
+        <img src="../images/whiteLogo.png" width="48" height="48">
+      
+    </a>
+    The computional limits of deep learning
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Contribution guide
+      </label>
+    
+    <a href="./" title="Contribution guide" class="md-nav__link md-nav__link--active">
+      Contribution guide
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#branches-policy" title="Branches Policy" class="md-nav__link">
+    Branches Policy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#branch-flow" title="Branch Flow" class="md-nav__link">
+    Branch Flow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#branch-flow_1" title="Branch Flow" class="md-nav__link">
+    Branch Flow
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commits-policy" title="Commits Policy" class="md-nav__link">
+    Commits Policy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-policies" title="Pull Request Policies" class="md-nav__link">
+    Pull Request Policies
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creation-of-pull-request" title="Creation of Pull Request" class="md-nav__link">
+    Creation of Pull Request
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#note" title="Note:" class="md-nav__link">
+    Note:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-create-a-pull-request-directed-to-a-master-branch-the-following-steps-must-be-followed" title="To create a pull request directed to a master branch, the following steps must be followed:" class="md-nav__link">
+    To create a pull request directed to a master branch, the following steps must be followed:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-add-the-status-flag" title="1) Add the status flag" class="md-nav__link">
+    1) Add the status flag
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-add-a-description" title="2) Add a description" class="md-nav__link">
+    2) Add a description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-add-the-reviewers" title="3) Add the reviewers" class="md-nav__link">
+    3) Add the reviewers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-add-the-assignees" title="4) Add the assignees" class="md-nav__link">
+    4) Add the assignees
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-add-the-appropriate-labels" title="5) Add the appropriate labels" class="md-nav__link">
+    5) Add the appropriate labels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-add-the-appropriate-milestone" title="6) Add the appropriate milestone" class="md-nav__link">
+    6) Add the appropriate milestone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-explain-the-issue-related-to-pr" title="7) Explain the issue related to PR" class="md-nav__link">
+    7) Explain the issue related to PR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-conflicts" title="8) Conflicts" class="md-nav__link">
+    8) Conflicts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#document-versioning" title="Document Versioning" class="md-nav__link">
+    Document Versioning
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Base
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Base
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Design Sprint
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Design Sprint
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/designSprint/design_sprint/" title="Design Sprint Doc" class="md-nav__link">
+      Design Sprint Doc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/designSprint/prototype/" title="Prototype" class="md-nav__link">
+      Prototype
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-1" type="checkbox" id="nav-3-2-1">
+    
+    <label class="md-nav__link" for="nav-3-2-1">
+      Elicitation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-1">
+        Elicitation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/elicitation/brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/elicitation/storyBoard/" title="Story Board" class="md-nav__link">
+      Story Board
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/elicitation/moscow/" title="MoSCoW" class="md-nav__link">
+      MoSCoW
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2" type="checkbox" id="nav-3-2-2">
+    
+    <label class="md-nav__link" for="nav-3-2-2">
+      Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-2">
+        Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/modeling/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/modeling/glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/modeling/lexicons/" title="Lexicons" class="md-nav__link">
+      Lexicons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/modeling/NFR-framework/" title="NFR framework" class="md-nav__link">
+      NFR framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2-5" type="checkbox" id="nav-3-2-2-5">
+    
+    <label class="md-nav__link" for="nav-3-2-2-5">
+      Backlog Epics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-2-2-5">
+        Backlog Epics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/modeling/backlogEpics/dataVisualization/" title="Data Visualization" class="md-nav__link">
+      Data Visualization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/modeling/backlogEpics/dataCreation/" title="Data Creation" class="md-nav__link">
+      Data Creation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-3" type="checkbox" id="nav-3-2-3">
+    
+    <label class="md-nav__link" for="nav-3-2-3">
+      Pre-Traceability
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-3">
+        Pre-Traceability
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/preTraceability/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/preTraceability/mindMap/" title="Mind Map" class="md-nav__link">
+      Mind Map
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/preTraceability/argumentation/" title="Argumentation" class="md-nav__link">
+      Argumentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/requirements/preTraceability/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Methodology
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Methodology
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/methodology/Methodology/" title="Methodology" class="md-nav__link">
+      Methodology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/methodology/bpmn_methodology" title="BPMN" class="md-nav__link">
+      BPMN
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/documentation/riskPlan/" title="Risk Plan" class="md-nav__link">
+      Risk Plan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../base/documentation/costEstimates/" title="Cost Estimation" class="md-nav__link">
+      Cost Estimation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Traditional Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Traditional Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      Dynamic Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        Dynamic Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/dynamicDiagrams/activityDiagram/" title="Activity Diagrams" class="md-nav__link">
+      Activity Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/dynamicDiagrams/communicationDiagram/" title="Communication Diagrams" class="md-nav__link">
+      Communication Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/dynamicDiagrams/sequenceDiagram/" title="Sequence Diagrams" class="md-nav__link">
+      Sequence Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/dynamicDiagrams/stateDiagram/" title="State Diagrams" class="md-nav__link">
+      State Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/dynamicDiagrams/userCase/" title="User Case Diagrams" class="md-nav__link">
+      User Case Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      Static Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        Static Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/staticDiagrams/classDiagram/" title="Class Diagrams" class="md-nav__link">
+      Class Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/staticDiagrams/componentDiagram/" title="Component Diagrams" class="md-nav__link">
+      Component Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../traditionalModeling/staticDiagrams/packageDiagram/" title="Package Diagrams" class="md-nav__link">
+      Package Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Design Patterns
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Design Patterns
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desing_patterns/grasp/" title="GRASP" class="md-nav__link">
+      GRASP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desing_patterns/creational_gof/" title="Creational GOF's" class="md-nav__link">
+      Creational GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desing_patterns/behavioral_gof/" title="Behavioral GOF's" class="md-nav__link">
+      Behavioral GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desing_patterns/structural_gof/" title="Structural GOF's" class="md-nav__link">
+      Structural GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desing_patterns/emerging_patterns/" title="Emerging Design Patterns" class="md-nav__link">
+      Emerging Design Patterns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desing_patterns/tests/" title="Tests and Continuous Integration" class="md-nav__link">
+      Tests and Continuous Integration
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Software Architeture
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Software Architeture
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../softwareArchiteture/das/" title="DAS" class="md-nav__link">
+      DAS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../softwareArchiteture/reuse/" title="Software Reuse" class="md-nav__link">
+      Software Reuse
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../extra_initiatives/extra_initiatives/" title="Extra Initiatives" class="md-nav__link">
+      Extra Initiatives
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../finalPresentation/" title="Final Presentation" class="md-nav__link">
+      Final Presentation
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#branches-policy" title="Branches Policy" class="md-nav__link">
+    Branches Policy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#branch-flow" title="Branch Flow" class="md-nav__link">
+    Branch Flow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#branch-flow_1" title="Branch Flow" class="md-nav__link">
+    Branch Flow
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commits-policy" title="Commits Policy" class="md-nav__link">
+    Commits Policy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-policies" title="Pull Request Policies" class="md-nav__link">
+    Pull Request Policies
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creation-of-pull-request" title="Creation of Pull Request" class="md-nav__link">
+    Creation of Pull Request
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#note" title="Note:" class="md-nav__link">
+    Note:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-create-a-pull-request-directed-to-a-master-branch-the-following-steps-must-be-followed" title="To create a pull request directed to a master branch, the following steps must be followed:" class="md-nav__link">
+    To create a pull request directed to a master branch, the following steps must be followed:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-add-the-status-flag" title="1) Add the status flag" class="md-nav__link">
+    1) Add the status flag
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-add-a-description" title="2) Add a description" class="md-nav__link">
+    2) Add a description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-add-the-reviewers" title="3) Add the reviewers" class="md-nav__link">
+    3) Add the reviewers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-add-the-assignees" title="4) Add the assignees" class="md-nav__link">
+    4) Add the assignees
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-add-the-appropriate-labels" title="5) Add the appropriate labels" class="md-nav__link">
+    5) Add the appropriate labels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-add-the-appropriate-milestone" title="6) Add the appropriate milestone" class="md-nav__link">
+    6) Add the appropriate milestone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-explain-the-issue-related-to-pr" title="7) Explain the issue related to PR" class="md-nav__link">
+    7) Explain the issue related to PR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-conflicts" title="8) Conflicts" class="md-nav__link">
+    8) Conflicts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#document-versioning" title="Document Versioning" class="md-nav__link">
+    Document Versioning
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="contributing">Contributing</h1>
+<p>To contribute to this project follow the guide on how to contribute.</p>
+<p>1- Create a fork or clone the repository.</p>
+<pre><code class="language-Git">git clone https://github.com/UnBArqDsw/2020.1_G2_TCLDL.git
+</code></pre>
+<p>2- If you want to change something, create a branch following the branch policy of this project.</p>
+<p>3- Commit you change following the commit policy of this project</p>
+<p>4- Create a pull request following the Pull Request policy</p>
+<h2 id="branches-policy">Branches Policy</h2>
+<p>The <b> Branches </b> of the project must include the following specifications:</p>
+<ul>
+<li>
+<p>The beginning of the branch name must be informing which group it belongs to, being:</p>
+<ul>
+<li>
+<p>TCLDL-feature: For adding features or changes to an existing one; </p>
+</li>
+<li>
+<p>TCLDL-bugfix: For bug fixes;</p>
+</li>
+</ul>
+</li>
+<li>
+<p>The name of the branch must be related to the issue separated by a slash('-')</p>
+</li>
+<li>
+<p>Each branch is aimed at solving a single issue, after closing the issue the branch must be deleted</p>
+</li>
+</ul>
+<pre><code class="language-Git">Exemplo: TCLDL-feature-prototype
+</code></pre>
+<h3 id="branch-flow">Branch Flow</h3>
+<h3 id="branch-flow_1">Branch Flow</h3>
+<p>The project will adopt a git flow based on git-flow:</p>
+<ul>
+<li>
+<p>master: Is the main branch of the repository and plays the role of the production environment. It only accepts duly tested and validated code, so that all insertions made there will be the project releases;</p>
+</li>
+<li>
+<p>dev: is the branch that will concentrate all the new functionalities of the project, where it will perform the role of concentrating the work of the development environment, bug fixing and finalization of tests;</p>
+</li>
+<li>
+<p>feature (feat): type of branch used for the development of a new project feature, so the name of the branch should be "feature-" and the name related to the issue in github. Ex: “TCLDL-feature-prototype”;</p>
+</li>
+<li>
+<p>Bugfix (bug): Branch to fix bugs in production;</p>
+</li>
+</ul>
+<h2 id="commits-policy">Commits Policy</h2>
+<p>The <b> Commits </b> of the project must include the following specifications:</p>
+<ul>
+<li>Must be written in English and use the imperative verbs</li>
+</ul>
+<pre><code class="language-git">Example: update project readme
+</code></pre>
+<ul>
+<li>For joint work, use co-authored to include as a contributor in the commit message body:</li>
+</ul>
+<pre><code class="language-git">add signin feature
+
+Co-authored-by: Fulano &lt;funalo@outlook.com&gt;
+</code></pre>
+<h2 id="pull-request-policies">Pull Request Policies</h2>
+<h3 id="creation-of-pull-request">Creation of <em>Pull Request</em></h3>
+<p>Consider a hypothetical situation where we are looking to create a PR for a <em>branch</em> called <strong>Sprints</strong> for <em>master</em>.</p>
+<h4 id="note">Note:</h4>
+<ul>
+<li>The creation of the PR must be done right after the beginning of the work on an issue. For that, we work with the <em>status</em> <strong>WIP</strong> flag.</li>
+</ul>
+<h3 id="to-create-a-pull-request-directed-to-a-master-branch-the-following-steps-must-be-followed">To create a <em>pull request</em> directed to a <em>master</em> branch, the following steps must be followed:</h3>
+<h4 id="1-add-the-status-flag">1) Add the <em>status</em> flag</h4>
+<ul>
+<li>Title the PR with the tag <strong>WIP</strong> (ie <em>work in progress</em>)</li>
+</ul>
+<h4 id="2-add-a-description">2) Add a description</h4>
+<ul>
+<li>Use <em>issue</em> <em>template</em> for <em>pull request</em>.</li>
+<li>Remembering that the <em>pull request</em> has the <em>branch</em> base to <strong><em>master</em></strong> and <em>compare</em> to the branch that you want to join.</li>
+<li><strong>Remembering</strong>: as soon as the changes regarding the <em>pull request</em> are really finalized, the <strong>WIP</strong> tag must be removed.</li>
+</ul>
+<p><img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_template.png" alt = "PrTemplate" width = "500" /></p>
+<h4 id="3-add-the-reviewers">3) Add the <em>reviewers</em></h4>
+<ul>
+<li>Check the <em>reviewers</em>, that is, those responsible for the analysis of the <em>pull request</em>.</li>
+</ul>
+<p><img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_reviewers.png" alt = "PrReviewer" width = "300" /></p>
+<h4 id="4-add-the-assignees">4) Add the <em>assignees</em></h4>
+<ul>
+<li>Tick the <em>pull request</em> employees</li>
+</ul>
+<p><img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_assign.png" alt = "PrAssign" width = "300" /></p>
+<h4 id="5-add-the-appropriate-labels">5) Add the appropriate <em>labels</em></h4>
+<ul>
+<li>Check the <em>labels</em> related to the <em>pull request</em>. It will generally be the same as indicated in the referring issue.</li>
+</ul>
+<p><img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_labels.png" alt = "PrLabel" width = "300" /></p>
+<h4 id="6-add-the-appropriate-milestone">6) Add the appropriate <em>milestone</em></h4>
+<ul>
+<li>Check the <em>Milestone</em>, that is, the current <em>sprint</em> or <em>release</em>.</li>
+</ul>
+<p><img src = "https://raw.githubusercontent.com/UnBArqDsw/2020.1_G2_TCLDL/dev/mkdocs/docs/images/pr_milestone.png" alt = "PrMilestone" width = "300" /></p>
+<h4 id="7-explain-the-issue-related-to-pr">7) Explain the <em>issue</em> related to PR</h4>
+<ul>
+<li>Connect the <em>issue</em> worked on this <em>pull request</em> through <em>closing keywords</em>.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Issue to be <em>linked</em></th>
+<th>Syntax</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Issue within this repository</td>
+<td>KEYWORD # ISSUE-NUMBER</td>
+<td><strong>Close #10</strong></td>
+</tr>
+</tbody>
+</table>
+<h4 id="8-conflicts">8) Conflicts</h4>
+<ul>
+<li>If a pull request causes some kind of conflict, it must be resolved first by the team that developed what is causing the conflict, valuing the integrity and organization of the commits history, and then the request for merge evaluation must be redone.</li>
+</ul>
+<h2 id="document-versioning">Document Versioning</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Author(s)</th>
+<th>Description</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09/09/20</td>
+<td>Mikhaelle Bueno</td>
+<td>Document creation and edit</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>09/09/20</td>
+<td>Gabriel Filipe</td>
+<td>Adds PR policy</td>
+<td>1.2</td>
+</tr>
+<tr>
+<td>21/09/20</td>
+<td>Gabriel Filipe</td>
+<td>Adds PR policy</td>
+<td>1.2</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../base/designSprint/design_sprint/" title="Design Sprint Doc" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Design Sprint Doc
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1399 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../images/faviconWithoutBackground.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>GRASP - The computional limits of deep learning</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#general-responsibility-assignment-software-patterns" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="The computional limits of deep learning" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/whiteLogo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                The computional limits of deep learning
+              </span>
+              <span class="md-header-nav__topic">
+                GRASP
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="The computional limits of deep learning" class="md-nav__button md-logo">
+      
+        <img src="../../images/whiteLogo.png" width="48" height="48">
+      
+    </a>
+    The computional limits of deep learning
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../contributing/" title="Contribution guide" class="md-nav__link">
+      Contribution guide
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Base
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Base
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Design Sprint
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Design Sprint
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/designSprint/design_sprint/" title="Design Sprint Doc" class="md-nav__link">
+      Design Sprint Doc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/designSprint/prototype/" title="Prototype" class="md-nav__link">
+      Prototype
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-1" type="checkbox" id="nav-3-2-1">
+    
+    <label class="md-nav__link" for="nav-3-2-1">
+      Elicitation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-1">
+        Elicitation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/elicitation/brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/elicitation/storyBoard/" title="Story Board" class="md-nav__link">
+      Story Board
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/elicitation/moscow/" title="MoSCoW" class="md-nav__link">
+      MoSCoW
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2" type="checkbox" id="nav-3-2-2">
+    
+    <label class="md-nav__link" for="nav-3-2-2">
+      Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-2">
+        Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/lexicons/" title="Lexicons" class="md-nav__link">
+      Lexicons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/NFR-framework/" title="NFR framework" class="md-nav__link">
+      NFR framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2-5" type="checkbox" id="nav-3-2-2-5">
+    
+    <label class="md-nav__link" for="nav-3-2-2-5">
+      Backlog Epics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-2-2-5">
+        Backlog Epics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/backlogEpics/dataVisualization/" title="Data Visualization" class="md-nav__link">
+      Data Visualization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/modeling/backlogEpics/dataCreation/" title="Data Creation" class="md-nav__link">
+      Data Creation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-3" type="checkbox" id="nav-3-2-3">
+    
+    <label class="md-nav__link" for="nav-3-2-3">
+      Pre-Traceability
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-3">
+        Pre-Traceability
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/mindMap/" title="Mind Map" class="md-nav__link">
+      Mind Map
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/argumentation/" title="Argumentation" class="md-nav__link">
+      Argumentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/requirements/preTraceability/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Methodology
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Methodology
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/methodology/Methodology/" title="Methodology" class="md-nav__link">
+      Methodology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/methodology/bpmn_methodology" title="BPMN" class="md-nav__link">
+      BPMN
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/documentation/riskPlan/" title="Risk Plan" class="md-nav__link">
+      Risk Plan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../base/documentation/costEstimates/" title="Cost Estimation" class="md-nav__link">
+      Cost Estimation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Traditional Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Traditional Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      Dynamic Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        Dynamic Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/activityDiagram/" title="Activity Diagrams" class="md-nav__link">
+      Activity Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/communicationDiagram/" title="Communication Diagrams" class="md-nav__link">
+      Communication Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/sequenceDiagram/" title="Sequence Diagrams" class="md-nav__link">
+      Sequence Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/stateDiagram/" title="State Diagrams" class="md-nav__link">
+      State Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/dynamicDiagrams/userCase/" title="User Case Diagrams" class="md-nav__link">
+      User Case Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      Static Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        Static Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/staticDiagrams/classDiagram/" title="Class Diagrams" class="md-nav__link">
+      Class Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/staticDiagrams/componentDiagram/" title="Component Diagrams" class="md-nav__link">
+      Component Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../traditionalModeling/staticDiagrams/packageDiagram/" title="Package Diagrams" class="md-nav__link">
+      Package Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Design Patterns
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Design Patterns
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        GRASP
+      </label>
+    
+    <a href="./" title="GRASP" class="md-nav__link md-nav__link--active">
+      GRASP
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creators" title="Creators" class="md-nav__link">
+    Creators
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-expert" title="Information Expert" class="md-nav__link">
+    Information Expert
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-coupling" title="Low Coupling" class="md-nav__link">
+    Low Coupling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-coeshion" title="High Coeshion" class="md-nav__link">
+    High Coeshion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#polymorphism" title="Polymorphism" class="md-nav__link">
+    Polymorphism
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller" title="Controller" class="md-nav__link">
+    Controller
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indirection" title="Indirection" class="md-nav__link">
+    Indirection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pure-fabrication" title="Pure Fabrication" class="md-nav__link">
+    Pure Fabrication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#document-versioning" title="Document Versioning" class="md-nav__link">
+    Document Versioning
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../creational_gof/" title="Creational GOF's" class="md-nav__link">
+      Creational GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../behavioral_gof/" title="Behavioral GOF's" class="md-nav__link">
+      Behavioral GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../structural_gof/" title="Structural GOF's" class="md-nav__link">
+      Structural GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../emerging_patterns/" title="Emerging Design Patterns" class="md-nav__link">
+      Emerging Design Patterns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tests/" title="Tests and Continuous Integration" class="md-nav__link">
+      Tests and Continuous Integration
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Software Architeture
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Software Architeture
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../softwareArchiteture/das/" title="DAS" class="md-nav__link">
+      DAS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../softwareArchiteture/reuse/" title="Software Reuse" class="md-nav__link">
+      Software Reuse
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../extra_initiatives/extra_initiatives/" title="Extra Initiatives" class="md-nav__link">
+      Extra Initiatives
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../finalPresentation/" title="Final Presentation" class="md-nav__link">
+      Final Presentation
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creators" title="Creators" class="md-nav__link">
+    Creators
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-expert" title="Information Expert" class="md-nav__link">
+    Information Expert
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-coupling" title="Low Coupling" class="md-nav__link">
+    Low Coupling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-coeshion" title="High Coeshion" class="md-nav__link">
+    High Coeshion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#polymorphism" title="Polymorphism" class="md-nav__link">
+    Polymorphism
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller" title="Controller" class="md-nav__link">
+    Controller
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indirection" title="Indirection" class="md-nav__link">
+    Indirection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pure-fabrication" title="Pure Fabrication" class="md-nav__link">
+    Pure Fabrication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#document-versioning" title="Document Versioning" class="md-nav__link">
+    Document Versioning
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <p><span id="grasp"></span></p>
+<h1 id="general-responsibility-assignment-software-patterns"><strong><a href="#grasp">General Responsibility Assignment Software Patterns</a></strong></h1>
+<p>GRASP standards are guidelines that assign responsibility to classes and objects in object-oriented designs. The following standards are part of GRASP:</p>
+<ul>
+<li><strong>Creators</strong>: Class responsible for instantiating objects.</li>
+<li><strong>Information Expert</strong>: Assigns responsibilities to specialist classes. </li>
+<li><strong>Low Coupling</strong>: Coupling is a measure of how strong two elements are connected, that is, how dependent they are on each other. Therefore, the more independent the elements are, the better, as this makes the code more maintainable and reusable.</li>
+<li><strong>High coeshion</strong>: Elements that are created with a well-defined purpose and are limited to implementing only what they actually need to do. They are objects with highly related and highly focused responsibilities, having a high cohesion is almost synonymous with a code with low coupling.</li>
+<li><strong>Polymorphism</strong>: Also known as superscript, it is a concept where child classes override superclass methods, they are methods that will contain the same signature but will have different implementations.</li>
+<li><strong>Protected Variations</strong>: It protects elements from variations of other objects. For this, polymorphism and the use of interfaces are used to help maintain the stability of the element.</li>
+<li><strong>Pure Fabrication</strong>: Classes created from a project need.</li>
+<li><strong>Controllers</strong>: Assigns responsibility for handling system events for classes other than UI, it delegates the work that needs to be done to other objects.</li>
+<li><strong>Indirection</strong>: Mediating object between two elements, this makes the coupling smaller. </li>
+</ul>
+<p>In our project we used several of the patterns mentioned above, below explain why we use these patterns and show where they were used in our project code. </p>
+<p><span id="creator"></span></p>
+<h2 id="creators"><strong><a href="#Creator">Creators</a></strong></h2>
+<p>As has already been said, creators are the classes responsible for instantiating objects, instantiating objects can be a complicated task and creators are used when some factors occur, one of these factors is when aggregation between two classes occurs.</p>
+<p>In our project a example of Creators are the <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts">factorys</a>.</p>
+<p>A code example is <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/server/factories/controllers/user/SignUpControllerFactory.ts">SignUpControllerFactory</a> class whose specific purpose is to instantiate SignUpController</p>
+<p>Code example:</p>
+<p><img alt="SignUpControllerFactory" src="../images/factoryExample2.png" /></p>
+<p><span id="sp"></span></p>
+<h2 id="information-expert"><strong><a href="#sp">Information Expert</a></strong></h2>
+<p>Experts are responsible for delegating responsibilities to classes, such as methods, instilling objects, etc. In other words, creators are specialists in instantiating objects. In our code the specialties are. </p>
+<p>In our project a example of Experts are the <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/infra/db/typeorm/repositories/FindRoleRepositoryContextAdapter.ts">FindBy's</a>. The findBy is use for 
+specific consultation tasks.</p>
+<p>Code example:</p>
+<p><img alt="findByExample" src="../images/findByExample.png" /></p>
+<p><span id="lc"></span></p>
+<h2 id="low-coupling"><strong><a href="#lc">Low Coupling</a></strong></h2>
+<p>As it has also been explained, the concept of low coupling is a very important concept when it comes to maintaining the quality of the software, it allows us greater manageability since the classes seek to be as independent as possible. Grasp patterns alone, when properly used, already reduce our coupling, but we can further decrease this coupling using the gof patterns that will be explained in the documents below.</p>
+<p>The hexagonal architecture of our application also allows for low coupling.</p>
+<p><span id="hc"></span></p>
+<h2 id="high-coeshion"><strong><a href="#hc">High Coeshion</a></strong></h2>
+<p>The concept of high cohesion is directly related to the concept of low coupling, this means that we can only have one if we have the other, to maintain high cohesion it is important to choose an appropriate architecture for your product and to make use of the good software practices, in addition to using the gof and grasp standards we also chose to use a hexagonal architecture, this architecture alone already helps us to maintain a high cohesion since the outer layers cannot access the inner layers, architecture the use of interfaces, factory, adapters and other standards becomes highly necessary so that the layers can communicate with each other in a correct way and respecting the architecture.</p>
+<p><span id="pl"></span></p>
+<h2 id="polymorphism"><strong><a href="#pl">Polymorphism</a></strong></h2>
+<p>The concept of polymorphism is already a well-known concept and used in the object-oriented paradigm, also known as overwriting. It helps us to reuse the code since the child classes can implement the inherited methods in the most appropriate way for the use of that class.</p>
+<p>In our project a example of Polymorphism are the <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/server/factories/middlewares">MiddlewareFactories</a>. All this classes implements MiddlewareFactory and use it to create difference things.</p>
+<p>Code example:</p>
+<p><img alt="polymorphismExample" src="../images/polymorphismExample.png" /></p>
+<p><span id="cont"></span></p>
+<h2 id="controller"><strong><a href="#cont">Controller</a></strong></h2>
+<p>The controller is the layer responsible for receiving the inputs that users make through the user interface and handling to these events, it is usually the intermediary layer between the requests of the actors and the backend that responds to the requests of those requests. This layer is responsible for understanding the users' requests and immediately afterwards it redirects that request to the element in the backend responsible for handling it. In our code we use the controller pattern a lot and below we have an example of its implementation.</p>
+<p>In our project the controllers can be found in: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/presentation/controllers">2020.1_G2_TCLDL_Paper_Service/src/presentation/controllers/</a>. The controllers handle with HTTP requests.</p>
+<p>A code example is <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/controllers/SignUpController.ts">SignUpController</a> </p>
+<p><img alt="gifController" src="../images/controllerExample.png" /></p>
+<p><span id="ind"></span></p>
+<h2 id="indirection"><strong><a href="#ind">Indirection</a></strong></h2>
+<p>The indirect pattern assigns responsibilities to intermediary objects between two other objects, a controller can be considered an object of induction since in an MVC model it is a mediator between as models and as views. Another object that fits this standard is the middleware and validators that are responsible for verifying that the data of a request matches what is expected. In the project code we use middleware, validators and controllers.</p>
+<p>In our project the middlewares can be found in: <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/tree/master/src/presentation/middlewares">2020.1_G2_TCLDL_Paper_Service/src/presentation/middlewares/</a>. The controllers handle with HTTP requests.</p>
+<p>A code example is <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_Paper_Service/blob/master/src/presentation/middlewares/SignUpValidatorMiddleware.ts">SignUpValidatorMiddleware</a> </p>
+<p><img alt="midleware" src="../images/midlewareExample.png" /></p>
+<p><span id="pf"></span></p>
+<h2 id="pure-fabrication"><strong><a href="#pf">Pure Fabrication</a></strong></h2>
+<p>The concept of pure manufacturing is based on the idea of creating elements that are not necessarily design patterns, but there is a need to create them in order to further improve the quality of the code, they are usually classes created to be intermediate in the communication between other classes, api's that facilitate and improve product quality etc. The concept of indirectness fits here, since this pattern is usually an intermediary between objects. Our main pure manufacturing is the API_Gateway repository, which will be responsible for being the intermediate gate between the client (Frontend) and our server (Backend - Paper_service). The API_gateway can be found in <a href="https://github.com/UnBArqDsw/2020.1_G2_TCLDL_API_Gateway_Service">this</a> repository.</p>
+<hr />
+<h2 id="references">References</h2>
+<hr />
+<ul>
+<li><strong>[Moodle]</strong> Serrano, Milene. Vídeo Aula : GRASP</li>
+</ul>
+<hr />
+<h2 id="document-versioning">Document Versioning</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Author(s)</th>
+<th>Description</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo</td>
+<td>Document creation</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Gabriel Filipe</td>
+<td>Add grasp concept</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Ygor Galeno</td>
+<td>Add creators, information expert and low coupling definitions</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Mikhaelle Bueno</td>
+<td>Add high coeshion definition</td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Vitor Meireles</td>
+<td>Add polymorphis definition</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Mikhaelle bueno, Gabriel Filipe</td>
+<td>Add controller definition</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Mikhaelle bueno, Guilherme Deusdará</td>
+<td>Add indirection definition</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>10/23/2020</td>
+<td>Lorrany Azevedo, Mikhaelle bueno, Ygor Galeno</td>
+<td>Add pure fabrication definition</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>10/25/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Add gifs and images examples</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>10/26/2020</td>
+<td>Mikhaelle Bueno, Guilherme Deusdará</td>
+<td>Add gifs and images examples</td>
+<td>0.9</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../traditionalModeling/staticDiagrams/packageDiagram/" title="Package Diagrams" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Package Diagrams
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../creational_gof/" title="Creational GOF's" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Creational GOF's
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

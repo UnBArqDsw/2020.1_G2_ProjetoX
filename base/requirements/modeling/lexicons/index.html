@@ -1,0 +1,2023 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../../images/faviconWithoutBackground.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Lexicons - The computional limits of deep learning</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../../../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/extra.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#lexicons-01" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../../.." title="The computional limits of deep learning" class="md-header-nav__button md-logo">
+          
+            <img src="../../../../images/whiteLogo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                The computional limits of deep learning
+              </span>
+              <span class="md-header-nav__topic">
+                Lexicons
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../../.." title="The computional limits of deep learning" class="md-nav__button md-logo">
+      
+        <img src="../../../../images/whiteLogo.png" width="48" height="48">
+      
+    </a>
+    The computional limits of deep learning
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../contributing/" title="Contribution guide" class="md-nav__link">
+      Contribution guide
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Base
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Base
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Design Sprint
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Design Sprint
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../designSprint/design_sprint/" title="Design Sprint Doc" class="md-nav__link">
+      Design Sprint Doc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../designSprint/prototype/" title="Prototype" class="md-nav__link">
+      Prototype
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-1" type="checkbox" id="nav-3-2-1">
+    
+    <label class="md-nav__link" for="nav-3-2-1">
+      Elicitation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-1">
+        Elicitation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitation/brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitation/storyBoard/" title="Story Board" class="md-nav__link">
+      Story Board
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitation/moscow/" title="MoSCoW" class="md-nav__link">
+      MoSCoW
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2" type="checkbox" id="nav-3-2-2" checked>
+    
+    <label class="md-nav__link" for="nav-3-2-2">
+      Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-2">
+        Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Lexicons
+      </label>
+    
+    <a href="./" title="Lexicons" class="md-nav__link md-nav__link--active">
+      Lexicons
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deep-learning" title="Deep Learning" class="md-nav__link">
+    Deep Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scalability" title="Scalability" class="md-nav__link">
+    Scalability
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graphs" title="Graphs" class="md-nav__link">
+    Graphs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" title="Data" class="md-nav__link">
+    Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#domain" title="Domain" class="md-nav__link">
+    Domain
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paper" title="Paper" class="md-nav__link">
+    Paper
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update" title="Update" class="md-nav__link">
+    Update
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limits" title="Limits" class="md-nav__link">
+    Limits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" title="Submission" class="md-nav__link">
+    Submission
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review" title="Review" class="md-nav__link">
+    Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users" title="Users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collaborators" title="Collaborators" class="md-nav__link">
+    Collaborators
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#admin" title="Admin" class="md-nav__link">
+    Admin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subadmin" title="SubAdmin" class="md-nav__link">
+    SubAdmin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visitor" title="Visitor" class="md-nav__link">
+    Visitor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" title="Performance" class="md-nav__link">
+    Performance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmark" title=" benchmark" class="md-nav__link">
+     benchmark
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#document-versioning" title="Document Versioning" class="md-nav__link">
+    Document Versioning
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR-framework/" title="NFR framework" class="md-nav__link">
+      NFR framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-2-5" type="checkbox" id="nav-3-2-2-5">
+    
+    <label class="md-nav__link" for="nav-3-2-2-5">
+      Backlog Epics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-2-2-5">
+        Backlog Epics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlogEpics/dataVisualization/" title="Data Visualization" class="md-nav__link">
+      Data Visualization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlogEpics/dataCreation/" title="Data Creation" class="md-nav__link">
+      Data Creation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-3" type="checkbox" id="nav-3-2-3">
+    
+    <label class="md-nav__link" for="nav-3-2-3">
+      Pre-Traceability
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-3">
+        Pre-Traceability
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../preTraceability/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../preTraceability/mindMap/" title="Mind Map" class="md-nav__link">
+      Mind Map
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../preTraceability/argumentation/" title="Argumentation" class="md-nav__link">
+      Argumentation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../preTraceability/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Methodology
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Methodology
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../methodology/Methodology/" title="Methodology" class="md-nav__link">
+      Methodology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../methodology/bpmn_methodology" title="BPMN" class="md-nav__link">
+      BPMN
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../documentation/riskPlan/" title="Risk Plan" class="md-nav__link">
+      Risk Plan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../documentation/costEstimates/" title="Cost Estimation" class="md-nav__link">
+      Cost Estimation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Traditional Modeling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Traditional Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      Dynamic Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        Dynamic Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/dynamicDiagrams/activityDiagram/" title="Activity Diagrams" class="md-nav__link">
+      Activity Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/dynamicDiagrams/communicationDiagram/" title="Communication Diagrams" class="md-nav__link">
+      Communication Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/dynamicDiagrams/sequenceDiagram/" title="Sequence Diagrams" class="md-nav__link">
+      Sequence Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/dynamicDiagrams/stateDiagram/" title="State Diagrams" class="md-nav__link">
+      State Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/dynamicDiagrams/userCase/" title="User Case Diagrams" class="md-nav__link">
+      User Case Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      Static Diagrams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        Static Diagrams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/staticDiagrams/classDiagram/" title="Class Diagrams" class="md-nav__link">
+      Class Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/staticDiagrams/componentDiagram/" title="Component Diagrams" class="md-nav__link">
+      Component Diagrams
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../traditionalModeling/staticDiagrams/packageDiagram/" title="Package Diagrams" class="md-nav__link">
+      Package Diagrams
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Design Patterns
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Design Patterns
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../desing_patterns/grasp/" title="GRASP" class="md-nav__link">
+      GRASP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../desing_patterns/creational_gof/" title="Creational GOF's" class="md-nav__link">
+      Creational GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../desing_patterns/behavioral_gof/" title="Behavioral GOF's" class="md-nav__link">
+      Behavioral GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../desing_patterns/structural_gof/" title="Structural GOF's" class="md-nav__link">
+      Structural GOF's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../desing_patterns/emerging_patterns/" title="Emerging Design Patterns" class="md-nav__link">
+      Emerging Design Patterns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../desing_patterns/tests/" title="Tests and Continuous Integration" class="md-nav__link">
+      Tests and Continuous Integration
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Software Architeture
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Software Architeture
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../softwareArchiteture/das/" title="DAS" class="md-nav__link">
+      DAS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../softwareArchiteture/reuse/" title="Software Reuse" class="md-nav__link">
+      Software Reuse
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../extra_initiatives/extra_initiatives/" title="Extra Initiatives" class="md-nav__link">
+      Extra Initiatives
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../finalPresentation/" title="Final Presentation" class="md-nav__link">
+      Final Presentation
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deep-learning" title="Deep Learning" class="md-nav__link">
+    Deep Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scalability" title="Scalability" class="md-nav__link">
+    Scalability
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graphs" title="Graphs" class="md-nav__link">
+    Graphs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" title="Data" class="md-nav__link">
+    Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#domain" title="Domain" class="md-nav__link">
+    Domain
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paper" title="Paper" class="md-nav__link">
+    Paper
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update" title="Update" class="md-nav__link">
+    Update
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limits" title="Limits" class="md-nav__link">
+    Limits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" title="Submission" class="md-nav__link">
+    Submission
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review" title="Review" class="md-nav__link">
+    Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users" title="Users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collaborators" title="Collaborators" class="md-nav__link">
+    Collaborators
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#admin" title="Admin" class="md-nav__link">
+    Admin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subadmin" title="SubAdmin" class="md-nav__link">
+    SubAdmin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visitor" title="Visitor" class="md-nav__link">
+    Visitor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" title="Performance" class="md-nav__link">
+    Performance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmark" title=" benchmark" class="md-nav__link">
+     benchmark
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#document-versioning" title="Document Versioning" class="md-nav__link">
+    Document Versioning
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="lexicons-01">Lexicons 0.1</h1>
+<p><span id="dp"></span></p>
+<h3 id="deep-learning"><strong><a href="#dp">Deep Learning</a></strong></h3>
+<p><strong>Author</strong> : Lorrany Azevedo</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#dp">deep learning</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- The user can interact with the most talked about subjects (<strong><a href="#lxTrending">trending</a></strong> topics);</br>-The user can perform a <strong><a href="#lxTweet">tweet</a></strong> related to some <strong><a href="#lxTrending">trending</a></strong> topic;</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>Deep learning is a subset of the <strong><a href="#ml">machine learning</a></strong> field, that tries to imitate the functioning of the human brain in <strong><a href="#da">Data</a></strong> processing, and in creating patterns for making decisions. This learning can be supervised, semi-supervised, or unsupervised, and it takes place through <strong><a href="#ann">artificial neural networks</a></strong> that mimic the neural networks of the human brain.</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>DL, deep structured learning</td>
+</tr>
+</tbody>
+</table>
+<p><span id="sc"></span></p>
+<h3 id="scalability"><strong><a href="#sc">Scalability</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#sc">scalability</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- The website must be scalable to the point that it can receive new modifications and contributions from the community </br>- <strong><a href="#sc">scalability</a></strong> in startups is a way to accelerate the growth of a company, with small costs and very quickly.</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>state</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>Software <strong><a href="#sc">scalability</a></strong> is the capability of a system to handle an increasing amount of work or its ability to accommodate growth. <strong><a href="#sc">scalability</a></strong> is a crucial quality in ERP software given the future growth generated by streamlined operational <strong><a href="#per">Performance</a></strong> and maximized productivity</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>expansible, expandable, extensible</td>
+</tr>
+</tbody>
+</table>
+<p><span id="gr"></span></p>
+<h3 id="graphs"><strong><a href="#gr">Graphs</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#gr">Graphs</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- Plot or trace on a graph </br> - Graphical presentation to present the <strong><a href="#da">Data</a></strong> in an interpretable way. </br> - This chart shows the growth of the company </br> - Graph represents the <strong><a href="#sc">scalability</a></strong> per time</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td><strong><a href="#gr">Graphs</a></strong> are a common method to visually illustrate relationships in the <strong><a href="#da">Data</a></strong>. The purpose of a graph is to present <strong><a href="#da">Data</a></strong> that are too numerous or complicated to be described adequately in the text and in less space.</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>chart, diagram</td>
+</tr>
+</tbody>
+</table>
+<p><span id="da"></span></p>
+<h3 id="data"><strong><a href="#da">Data</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#da">Data</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- These <strong><a href="#da">Data</a></strong> refers to the number of people infected </br> - The paper bring some <strong><a href="#da">Data</a></strong> about Machine Translation</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>A collection of facts (numbers, words, measurements, observations, etc) that has been translated into a form that computers can process</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>estatistcs, information, input</td>
+</tr>
+</tbody>
+</table>
+<p><span id="do"></span></p>
+<h3 id="domain"><strong><a href="#do">Domain</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#do">Domain</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- This information should be in the public <strong><a href="#do">Domain</a></strong>. </br> - The great experimenters in the <strong><a href="#do">Domain</a></strong> of art </br> - He lectured on the <strong><a href="#do">Domain</a></strong> of physics </br> - The <strong><a href="#dp">deep learning</a></strong>  has a lot of <strong><a href="#do">Domains</a></strong>, for example Machine Translation</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>- A specified sphere of activity or knowledge</br>- A <strong><a href="#do">Domain</a></strong> is a particular field of thought, activity, or interest, especially one over which someone has control, influence, or rights.</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>area</td>
+</tr>
+</tbody>
+</table>
+<p><span id="pa"></span></p>
+<h3 id="paper"><strong><a href="#pa">Paper</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#pa">Paper</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- According to an <strong><a href="#pa">Paper</a></strong> in The Economist the drug could have side effects </br> - This <strong><a href="#pa">Paper</a></strong> have some <strong><a href="#da">Data</a></strong> about Machine Translation</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>- An essay or thesis, especially one read at an academic lecture or seminar or published in an academic journal </br> - An article is a piece of writing that is published in a newspaper or magazine.</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>article, essay</td>
+</tr>
+</tbody>
+</table>
+<p><span id="up"></span></p>
+<h3 id="update"><strong><a href="#up">Update</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#up">Update</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- Keep someone informed of the latest developments or news </br> -He was back in the office, updating the work schedule on the computer. </br> - They released another <strong><a href="#pa">Paper</a></strong> and <strong><a href="#up">Updated</a></strong> the <strong><a href="#da">Data</a></strong></td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Verb</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>make (something) more modern or up to date</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>modernize, up to date</td>
+</tr>
+</tbody>
+</table>
+<p><span id="li"></span></p>
+<h3 id="limits"><strong><a href="#li">Limits</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#li">Limits</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- The sugar pot is full until the lid is at the <strong><a href="#li">Limits</a></strong> </br> - I'm at the <strong><a href="#li">Limits</a></strong> of my patience <br> - We have reached the limit of possible space for construction</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>- A restriction on the size or amount of something permissible or possible </br> - The maximum extent of a place</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>restriction</td>
+</tr>
+</tbody>
+</table>
+<p><span id="sub"></span></p>
+<h3 id="submission"><strong><a href="#sub">Submission</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#sub">Submission</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- Diploma and certificate courses do not normally require the <strong><a href="#sub">Submission</a></strong> of a dissertation </br> - For your <strong><a href="#pa">Papers</a></strong> to be approved you must submit it to a journal </br> - <strong><a href="#col">Collaborators</a></strong> must submit <strong><a href="#pa">Paper</a></strong> for evaluation</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>- The action of presenting a proposal, application, or other document for consideration or judgment. <br> - A proposal, application, or other document presented for consideration or judgement.</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>proposal, presentation</td>
+</tr>
+</tbody>
+</table>
+<p><span id="rev"></span></p>
+<h3 id="review"><strong><a href="#rev">Review</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#rev">Review</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- They have an annual <strong><a href="#rev">Review</a></strong> with their financial planner to assess whether or not their policies are still suitable. </br> - I finished a chapter of the book and sent it to a friend to <strong><a href="#rev">Review</a></strong></td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>a formal assessment or examination of something with the possibility or intention of instituting change if necessary</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>analysis, evaluation</td>
+</tr>
+</tbody>
+</table>
+<p><span id="use"></span></p>
+<h3 id="users"><strong><a href="#use">Users</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#use">Users</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td></br> - Person who can view the  website </br> - Person who can search <strong><a href="#pa">Papers</a></strong> </br> - Person who can search <strong><a href="#da">Data</a></strong> <br> - Person who can become a collaborator</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>- Person using the website </br> - Person viewing the <strong><a href="#da">Data</a></strong> and articles on the website</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>enjoyers, customer</td>
+</tr>
+</tbody>
+</table>
+<p><span id="col"></span></p>
+<h3 id="collaborators"><strong><a href="#col">Collaborators</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#col">Collaborators</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- Person who can submit an article and <strong><a href="#da">Data</a></strong> for <strong><a href="#rev">Review</a></strong> </br> - Person who can download <strong><a href="#da">Data</a></strong> </br> - Person who can submit a article and <strong><a href="#da">Data</a></strong> for <strong><a href="#rev">Review</a></strong> </br> - Collaborator can become a <strong><a href="#subadm">SubAdmin</a></strong></td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>- A person who works jointly on an activity or project; an associate. - Person who helps another person to submit a article or <strong><a href="#da">Data</a></strong></td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>coworker</td>
+</tr>
+</tbody>
+</table>
+<p><span id="adm"></span></p>
+<h3 id="admin"><strong><a href="#adm">Admin</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#adm">Admin</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- The <strong><a href="#adm">Admin</a></strong> is who can aprove or disapprove submitions </br> - Admins can do submitions too </br> -<strong><a href="#adm">Admin</a></strong> have acess to all features in the website</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td><strong><a href="#adm">Admin</a></strong> is the activity or process of organizing an institution or organization</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>administrator, supervisor</td>
+</tr>
+</tbody>
+</table>
+<p><span id="subadm"></span></p>
+<h3 id="subadmin"><strong><a href="#subadm">SubAdmin</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#subadm">SubAdmin</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- The <strong><a href="#subAdm">SubAdmin</a></strong>  have priority in Admin review papers</br> - <strong><a href="#adm">Admins</a></strong>  can submit paper</br></td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td><strong><a href="#subadm">SubAdmin</a></strong> derivate from <strong><a href="#adm">Admin</a></strong></td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td><strong><a href="#col">Collaborators</a></strong> Master</td>
+</tr>
+</tbody>
+</table>
+<p><span id="vis"></span></p>
+<h3 id="visitor"><strong><a href="#vis">Visitor</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#vis">Visitor</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>- The <strong><a href="#vis">Visitor</a></strong> can view papers and data but not download </br> - The <strong><a href="#vis">Visitor</a></strong> has to become a    <strong><a href="#col">Collaborator</a></strong>(create account) if he want to submit papers</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td><strong><a href="#vis">Visitor</a></strong> someone who visits a person or plac or website</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>visitant, tourist</td>
+</tr>
+</tbody>
+</table>
+<p><span id="per"></span></p>
+<h3 id="performance"><strong><a href="#per">Performance</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#per">Performance</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>-The <strong><a href="#per">Performance</a></strong> of the article it was extremely satisfactory </br> - He had good public acceptance, that is, a great <strong><a href="#per">Performance</a></strong></td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>the capabilities of a machine, vehicle, or product, especially when observed under particular conditions.</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>capabilities, capacity</td>
+</tr>
+</tbody>
+</table>
+<p><span id="per"></span></p>
+<h3 id="benchmark"><strong><a href="#ben"> benchmark</a></strong></h3>
+<p><strong>Author</strong> : Mikhaelle Bueno</br>
+<strong>Version:</strong> 0.1</br></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name:</strong></td>
+<td><strong><a href="#ben"> benchmark</a></strong></td>
+</tr>
+<tr>
+<td><strong>Connotation:</strong></td>
+<td>-The machine translation have tow benchmark</td>
+</tr>
+<tr>
+<td><strong>Classification:</strong></td>
+<td>Object</td>
+</tr>
+<tr>
+<td><strong>Denotation:</strong></td>
+<td>Benchmark is an index which is used to measure a Mutual Fund's overall <strong><a href="#per">Performance</a></strong>. It provides an indicative value of how much one's investment should have earned, which can be compared against how much it has earned in reality</td>
+</tr>
+<tr>
+<td><strong>Synonym:</strong></td>
+<td>Specification</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="references">References</h2>
+<hr />
+<ul>
+<li><strong>[Moodle]</strong> Serrano, Maurício. Serrano, Milene. Aula 10: Cenários e Léxicos.</li>
+<li><strong>[Moodle]</strong> Serrano, Milene. Vídeo Aula : Glossário e Léxicos.</li>
+</ul>
+<hr />
+<h2 id="document-versioning">Document Versioning</h2>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Author(s)</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09/05/2020</td>
+<td>Lorrany Azevedo</td>
+<td>Page creation</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>09/06/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Page edit</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>09/07/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Page edit</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>09/10/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Page edit</td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>25/09/2020</td>
+<td>Mikhaelle Bueno</td>
+<td>Page edit</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../glossary/" title="Glossary" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Glossary
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../NFR-framework/" title="NFR framework" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                NFR framework
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
