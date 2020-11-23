@@ -160,11 +160,6 @@ Author: **Ygor Galeno**
 ![AuthMiddlewareFactory](./images/AuthMiddlewareFactory.png)
 Author: **Ygor Galeno**
 
-### 6.2 Data View
-
-The under diagram show using a simple representation the database use.
-![DatabaseSimpleView](./images/db.png)
-
 ## 7. Implantation View
 
 The implantation diagram is a structural UML diagram that seeks to describe the application system, it represents the physical distribution of the system through hardware nodes, components and dependencies.
